@@ -17,9 +17,11 @@
   {% endunless %}
 </section>
 
+{% if page.featured_image %}
+    <img src="{{ page.featured_image.file }}" />
+{% endif %}
 
 <aside>
-
   {% for location in page.locations %}
 
   <div class="card">

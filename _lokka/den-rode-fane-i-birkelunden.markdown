@@ -4,7 +4,7 @@ position: 9
 coords: 59.926336, 10.759587
 audio_file: "/uploads/lokka_birkelunden.mp3"
 featured_image:
-- file: "/uploads/lokka_rode-fane-birkelunden.jpg"
+  file: "/uploads/lokka_rode-fane-birkelunden.jpg"
 ---
 
 Birkelunden har en lang historie som arena for politiske møter, demonstrasjoner

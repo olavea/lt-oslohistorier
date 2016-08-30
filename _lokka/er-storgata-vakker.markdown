@@ -4,7 +4,7 @@ position: 0
 coords: 59.9137503, 10.750747199999978
 audio_file: "/uploads/lokka_storgata.mp3"
 featured_image:
-- file: "/uploads/lokka_storgata.jpg"
+  file: "/uploads/lokka_storgata.jpg"
 ---
 
 Storgata er et av Oslos mest hektiske bymiljø.

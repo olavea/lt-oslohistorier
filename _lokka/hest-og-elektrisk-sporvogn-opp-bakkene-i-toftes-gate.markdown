@@ -4,7 +4,7 @@ position: 11
 coords: 59.927589, 10.761068
 audio_file: "/uploads/lokka_hestogelektriskvogn.mp3"
 featured_image:
-- file: "/uploads/lokka_vogn.jpg"
+  file: "/uploads/lokka_vogn.jpg"
 ---
 
 Hestene til Ringnes bryggeri var i mange ti-år en viktig del av bybildet

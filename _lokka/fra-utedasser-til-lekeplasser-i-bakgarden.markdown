@@ -4,7 +4,7 @@ position: 7
 coords: 59.9238678, 10.757842299999993
 audio_file: "/uploads/lokka_loken.mp3"
 featured_image:
-- file: "/uploads/lokka_loken.jpg"
+  file: "/uploads/lokka_loken.jpg"
 ---
 
 I dag er Grünerløkka kjent for sine mange vakre bakgårder og klassiske bygårder, men til langt ut på 90-tallet var flere av gårdene i området i veldig dårlig stand.
