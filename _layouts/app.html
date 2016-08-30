@@ -5,14 +5,14 @@
 
 <body ng-app="LutterApp">
 
-  TEST
-
   <div class="map-container" ng-controller="MapController">
-    <leaflet lf-center="center" tiles="tiles" markers="markers"></leaflet>
+    <leaflet lf-center="center" tiles="tiles" markers="locations" height="100%" width="100%"></leaflet>
   </div>
 
   <div class="main-container">
-    <main ui-view="main"></main>
+    <main ui-view="main">
+      {{ content }}
+    </main>
   </div>
 
   {% include scripts.html %}

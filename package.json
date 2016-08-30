@@ -1,0 +1,23 @@
+{
+  "name": "lt-oslohistorier",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "ui-leaflet": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillylabs/lt-oslohistorier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillylabs/lt-oslohistorier/issues"
+  },
+  "homepage": "https://github.com/lillylabs/lt-oslohistorier#readme"
+}

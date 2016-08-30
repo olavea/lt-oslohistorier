@@ -1,0 +1,29 @@
+<header>
+
+  <h1>{{ page.title | escape }}</h1>
+  <div>
+    {{ page.teaser | markdownify }}
+  </div>
+</header>
+
+
+<aside>
+  {% for location in page.locations %}
+
+  <div class="card">
+    <h1 class="title"><span>{{ location.title }}</span><button class="btn btn-primary"><i class="fa fa-play"></i></button></h1>
+
+    {% if location.image %}
+      <div class="image">
+        <img src="{{ location.image.file }}" />
+        <figcaption>{{ location.image.credit }}</figcaption>
+      </div>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</aside>
+
+<section>
+  {{ page.content | markdownify }}
+</section>

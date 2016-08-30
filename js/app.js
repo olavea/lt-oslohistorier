@@ -1,53 +1,59 @@
 console.log("HEI");
 
-angular.module("LutterApp", ["ui.router"]);
+angular.module("LutterApp", [
+  'ui.router',
+  'ui-leaflet'
+]);
 
 angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
-    .state('app', {
-      url: "/",
-      views:  {
-        "main@": {
-          template: "APP"
-        }
-      }
+    .state('home', {
+      url: "/"
     })
-    .state('app.project', {
+    .state('project', {
       url: "/:projectId",
       views:  {
         "main@": {
-          template: function ($stateParams) {
-            return "APP PROJECT: " + $stateParams.projectId;
+          templateUrl: function ($stateParams) {
+            return "/projects/" + $stateParams.projectId + "/index.html";
           }
         }
-      },
-      resolve: {
-        projectId: ['$stateParams', function ($stateParams) {
-          return $stateParams.projectId;
-        }]
       }
     })
-    .state('app.project.article', {
+    .state('project.article', {
       url: "/:articleId",
       views:  {
         "main@": {
-          template: function ($stateParams) {
-            return "APP PROJECT: " + $stateParams.articleId;
+          templateUrl: function ($stateParams) {
+            return "/" + $stateParams.projectId + "/" + $stateParams.articleId + "/index.html";
           }
         }
-      },
-      resolve: {
-        articleId: ['$stateParams', function ($stateParams) {
-          return $stateParams.articleId;
-        }]
       }
     })
 
 }]);
 
-angular.module("LutterApp").controller("MapController", ["$stateParams", function ($stateParams) {
+angular.module('LutterApp')
+  .controller('MapController', ['$scope', function ($scope) {
 
-}]);
+    console.log("MapController");
+
+    angular.extend($scope, {
+      // Setting temporary center to Oslo
+      center: {
+        lat: 59.914831,
+        lng: 10.767347,
+        zoom: 16
+      },
+      tiles: {
+        name: 'Positron',
+        url: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+        type: 'xyz'
+      },
+      locations: {}
+    });
+
+   }]);

@@ -8,6 +8,9 @@ collections:
   lokka:
     title: Løkka
     output: true
+  projects:
+    title: Projects
+    output: true
   posts:
     title: Posts
     output: true
@@ -17,7 +20,11 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: pages
   values:
-    layout: default
+    layout: article
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
 permalink: pretty

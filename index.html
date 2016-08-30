@@ -1,0 +1,20 @@
+---
+layout: app
+---
+
+<header>
+  <h1>{{ site.title | escape }}</h1>
+</header>
+
+<section class="list">
+  {% for project in site.projects %}
+
+  <article class="item">
+    <a ui-sref="project({ projectId: '{{ project.slug }}' })">
+      <h1 class="title"><span>{{ project.title | escape }}</span><i class="fa fa-chevron-right"></i></h1>
+    </a>
+    <div class="body">{{ project.teaser | markdownify }}</div>
+  </article>
+
+  {% endfor %}
+</section>

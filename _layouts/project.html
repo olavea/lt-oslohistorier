@@ -1,0 +1,23 @@
+<header>
+  <h1>{{ page.title | escape }}</h1>
+  <div>{{ page.teaser | markdownify }}</div>
+</header>
+
+{% for collection in site.collections %}
+{% if collection.label == page.slug %}
+<section class="list">
+  {% for article in collection.docs %}
+    <article class="item">
+      <a ui-sref="project.article({articleId: '{{ article.slug }}'})">
+        <h1 class="title"><span>{{ article.title | escape }}</span><i class="fa fa-chevron-right"></i></h1>
+      </a>
+      <div class="body">{{ article.teaser | markdownify }}</div>
+    </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endfor %}
+
+<section>
+  {{ page.content | markdownify }}
+</section>
