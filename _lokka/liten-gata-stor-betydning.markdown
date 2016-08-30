@@ -1,5 +1,6 @@
 ---
 title: Liten gate, stor betydning
+position: 1
 coords: 59.91427573019375, 10.754032731056213
 audio_file: "/uploads/lokka_brugata.mp3"
 ---

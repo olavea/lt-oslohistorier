@@ -1,5 +1,6 @@
 ---
 title: Ankerkvartalet - en myk megastruktur?
+position: 3
 coords: 59.916527, 10.75707
 audio_file: "/uploads/lokka_ankerkvartalet.mp3"
 ---

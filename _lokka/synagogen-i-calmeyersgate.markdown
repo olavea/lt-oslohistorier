@@ -1,5 +1,6 @@
 ---
 title: Synagogen i Calmeyersgate
+position: 2
 coords: 59.916445, 10.755
 audio_file: "/uploads/lokka_synagogen.mp3"
 ---
