@@ -2,7 +2,11 @@
 
   <h1>{{ page.title | escape }}</h1>
   <div>
-    {{ page.teaser | markdownify }}
+    {% if page.teaser %}
+      {{ page.teaser | markdownify }}
+    {% else %}
+      {{ page.content | markdownify }}
+    {% endif %}
   </div>
 </header>
 
@@ -24,6 +28,8 @@
   {% endfor %}
 </aside>
 
-<section>
-  {{ page.content | markdownify }}
-</section>
+{% if page.teaser %}
+  <section>
+    {{ page.content | markdownify }}
+  </section>
+{% endif %}
