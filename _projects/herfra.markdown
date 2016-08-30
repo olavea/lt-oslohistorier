@@ -2,7 +2,7 @@
 title: Herfra
 teaser: |-
   HERFRA er et kartfestet digitalt magasin om Oslo. Tekst, lyd og bilder gir refleksjoner og fortolkninger av steder og tilhørighet til hovedstaden.
-  
+
   > Hvor hører du til?
 ---
 
