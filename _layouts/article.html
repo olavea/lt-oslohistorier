@@ -1,17 +1,25 @@
 <header>
 
   <h1>{{ page.title | escape }}</h1>
-  <div>
-    {% if page.teaser %}
-      {{ page.teaser | markdownify }}
-    {% else %}
-      {{ page.content | markdownify }}
-    {% endif %}
-  </div>
+  {% if page.teaser %}
+    {{ page.teaser | markdownify }}
+  {% endif %}
+
+  {% if page.audio_file %}
+    <button class="btn btn-primary btn-block"><i class="fa fa-play"></i></button>
+  {% endif %}
+
 </header>
+
+<section>
+  {% unless page.teaser %}
+    {{ page.content | markdownify }}
+  {% endunless %}
+</section>
 
 
 <aside>
+
   {% for location in page.locations %}
 
   <div class="card">
