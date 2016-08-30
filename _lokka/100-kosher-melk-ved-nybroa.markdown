@@ -4,7 +4,7 @@ position: 4
 coords: 59.91802, 10.759346
 audio_file: "/uploads/lokka_koshermelk.mp3"
 featured_image:
-- file: "/uploads/lokka_kaffegutta.jpg"
+- file: "/uploads/lokka_koshermelk.jpg"
 ---
 
  I Oslo, som i andre store byer, har innvandrere og tilflytter slått seg ned i bestemte områder av byen. De fleste av jødene i Oslo på begynnelsen av 1900-tallet bodde her i Hausmannskvartalene og på nedre Grünerløkka. For mange var det av stor betydning å holde seg sammen for å ta vare på familie og tradisjoner.
