@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body ng-app="LutterApp">
+
+  TEST
+
+  <div class="map-container" ng-controller="MapController">
+    <leaflet lf-center="center" tiles="tiles" markers="markers"></leaflet>
+  </div>
+
+  <div class="main-container">
+    <main ui-view="main"></main>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

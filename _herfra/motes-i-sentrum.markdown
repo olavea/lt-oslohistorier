@@ -1,7 +1,6 @@
 ---
 title: Møtes i sentrum?
 date: 2016-08-30 10:58:00 Z
-position: 0
 author: Johan Lie Hammerstrøm
 teaser: 'Er Oslo virkelig «den delte byen» eller finnes det en altoppslukende «Oslo-ånd»
   som holder byen samlet? En statisk vestkant møter en bevegelig og søkende østkant. '
@@ -9,7 +8,6 @@ locations:
 - audio_file: 
   description: 
   coords: 
-layout: article
 ---
 
 Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føle at man er fra to forskjellige byer? Når Delillos synger om å gå brisen hjem via Bygdøy Allé rister de på hodet på Tveita? Og stirrer de forlegent på skotuppene oppe på Vinderen når Kenneth Engebretsen rapper om at junkiene på Haugenstua spiser rå kjøttdeig?
