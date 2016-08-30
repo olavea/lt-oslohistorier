@@ -7,11 +7,12 @@ layout: app
 </header>
 
 <section class="list">
-  {% for project in site.projects %}
+  {% assign projects = site.projects | sort:"position" %}
+  {% for project in projects %}
 
   <article class="item">
-    <a ui-sref="project({ projectId: '{{ project.slug }}' })">
-      <h1 class="title"><span>{{ project.title | escape }}</span><i class="fa fa-chevron-right"></i></h1>
+    <a class="title" ui-sref="project({ projectId: '{{ project.slug }}' })">
+      <h1>{{ project.title | escape }}</h1><i class="fa fa-chevron-right"></i>
     </a>
     <div class="body">{{ project.teaser | markdownify }}</div>
   </article>

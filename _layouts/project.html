@@ -6,7 +6,8 @@
 {% for collection in site.collections %}
 {% if collection.label == page.slug %}
 <section class="list">
-  {% for article in collection.docs %}
+  {% assign articles = collection.docs | sort:"position" %}
+  {% for article in articles %}
     <article class="item">
       <a class="title" ui-sref="project.article({articleId: '{{ article.slug }}'})">
         <h1>{{ article.title | escape }}</h1><i class="fa fa-chevron-right"></i>
