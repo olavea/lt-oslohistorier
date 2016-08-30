@@ -3,8 +3,8 @@ title: Kampen om Grünerløkka
 position: 6
 coords: 59.922295, 10.757114
 audio_file: "/uploads/lokka_kampen.mp3"
-featured_image: 
-  - file: "/uploads/lokka_kaffegutta.jpg"
+featured_image:
+- file: "/uploads/lokka_kaffegutta.jpg"
 ---
 
 På 70- og 80-tallet var mange av gårdene i dette området i veldig dårlig
