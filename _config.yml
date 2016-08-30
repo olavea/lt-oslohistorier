@@ -1,0 +1,29 @@
+---
+title: Oslohistorier
+timezone: UTC
+collections:
+  herfra:
+    title: Herfra
+    output: true
+  lokka:
+    title: Løkka
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
