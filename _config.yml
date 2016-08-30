@@ -8,11 +8,11 @@ collections:
   lokka:
     title: Løkka
     output: true
-  projects:
-    title: Projects
-    output: true
   posts:
     title: Posts
+    output: true
+  projects:
+    title: Projects
     output: true
   uploads:
     title: Uploads
