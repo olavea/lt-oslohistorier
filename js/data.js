@@ -2,32 +2,36 @@
 layout: null
 ---
 
-var data = {};
+var lutterAppData = {};
 
 {% assign projects = site.projects | sort:"position" %}
 
 {% for project in projects %}
   {% for collection in site.collections %}
     {% if collection.label == project.slug %}
-      data['{{ collection.label }}'] = [];
+      lutterAppData['{{ collection.label }}'] = [];
       {% assign articles = collection.docs | sort:"position" %}
       {% for article in articles %}
         {% if article.audio_file %}
-          data['{{ collection.label }}'].push(
+          {% assign coords = article.coords | split:"," %}
+          lutterAppData['{{ collection.label }}'].push(
             {
               file: "{{ article.audio_file }}",
               title: "{{ article.title }}",
-              coords: "{{ article.coords }}",
+              lat: {{ coords[0] }},
+              lng: {{ coords[1] }},
               article: "{{ article.slug }}"
             }
           )
         {% elsif article.locations %}
           {% for location in article.locations %}
-            data['{{ collection.label }}'].push(
+            {% assign coords = location.coords | split:"," %}
+            lutterAppData['{{ collection.label }}'].push(
               {
                 file: "{{ location.audio_file }}",
                 title: "{{ location.title }}",
-                coords: "{{ location.coords }}",
+                lat: {{ coords[0] }},
+                lng: {{ coords[1] }},
                 article: "{{ article.slug }}"
               }
             )
@@ -38,4 +42,4 @@ var data = {};
   {% endfor %}
 {% endfor %}
 
-console.log("Lutter App Data", data);
+console.log("Lutter App Data", lutterAppData);

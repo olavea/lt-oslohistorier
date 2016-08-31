@@ -3,13 +3,15 @@ angular.module("LutterApp", [
   'ui-leaflet'
 ]);
 
-angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
+angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "DataProvider", function ($stateProvider, $urlRouterProvider, DataProvider) {
 
-  $urlRouterProvider.otherwise('/');
+  DataProvider.setData(lutterAppData);
+
+  $urlRouterProvider.otherwise('');
 
   $stateProvider
-    .state('home', {
-      url: "/"
+    .state('app', {
+      url: "",
     })
     .state('project', {
       url: "/:projectId",
@@ -19,6 +21,14 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", func
             return "/projects/" + $stateParams.projectId + "/index.html";
           }
         }
+      },
+      onEnter: function($stateParams, AppState){
+        console.log("Setting selectedProjectId", $stateParams.projectId);
+        AppState.selectedProjectId = $stateParams.projectId;
+      },
+      onExit: function(AppState) {
+        console.log("Exit project");
+        AppState.selectedProjectId = null;
       }
     })
     .state('project.article', {
@@ -29,6 +39,13 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", func
             return "/" + $stateParams.projectId + "/" + $stateParams.articleId + "/index.html";
           }
         }
+      },
+      onEnter: function($stateParams, AppState){
+        AppState.selectedArticleId = $stateParams.articleId;
+      },
+      onExit: function(AppState) {
+        console.log("Exit article");
+        AppState.selectedArticleId = null;
       }
     })
 
