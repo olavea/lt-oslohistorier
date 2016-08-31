@@ -25,8 +25,10 @@
   {% for location in page.locations %}
 
   <div class="card">
-    <h1 class="title"><span>{{ location.title }}</span><button class="btn btn-primary"><i class="fa fa-play"></i></button></h1>
-
+    <div class="header">
+      <h1 class="title"><span>{{ location.title }}</span></h1>
+      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+    </div>
     {% if location.image %}
       <div class="image">
         <img src="{{ location.image.file }}" />

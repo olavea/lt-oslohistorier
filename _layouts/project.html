@@ -9,8 +9,10 @@
   {% assign articles = collection.docs | sort:"position" %}
   {% for article in articles %}
     <article class="item">
-      <a class="title" ui-sref="project.article({articleId: '{{ article.slug }}'})">
-        <h1>{{ article.title | escape }}</h1><i class="fa fa-chevron-right"></i>
+      <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
+        <h1 class="title">{{ article.title | escape }}</h1>
+        <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+        <i class="fa fa-chevron-right"></i>
       </a>
       {% if article.teaser %}
         <div class="body">{{ article.teaser | markdownify }}</div>
