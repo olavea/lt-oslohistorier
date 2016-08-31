@@ -1,5 +1,3 @@
-console.log("HEI");
-
 angular.module("LutterApp", [
   'ui.router',
   'ui-leaflet'
