@@ -1,24 +1,24 @@
 ---
 title: Oslos tapte lyder
-position: 1
 date: 2016-08-30 11:25:00 Z
+position: 1
 author: Alf Folmer
 teaser: Arkitekt Alf Folmer vokste opp i Oslo på 20 og 30-tallet. Hør hans beskrivelser
   av byens tapte lydlandskap.
 locations:
-- audio_file:
+- audio_file: 
   coords: 59.917657, 1.762727
   title: Dødsrallingen ved slakteriet
   image:
     file: "/uploads/Herfra_Lakkegata.jpg"
-    credit:
-- audio_file:
+    credit: 
+- audio_file: 
   coords: 59.912686, 10.746474
   title: Brann!
   image:
     file: "/uploads/Herfra_Brannvakter-var-frelsers.jpeg"
     credit: 'Foto: Olaf Martin Peder Væring, Oslo Museum'
-- audio_file:
+- audio_file: 
   coords: 59.931349, 10.756400
   title: Skalpering og vevstolstøy
   image:
