@@ -6,7 +6,7 @@ author: Alf Folmer
 teaser: 
 locations:
 - audio_file: 
-  coords: 59.917657, 1.762727
+  coords: 59.917657, 10.762727
   title: Dødsrallingen ved slakteriet
   image:
     file: "/uploads/Herfra_Lakkegata.jpg"
