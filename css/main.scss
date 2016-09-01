@@ -8,7 +8,7 @@ html, body {
   width: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, .leaflet-container {
   font-family: 'Titillium Web', sans-serif !important;
 }
 
@@ -20,6 +20,43 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+.badge {
+  color: white;
+  background-color: #cdcdcd;
+
+  &.badge-primary {
+    background-color: #DF4C48;
+  }
+}
+
+.btn {
+  color: white;
+  background-color: #cdcdcd;
+
+  &.btn-primary {
+    background-color: #DF4C48;
+    border: none;
+  }
+}
+
+.badge {
+  display: inline-block;
+  height: 1.8rem;
+  width: 1.8rem;
+
+  padding: 0;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .9rem;
+}
+
 .card, .list {
 
   .header {
@@ -29,14 +66,20 @@ h1 {
 
     padding: 1rem;
 
+    .badge {
+      margin-right: 0.75rem;
+      font-weight: normal;
+      flex: 0 0 auto;
+    }
+
     .title {
       margin-bottom: 0;
-      margin-top: 2px;
       margin-right: 1rem;
     }
 
-    button {
+    .btn {
       margin-left: auto;
+      font-size: 80%;
 
       i {
         margin-right: -4px;

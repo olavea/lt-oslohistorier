@@ -1,5 +1,6 @@
 ---
 title: Møtes i sentrum?
+position: 0
 date: 2016-08-30 10:58:00 Z
 author: Johan Lie Hammerstrøm
 teaser: 'Er Oslo virkelig «den delte byen» eller finnes det en altoppslukende «Oslo-ånd»

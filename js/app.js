@@ -7,11 +7,11 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "Dat
 
   DataProvider.setData(lutterAppData);
 
-  $urlRouterProvider.otherwise('');
+  $urlRouterProvider.otherwise('/');
 
   $stateProvider
-    .state('app', {
-      url: "",
+    .state('home', {
+      url: "/",
     })
     .state('project', {
       url: "/:projectId",
