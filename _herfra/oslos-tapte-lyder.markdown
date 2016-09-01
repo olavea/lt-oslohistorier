@@ -3,7 +3,8 @@ title: Oslos tapte lyder
 date: 2016-08-30 11:25:00 Z
 position: 1
 author: Alf Folmer
-teaser: 
+teaser: Arkitekt Alf Folmer vokste opp i Oslo på 20 og 30-tallet. Hør hans beskrivelser
+  av byens tapte lydlandskap.
 locations:
 - audio_file: 
   coords: 59.917657, 10.762727
