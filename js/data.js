@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 var lutterAppData = {};
@@ -20,7 +20,9 @@ var lutterAppData = {};
               title: "{{ article.title }}",
               lat: {{ coords[0] }},
               lng: {{ coords[1] }},
-              article: "{{ article.slug }}"
+              projectId: "{{ collection.label }}",
+              articleId: "{{ article.slug }}",
+              position: "{{ article.position }}"
             }
           )
         {% elsif article.locations %}
@@ -32,7 +34,9 @@ var lutterAppData = {};
                 title: "{{ location.title }}",
                 lat: {{ coords[0] }},
                 lng: {{ coords[1] }},
-                article: "{{ article.slug }}"
+                projectId: "{{ collection.label }}",
+                articleId: "{{ article.slug }}",
+                position: "{{ article.position }}"
               }
             )
           {% endfor %}
