@@ -4,7 +4,11 @@ date: 2016-09-02 09:17:00 Z
 author: Helle Lind Storvik og Kaja Kittang Kvande
 teaser: Hvordan kan vi som arkitekter, landskapsarkitekter og planleggere bidra til
   tilhørighet i nye boligområder?
-coords: 59.930925,10.791357
+locations:
+- title: Kærnerbyen
+  coords: 59.903603,10.788695
+- title: Løren
+  coords: 59.930925,10.791357
 ---
 
 Hvor hører du til? På 50 kvadratmeter med åpen stue-kjøkken løsning, dør fire innenfor svalgangen i oppgang fem, i den inntrukne sjette etasjen. Med REMA 1000 på bakkeplan, i felt C, med nedgravd avfallshåndtering, egen balkong og med parkering og sportsbod i kjelleren.
