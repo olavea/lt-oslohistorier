@@ -5,6 +5,14 @@ teaser: |-
   Oslofølelsen. Trillende, rullende, rutsjende, rallende.
 
   Teksten er skrevet av Siri Katinka Valdez for landskapsarkitekontoret La la Tøyen.
-audio_file: 
+location:
+- title: Oslofølelsen 1
+  audio_file: "/uploads/Oslof%C3%B8lelsen1.mp3"
+  coords: 59.918029,10.754093
+- title: Oslofølelsen 2
+  audio_file: "/uploads/Oslof%C3%B8lelsen2.mp3"
+  coords: '0,0'
+Field name: 
 ---
 
+![herfra_oslofølelsenIMG_2828.jpg](/uploads/herfra_oslof%C3%B8lelsenIMG_2828.jpg)**Foto:Sebastian Diaz Linnerud**
