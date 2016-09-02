@@ -4,7 +4,31 @@ date: 2016-09-02 09:34:00 Z
 author: Embret Rognerød
 teaser: Hva forteller de fremste Oslo-raplåtene om våre oppfatninger av byen?
 locations:
-- 
+- title: 'Karpe Diem: Byduer i dur'
+  audio_file: 
+  coords: 59.912662,10.746390
+- title: 'Karpe Diem: Vestkantsvartinga'
+  audio_file: 
+  coords: 59.834951,10.796732
+- title: 'Karpe Diem: Au Pair'
+  audio_file: 
+  coords: 59.934393,10.665541
+- title: 'Don Martin: Nilsen'
+  audio_file: 
+  coords: 59.912871,10.761774
+- title: 'Don Martin: Nilsen'
+  audio_file: 
+  coords: 59.916459,10.765244
+- title: |
+    Don Martin: Nilsen
+  audio_file: 
+  coords: 59.914177,10.771245
+- title: 'Kaveh: Løkka'
+  audio_file: 
+  coords: 59.923378,10.755265
+- title: 'Oral Bee: Nesodden'
+  audio_file: 
+  coords: 59.870895,10.657113
 ---
 
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
