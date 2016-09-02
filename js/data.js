@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 var lutterAppData = {};
@@ -16,10 +16,9 @@ var lutterAppData = {};
           {% assign coords = article.coords | split:"," %}
           lutterAppData['{{ collection.label }}'].push(
             {
-              file: "{{ article.audio_file }}",
               title: "{{ article.title }}",
-              lat: {{ coords[0] }},
-              lng: {{ coords[1] }},
+              lat: {{ coords[0] | default: 0 }},
+              lng: {{ coords[1] | default: 0 }},
               projectId: "{{ collection.label }}",
               articleId: "{{ article.slug }}",
               position: "{{ article.position }}"
@@ -30,10 +29,9 @@ var lutterAppData = {};
             {% assign coords = location.coords | split:"," %}
             lutterAppData['{{ collection.label }}'].push(
               {
-                file: "{{ location.audio_file }}",
                 title: "{{ location.title }}",
-                lat: {{ coords[0] }},
-                lng: {{ coords[1] }},
+                lat: {{ coords[0] | default: 0 }},
+                lng: {{ coords[1] | default: 0 }},
                 projectId: "{{ collection.label }}",
                 articleId: "{{ article.slug }}",
                 position: "{{ article.position }}"
