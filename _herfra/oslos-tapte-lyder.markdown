@@ -11,7 +11,7 @@ locations:
   title: Dødsrallingen ved slakteriet
   image:
     file: "/uploads/Herfra_Lakkegata.jpg"
-    credit: 
+    credit: 'Foto: Anders Wilse, Oslo Museum'
 - audio_file: 
   coords: 59.912686, 10.746474
   title: Brann!
