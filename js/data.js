@@ -16,7 +16,7 @@ var lutterAppData = {};
           {% assign coords = article.coords | split:"," %}
           lutterAppData['{{ collection.label }}'].push(
             {
-              title: "{{ article.title }}",
+              title: "{{ article.title | strip }}",
               lat: {{ coords[0] | default: 0 }},
               lng: {{ coords[1] | default: 0 }},
               projectId: "{{ collection.label }}",
@@ -29,7 +29,7 @@ var lutterAppData = {};
             {% assign coords = location.coords | split:"," %}
             lutterAppData['{{ collection.label }}'].push(
               {
-                title: "{{ location.title }}",
+                title: "{{ location.title | strip }}",
                 lat: {{ coords[0] | default: 0 }},
                 lng: {{ coords[1] | default: 0 }},
                 projectId: "{{ collection.label }}",
