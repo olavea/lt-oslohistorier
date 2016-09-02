@@ -1,5 +1,5 @@
 ---
-layout:
+layout: 
 ---
 
 var lutterAppData = {};
