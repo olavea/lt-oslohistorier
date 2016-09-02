@@ -13,6 +13,7 @@ Oppløste kvartaler og punkthus dukker opp i et forrykende tempo i dagens Oslo, 
 
 Når boligområdene er så identiske at vi må lete etter identitet, må vi spørre: Hvilke verktøy vi har som arkitekter, planleggere og landskapsarkitekter til å bygge tilhørighet? Og kan vi som faggruppe i det hele tatt skape tilhørighet?
 
+
 ## Tilhørighet og identitet
 
 -Tilhørighet er en psykologisk eller sosiologisk affære, noe mennesker føler. Identitet kan være noe vi definerer som noe spesielt ved et område, en egenart, sier Jon Guttu. Han er arkitekt, og har jobbet ved SINTEF Byggforsk og Institutt for by- og regionsforskning.
@@ -23,13 +24,11 @@ Guttu mener at stedsidentitet kan skapes, og at tilhørighet er knyttet til denn
 
 Guttu trekker fram to konkrete verktøy for å finne identitetsbærende elementer; Oppdage stedets iboende egenskaper (sol, utsikt, landskap, vegetasjon osv) og benytte seg av disse.  Samt etablere et positivt hovedtrekk. Med positivt hovedtrekk mener han en egenskap som er så viktig at den farger inntrykket av et område.
 
-
 ## To nabolag – to identiteter?
 
 Når man flytter til et nabolag som har eksistert lenge, kan områdets kvaliteter være lett å få øye på, selv om en ikke kjenner stedet. Tiden har gjort sitt for å etablere stedets identitet og egenart i forhold til andre områder. Vi skal se nærmere på to nybygde boligområder i Oslo som ikke har hatt tiden til hjelp for å skape identitet, men hvor andre virkemidler er blitt tatt i bruk for å skape følelsen av et nabolag.
 
 Kværnerbyen og Løren er nybygde boligområder som er representative for dagens boligutvikling i Oslo. Hvordan er disse to boligområdene blitt utviklet med hensyn til positive hovedtrekk og ivaretagelse av stedets iboende egenskaper? Er det slik at disse nye boligområdene mangler identitet, og har beboerne en følelse av tilhørighet til sitt nye hjem?
-
 
 ## Ingen gamle anekdoter og lag
 
@@ -74,7 +73,6 @@ Nils Fredrik for eksempel, er en erfaren Kværnerbyenbeboer. På den korte tiden
 -Vi trivdes ekstremt godt i Kværnerbyen da vi bodde her sist, og da det plutselig kom opp en leilighet der vi kunne krysse av for alle kriteriene våre på Finn-søket, så var det lett å bli interessert.
 
 -Kværnerbyen legger til rette for en veldig enkel hverdag til en pris vi kunne leve med, og når både kona og jeg i tillegg jobber i Bjørvika, ble dette en veldig bra deal.
-
 
 ## Nabolag eller boligfelt?
 
