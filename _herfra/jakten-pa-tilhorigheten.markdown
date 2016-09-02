@@ -2,7 +2,7 @@
 title: Jakten på tilhørigheten
 date: 2016-09-02 09:17:00 Z
 position: 2
-author: Helle Lind Storvik og Kaja Kittang Kvande
+author: 'Helle Lind Storvik og Kaja Kittang Kvande. '
 teaser: Hvordan kan vi som arkitekter, landskapsarkitekter og planleggere bidra til
   tilhørighet i nye boligområder?
 locations:
@@ -12,12 +12,13 @@ locations:
   coords: 59.930925,10.791357
 ---
 
+![herfra_hyggelig-inngjerdet.jpg](/uploads/herfra_hyggelig-inngjerdet.jpg)**Foto: Kirsti Reinsberg Mørch**
+
 Hvor hører du til? På 50 kvadratmeter med åpen stue-kjøkken løsning, dør fire innenfor svalgangen i oppgang fem, i den inntrukne sjette etasjen. Med REMA 1000 på bakkeplan, i felt C, med nedgravd avfallshåndtering, egen balkong og med parkering og sportsbod i kjelleren.
 
 Oppløste kvartaler og punkthus dukker opp i et forrykende tempo i dagens Oslo, og likevel er det ikke nok for å få bukt med galopperende boligpriser. Med dette utbyggingstempoet stilles det spørsmål om de nye boligområdene blir for like. Det kan virke som vi har en utfordring med å skape nye boligområder med egenart.
 
 Når boligområdene er så identiske at vi må lete etter identitet, må vi spørre: Hvilke verktøy vi har som arkitekter, planleggere og landskapsarkitekter til å bygge tilhørighet? Og kan vi som faggruppe i det hele tatt skape tilhørighet?
-
 
 ## Tilhørighet og identitet
 
@@ -36,6 +37,8 @@ Når man flytter til et nabolag som har eksistert lenge, kan områdets kvalitete
 Kværnerbyen og Løren er nybygde boligområder som er representative for dagens boligutvikling i Oslo. Hvordan er disse to boligområdene blitt utviklet med hensyn til positive hovedtrekk og ivaretagelse av stedets iboende egenskaper? Er det slik at disse nye boligområdene mangler identitet, og har beboerne en følelse av tilhørighet til sitt nye hjem?
 
 ## Ingen gamle anekdoter og lag
+
+![herfra_Løren-park.jpg](/uploads/herfra_L%C3%B8ren-park.jpg)**Foto: Kirsti Reinsberg Mørch**
 
 Kyrre Westengen og Anna Norman Røie er landskapsarkitekter og har nettopp flyttet fra Lille Tøyen hageby, et boligområde fra 1920-tallet på Oslo øst, til det nybygde boligområdet Løren som ligger nord i bydel Grunerløkka.
 
@@ -63,9 +66,13 @@ Han og Røie mener at på Løren er det ikke lik sosial bakgrunn som skaper iden
 
 ## Kværnerbyens positive hovedtrekk
 
+![herfra_Hvor-er-alle-folkene.jpg](/uploads/herfra_Hvor-er-alle-folkene.jpg)**Foto: Kirsti Reinsberg Mørch**
+
 -For at folk skulle trives her og få et positivt forhold til stedet måtte vi bytte ut «det ukjente» og det «negative» med positive attraksjoner. Grepet med å synliggjøre Alna-elvas løp gjennom området i form av et vannspeil, ble ryggraden i utviklingen av bydelen, sier arkitekt Per Andersen, prosjektleder i Kværnerbyen siden 2006.
 
 OBOS var også bevisst på å ta vare på Kværnerbyens industrielle karakter som et indentitetsskapende element. OBOS har gjennom utviklingen av Kværnerbyen jobbet med det Guttu kaller positive hovedtrekk. De har synliggjort Alna-elvas løp gjennom området i form av et vannspeil, samtidig har de gitt stedet en identitet ved å ta vare på elementer fra bruket.
+
+![herfra_Ton-i-ton-arkitektur-fra-forskjellig-tid.jpg](/uploads/herfra_Ton-i-ton-arkitektur-fra-forskjellig-tid.jpg)**Foto: Kirsti Reinsberg Mørch**
 
 Nils Fredrik Wisløff bor i Kværnerbyen. Han legger også vekt på områdets historie og at OBOS tar vare på arven fra eldre dager gjennom utsmykking og navn på gatene og borettslag, noe som gir mye personlighet til området. For han er dette et av de viktigste momentene som skiller Kværnerbyen fra andre områder.
 
