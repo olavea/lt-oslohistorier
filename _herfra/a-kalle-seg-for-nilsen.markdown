@@ -3,7 +3,8 @@ title: "Å kalle seg for Nilsen"
 date: 2016-09-02 09:34:00 Z
 author: Embret Rognerød
 teaser: Hva forteller de fremste Oslo-raplåtene om våre oppfatninger av byen?
-Field name: 
+locations:
+- 
 ---
 
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
@@ -16,7 +17,7 @@ Sandve skrev doktorgrad i musikkvitenskap i 2014, der hun studerte musikken og d
 
 ## Å kreve sin plass
 
-Den hiphopkyndige amerikanske professoren Tricia Rose har hevdet at rapmusikkens etos handler om å kreve tilgang på offentlige rom. Det er snakk om et maktspill, mener Rose: Man påberoper seg makten til å snakke på vegne av et område. Og «Empire state of mind»-videoen til Jay-Z viser at makten demonstreres ved å kunne snakke om hvor man kommer fra for hele verden.
+Den hiphopkyndige amerikanske professoren Tricia Rose har hevdet at rapmusikkens [etos](https://snl.no/etos) handler om å kreve tilgang på offentlige rom. Det er snakk om et maktspill, mener Rose: Man påberoper seg makten til å snakke på vegne av et område. Og «Empire state of mind»-videoen til Jay-Z viser at makten demonstreres ved å kunne snakke om hvor man kommer fra for hele verden.
 
 En av konklusjonene til Sandve var at estetiseringen av urbane rom utgjør en viktig del av hvordan artistene iscenesetter seg selv. Doktorgraden fikk tittelen Staging the real, og den viser blant annet at det dreier seg om mye av det samme for norske rappere som for Jay-Z.
 
@@ -24,13 +25,13 @@ En av konklusjonene til Sandve var at estetiseringen av urbane rom utgjør en vi
 
 ## Heimstadsdiktning
 
-Rapsjangeren er i en særstilling når det kommer til betydningen av stedlig identitet, og det har etter hvert blitt en yndet øvelse blant litteraturvitere å sammenligne hiphop med heimstadsdikting.
+Rapsjangeren er i en særstilling når det kommer til betydningen av stedlig identitet, og det har etter hvert blitt en yndet øvelse blant litteraturvitere å sammenligne hiphop med [heimstadsdikting](https://snl.no/hjemstavnsdiktning).
 
 Hiphopen oppsto et bestemt sted, i bydelen South Bronx, og sjangerens afroamerikanske opphav er udiskutabelt. Samtidig bidrar rappere verden over til å endre forestillingene om både hiphop-kulturen og stedene de kommer fra: Det lokale veves sammen med det globale – og omvendt.
 
 –Etter hvert som hiphopen har spredd seg, ser man at mange har funnet lokale elementer og utviklet sitt eget ståsted, sier Sandve.
 
-I boken Hip hop-hoder (2005) skriver journalisten og hiphop-entusiasten Øyvind Holen om den sommeren på midten av åttitallet da filmen Beat Street kom til Oslo. Den nyfrelste hiphop-fansen så seg rundt etter noe som lignet det de så på lerretet, og de fant umiddelbart likhetstrekk.
+I boken Hip hop-hoder (2005) skriver journalisten og hiphop-entusiasten Øyvind Holen om den sommeren på midten av åttitallet da filmen [Beat Street](http://www.imdb.com/title/tt0086946/) kom til Oslo. Den nyfrelste hiphop-fansen så seg rundt etter noe som lignet det de så på lerretet, og de fant umiddelbart likhetstrekk.
 
 Ett av dem var t-banenettet, et transportsystem som Oslo har til felles med større byer verden over, og som gjerne forbinder byens nabolag på tvers av sosiale forskjeller. «Endelig har dem åpna Kolsåsbanen, fra Skullerud til Haslum, du kjenner hele saken», rapper Arif på debutalbumet «High End Asfalt».
 
@@ -44,7 +45,7 @@ Og duoen kan faktisk sies å rappe om Oslo og oppveksten vest for Majorstuen i e
 
 –De spiller på at de står i et geografisk motsetningsforhold til familiens kulturbakgrunn. Dette gjør dem også frie med tanke på hvordan de kan operere, sier Sandve.
 
-I refrenget på låten «Byduer i dur», fra albumet Aldri solgt en løgn (2010), synger duoen: «Våkna opp av at byen min sang (Syng, Oslo)». Og i likhet med Jay-Zs «Empire state of mind», som er blitt tolket som en eneste lang shout out til New York, fremhever Karpe Diem sin egen popularitet ved å peke at de har opprettholdt posisjonen som Oslos beste over lang tid: «Jeg har vært her i ti, vært her i ti, vært her i ti år/Med hjerte for byen vår, du har vært der siden i går», rapper Magdi.
+I refrenget på låten «Byduer i dur», fra albumet Aldri solgt en løgn (2010), synger duoen: «Våkna opp av at byen min sang (Syng, Oslo)». Og i likhet med Jay-Zs «Empire state of mind», som er blitt tolket som en eneste lang [shout out](http://nb.urbandictionary.com/define.php?term=shout-out) til New York, fremhever Karpe Diem sin egen popularitet ved å peke at de har opprettholdt posisjonen som Oslos beste over lang tid: «Jeg har vært her i ti, vært her i ti, vært her i ti år/Med hjerte for byen vår, du har vært der siden i går», rapper Magdi.
 [
 https://www.youtube.com/watch?v=pLmchzUtaP8](
 https://www.youtube.com/watch?v=pLmchzUtaP8)
@@ -87,13 +88,13 @@ På hjemmesidene skriver Don Martin at «Nilsen» er en måte å fremheve stolth
 
 At «Nilsen» er en bevisst «annektering» av byens maktsentrum går tydelig frem av flere av verselinjene til Don Martin. Han hevder at «Grønlandsleiret er hovedgata i byen min», og former sitt Oslo ved å vise til den delen av byen som tradisjonelt har tilhørt arbeiderklassen.
 
-Samtidig knytter Don Martin sin egen identitet uløselig til østkanten: ”Jeg fant prinsessa mi blant Haugenstuas blokker, vil´kke flytte herfra selv om dem tilbyr meg halve konteriket”. I refrenget er Tommy Tee nøye med å bare gjøre shout out til halve byen, selv om han påpeker at han når ut til hele. Å rope ut navn og stedsnavn man respekterer fungerer gjerne på denne måten. For å si det med det eia-ske ordspillet om menn som foretrekker ros fra menn: Å få et klapp på skuldra fra resten av nabolaget er kanskje rubler, men å kunne prate om bydelen sin overalt er dollar.
+Samtidig knytter Don Martin sin egen identitet uløselig til østkanten: ”Jeg fant prinsessa mi blant Haugenstuas blokker, vil´kke flytte herfra selv om dem tilbyr meg halve konteriket”. I refrenget er Tommy Tee nøye med å bare gjøre shout out til halve byen, selv om han påpeker at han når ut til hele. Å rope ut navn og stedsnavn man respekterer fungerer gjerne på denne måten. For å si det med det eia-ske ordspillet om [menn som foretrekker ros fra menn](https://www.nrk.no/ytring/menn-som-elsker-menn-1.12629332): Å få et klapp på skuldra fra resten av nabolaget er kanskje rubler, men å kunne prate om bydelen sin overalt er dollar.
 
 ## Pedagogisk parodi
 
 Hvorfor spøker mange vestkant-rappere med bakgrunnen sin, mens østkantkollegene skryter av den?  Kanskje kan rappernes fremstillinger av Oslo plasseres på en tenkt skala fra det parodiske til det pedagogiske, selv om disse to holdningene ikke utelukker hverandre.
 
-Don Martin peker på at han vil heve østkantens status, og Kenneth Engebretsen, som antagelig er den tydeligste representanten for en norsk forstadsrap i 2016, har en uttalt pedagogisk ambisjon med musikken.
+Don Martin peker på at han vil heve østkantens status, og Kenneth Engebretsen, som antagelig er den tydeligste representanten for en norsk forstadsrap i 2016, har [en uttalt pedagogisk ambisjon med musikken](http://www.nattogdag.no/2015/03/kenneth-engebretsen-drabanten-i-rommet/).
 
 Mens Karpe Diem tilsynelatende ikke gjør noe forsøk på å annektere den delen av byen de kommer fra, er henvisninger til hjemstedet en måte østkantrappere kan uttrykke lokalpatriotisme og vise frem ulikhet på.
 
