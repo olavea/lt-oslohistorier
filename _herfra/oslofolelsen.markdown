@@ -11,7 +11,7 @@ location:
   coords: 59.918029,10.754093
 - title: Oslofølelsen 2
   audio_file: "/uploads/Oslof%C3%B8lelsen2.mp3"
-  coords: '0,0'
+  coords: 59.922551, 10.716048
 Field name: 
 ---
 
