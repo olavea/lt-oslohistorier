@@ -6,7 +6,12 @@
   {% endif %}
 
   {% unless page.locations %}
-    <button class="btn btn-primary btn-block"><i class="fa fa-play"></i></button>
+  <div class="card">
+    <div class="header">
+      <h1 class="title"><span>{{ page.title }}</span></h1>
+      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+    </div>
+  </div>
   {% endunless %}
 
 </header>

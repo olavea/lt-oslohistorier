@@ -1,7 +1,7 @@
 <header>
   <h1>{{ page.title | escape }}</h1>
   <div>{{ page.teaser | markdownify }}</div>
-  <button class="btn btn-primary btn-block"><i class="fa fa-play"></i></button>
+  <button class="btn btn-primary btn-block">Spill <strong>{{ page.title | escape }}</strong> fortløpende</button>
 </header>
 
 {% for collection in site.collections %}
