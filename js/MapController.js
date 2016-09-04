@@ -1,5 +1,5 @@
 angular.module('LutterApp')
-  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', function ($scope, $state, Data, AppState) {
+  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', 'toLetterFilter', function ($scope, $state, Data, AppState, toLetterFilter) {
 
     $scope.state = AppState;
 
@@ -22,6 +22,7 @@ angular.module('LutterApp')
       $scope.markers = {};
 
       angular.forEach(markersData, function(marker, key) {
+        console.log("Adding marker", marker.position, marker.title);
         $scope.markers['marker' + key] = {
           lat: marker.lat,
           lng: marker.lng,
@@ -32,7 +33,7 @@ angular.module('LutterApp')
             iconSize: [24, 24],
             iconAnchor: [12, 12],
             className: 'marker',
-            html: '<span class="badge badge-primary">' + marker.position +'</span>'
+            html: '<span class="badge badge-primary" style="background-color: ' + marker.color + '">' + toLetterFilter(marker.position) +'</span>'
           }
         }
       });

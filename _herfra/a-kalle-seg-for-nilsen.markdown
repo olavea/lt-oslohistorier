@@ -2,9 +2,7 @@
 title: "Å kalle seg for Nilsen"
 date: 2016-09-02 09:34:00 Z
 position: 3
-colors:
-  background_hex: "#B5D9DC"
-  text_hex: "#FFFFFF"
+color: "#B5D9DC"
 author: Embret Rognerød
 teaser: Hva forteller de fremste Oslo-raplåtene om våre oppfatninger av byen?
 locations:

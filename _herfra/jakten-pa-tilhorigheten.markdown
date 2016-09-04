@@ -2,9 +2,7 @@
 title: Jakten på tilhørigheten
 date: 2016-09-02 09:17:00 Z
 position: 4
-colors:
-  background_hex: "#E3D69D"
-  text_hex: "#FFFFFF"
+color: "#E3D69D"
 author: 'Helle Lind Storvik og Kaja Kittang Kvande. '
 teaser: Hvordan kan vi som arkitekter, landskapsarkitekter og planleggere bidra til
   tilhørighet i nye boligområder?
