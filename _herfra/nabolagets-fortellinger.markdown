@@ -9,24 +9,23 @@ teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser k
   grensene?
 locations:
 - title: Lilleaker
-  audio_file: 
+  audio_file:
   coords: 59.920087, 10.636415
   image:
-    file: 
-    credit: 
+    file:
+    credit:
 - title: Grorud
-  audio_file: 
+  audio_file:
   coords: 59.960680, 10.881304
   image:
-    file: 
-    credit: 
+    file:
+    credit:
 - title: Botanisk hage
-  audio_file: 
+  audio_file:
   coords: 59.916369, 10.769551
   image:
-    file: 
+    file:
     credit: 
-Field name: 
 ---
 
 Vi mener mye om nabolaget vårt. Vi er så godt kjent, vi vet hva og hvem som finnes der og hvordan vi skal forholde oss til hverandre når vi møtes. Vi liker naboene og føler oss som del av et fellesskap – eller vi elsker den distanserte storbyfølelsen, der vi nettopp slipper naboer som følger med på hva vi driver med.
