@@ -34,10 +34,12 @@
       <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
     </div>
     {% if location.image %}
+      {% if location.image.file %}
       <div class="image">
         <img src="{{ location.image.file }}" />
         <figcaption>{{ location.image.credit }}</figcaption>
       </div>
+      {% endif %}
     {% endif %}
   </div>
 
