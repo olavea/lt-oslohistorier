@@ -33,15 +33,6 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-.badge {
-  color: white;
-  background-color: #cdcdcd;
-
-  &.badge-primary {
-    background-color: #DF4C48;
-  }
-}
-
 .btn {
   color: white;
   background-color: #cdcdcd;
@@ -68,43 +59,44 @@ h1 {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .9rem;
+
+  color: white;
+  background-color: #cdcdcd;
+
+  &.badge-primary {
+    background-color: #DF4C48;
+  }
 }
 
-.card, .list {
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
 
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .badge {
+    margin-right: 0.75rem;
+    font-weight: normal;
+    flex: 0 0 auto;
+  }
 
-    padding: 1rem;
+  h1, h2, h3 {
+    margin: 0;
+  }
 
-    .badge {
-      margin-right: 0.75rem;
-      font-weight: normal;
-      flex: 0 0 auto;
-    }
+  button {
+    margin-left: auto;
+    margin-right: 0.5rem;
+  }
 
-    .title {
-      margin-bottom: 0;
-      margin-right: 1rem;
-    }
+  >i {
+    font-size: 80%;
+    color: #d0d0d0;
 
-    .btn {
-      margin-left: auto;
-      font-size: 80%;
-
-      i {
-        margin-right: -4px;
-      }
-    }
-
-    >i {
-      font-size: 80%;
-      margin-top: 5px;
-      margin-left: 1rem;
-      color: #d0d0d0;
-    }
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    right: 1rem;
   }
 }
 
@@ -112,10 +104,16 @@ h1 {
 
   .header {
 
+    padding: 1rem;
+
     .title {
       font-size: 1rem;
       font-weight: bold;
       margin: 0;
+    }
+
+    button {
+      margin-right: 0;
     }
 
   }
@@ -199,14 +197,22 @@ h1 {
 // LAYOUT
 
 main {
-  padding: 1rem;
+  padding: 2rem;
 
   >aside, >section, >header {
     margin: 2rem 0;
   }
 
   .list {
-    margin: 2rem -1rem;
+    margin: 2rem -2rem;
+
+    .header, .body {
+      padding: 1rem 2rem;
+    }
+  }
+
+  .card {
+    margin: 1rem -0.5rem;
   }
 }
 

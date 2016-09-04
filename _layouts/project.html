@@ -1,8 +1,9 @@
-<header>
+<header class="header">
   <h1>{{ page.title | escape }}</h1>
-  <div>{{ page.teaser | markdownify }}</div>
-  <button class="btn btn-primary btn-block">Spill <strong>{{ page.title | escape }}</strong> fortløpende</button>
+  <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
 </header>
+
+<section>{{ page.teaser | markdownify }}</section>
 
 {% for collection in site.collections %}
 {% if collection.label == page.slug %}
