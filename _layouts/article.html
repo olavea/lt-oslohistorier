@@ -1,8 +1,9 @@
 <nav>
   {% for project in site.projects %}
   {% if project.slug == page.collection %}
-  <a ui-sref="project({ projectId: '{{ page.collection }}' })" style="color: {{ page.color }} ">
-    <i class="fa fa-back" style="color: {{ page.color }}"></i>
+  {% assign project_color = project.color %}
+  <a ui-sref="project({ projectId: '{{ page.collection }}' })" style="color: {{ project.color }} ">
+    <i class="fa fa-back" style="color: {{ project.color }}"></i>
     {{ project.title }}
   </a>
   {% endif %}
@@ -11,7 +12,7 @@
 
 <header class="header">
   <h1>{{ page.title | escape }}</h1>
-  <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
+  <button class="btn btn-primary" style="background-color: {{ page.color | default: project_color }}"><i class="fa fa-play"></i></button>
 </header>
 
 {% if page.teaser %}

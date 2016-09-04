@@ -13,7 +13,7 @@ layout: app
   <article class="item">
     <a class="header" ui-sref="project({ projectId: '{{ project.slug }}' })">
       <h1 class="title">{{ project.title | escape }}</h1>
-      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+      <button class="btn btn-primary" style="background-color: {{ project.color }}"><i class="fa fa-play"></i></button>
       <i class="fa fa-right"></i>
     </a>
     <div class="body">{{ project.teaser | markdownify }}</div>
