@@ -9,7 +9,7 @@
   <div class="card">
     <div class="header">
       <h1 class="title"><span>{{ page.title }}</span></h1>
-      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+      <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
     </div>
   </div>
   {% endunless %}
@@ -32,7 +32,7 @@
   <div class="card">
     <div class="header">
       <h1 class="title"><span>{{ location.title }}</span></h1>
-      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+      <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
     </div>
     {% if location.image %}
       <div class="image">
