@@ -18,12 +18,19 @@ angular.module('LutterApp')
       markers: {}
     });
 
+    function goToMarkerProject(marker) {  
+      $state.go('project', { projectId: marker.projectId });
+    }
+
+    function goToMarkerArticle(marker) {
+      $state.go('project.article', { projectId: marker.projectId, articleId: marker.articleId });
+    }
+
     function replaceMarkers(markersData) {
       $scope.markers = {};
 
       angular.forEach(markersData, function(marker, key) {
-        console.log("Adding marker", marker.position, marker.title);
-        $scope.markers['marker' + key] = {
+        $scope.markers[marker.projectId + "" + key] = {
           lat: marker.lat,
           lng: marker.lng,
           projectId: marker.projectId,
@@ -55,8 +62,11 @@ angular.module('LutterApp')
     });
 
     $scope.$on('leafletDirectiveMarker.click', function(event, args){
-      console.log(event, args);
-      $state.go('project.article', { projectId: args.model.projectId, articleId: args.model.articleId });
+      if(AppState.selectedProjectId == "all") {
+        goToMarkerProject(args.model);
+      } else {
+        goToMarkerArticle(args.model);
+      }
     });
 
     $scope.$on('leafletDirectiveMap.click', function(event, args){
