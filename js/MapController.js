@@ -33,7 +33,7 @@ angular.module('LutterApp')
             iconSize: [24, 24],
             iconAnchor: [12, 12],
             className: 'marker',
-            html: '<span class="badge badge-primary" style="background-color: ' + marker.color + '">' + toLetterFilter(marker.position) +'</span>'
+            html: '<div class="badge badge-primary" style="background-color: ' + marker.color + '"><span>' + toLetterFilter(marker.position) +'</span></div>'
           }
         }
       });
