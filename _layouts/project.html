@@ -1,3 +1,10 @@
+<nav>
+  <a ui-sref="home" style="color: {{ page.color }} ">
+    <i class="fa fa-back" style="color: {{ page.color }}"></i>
+    {{ site.title }}
+  </a>
+</nav>
+
 <header class="header">
   <h1>{{ page.title | escape }}</h1>
   <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
