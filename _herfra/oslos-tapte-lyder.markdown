@@ -1,7 +1,7 @@
 ---
 title: Oslos tapte lyder
 date: 2016-08-30 11:25:00 Z
-position: 6
+position: 5
 color: "#757E8E"
 author: Alf Folmer
 teaser: Arkitekt Alf Folmer vokste opp i Oslo på 20 og 30-tallet. Hør hans beskrivelser

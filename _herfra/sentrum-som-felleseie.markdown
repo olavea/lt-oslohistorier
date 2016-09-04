@@ -1,7 +1,7 @@
 ---
 title: Sentrum som felleseie?
 date: 2016-09-02 12:46:00 Z
-position: 1
+position: 0
 color: "#7D9583"
 author: Alv Skogstad Aamo
 teaser: Pregløs boligbygging og gentrifisering truer tilhørigheten til hovedstadens

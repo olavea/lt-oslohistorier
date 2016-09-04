@@ -1,7 +1,7 @@
 ---
 title: Nabolagets fortellinger
 date: 2016-09-02 11:07:00 Z
-position: 2
+position: 1
 color: "#464952"
 author: Brita Brekke, Hannah Eline Ander og Sigurd Olan Nedrelid
 teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser knyttet
