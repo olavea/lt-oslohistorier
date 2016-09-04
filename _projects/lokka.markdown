@@ -6,3 +6,4 @@ color: "#BF5054"
 footnote: Denne turen ble laget av [Lutter øre](https://lutterore.com/) i forbindelse
   med [Digital Fortalt](http://digitaltmuseum.no/info/owners/H-DF).
 ---
+
