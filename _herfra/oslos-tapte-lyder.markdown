@@ -27,7 +27,7 @@ locations:
   image:
     file: "/uploads/Herfra_Thorvald-Meyers-gate-49.jpeg"
     credit: 'Foto: Ukjent, Oslo Byarkiv'
-- audio_file: "/uploads/herfra_Samsons-ga%CC%8Ard.Karl-Johan.mp3"
+- audio_file: "/uploads/herfra_Samsons-gard-Karl-Johan.mp3"
   coords: 59.912884, 10.741461
   title: Trikken og byens rastløshet
   image:
