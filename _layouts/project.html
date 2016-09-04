@@ -19,7 +19,7 @@
   {% for article in articles %}
     <article class="item">
       <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
-        <div class="badge badge-primary" style="background-color: {{ article.color }}">
+        <div class="badge badge-primary" style="background-color: {{ article.color | default: page.color }}">
           <span ng-bind="{{ article.position }} | toLetter "></span>
         </div>
         <h1 class="title">{{ article.title | escape }}</h1>

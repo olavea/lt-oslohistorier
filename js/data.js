@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 var lutterAppData = {};
@@ -22,7 +22,7 @@ var lutterAppData = {};
               projectId: "{{ collection.label }}",
               articleId: "{{ article.slug }}",
               position: "{{ article.position }}",
-              color: "{{ article.color }}"
+              color: "{{ article.color | default: project.color }}"
             }
           )
         {% elsif article.locations %}
@@ -36,7 +36,7 @@ var lutterAppData = {};
                 projectId: "{{ collection.label }}",
                 articleId: "{{ article.slug }}",
                 position: "{{ article.position }}",
-                color: "{{ article.color }}"
+                color: "{{ article.color | default: project.color }}"
               }
             )
           {% endfor %}
