@@ -83,6 +83,7 @@ nav {
   position: relative;
 
   .badge {
+    margin-left: -0.5rem;
     margin-right: 0.75rem;
     font-weight: normal;
     flex: 0 0 auto;
@@ -90,10 +91,15 @@ nav {
 
   h1, h2, h3 {
     margin: 0;
+    margin-right: 0.5rem;
+
+    + button,
+    + .badge {
+      margin-left: auto;
+    }
   }
 
   button {
-    margin-left: auto;
     margin-right: 0.5rem;
   }
 
@@ -209,6 +215,11 @@ main {
 
   >aside, >section, >header {
     margin: 2rem 0;
+  }
+
+  nav {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
   }
 
   .list {

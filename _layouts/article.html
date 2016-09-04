@@ -12,6 +12,9 @@
 
 <header class="header">
   <h1>{{ page.title | escape }}</h1>
+  <div class="badge" style="background-color: {{ page.color | default: project_color }}">
+    <span ng-bind="{{ page.position }} | toLetter"></span>
+  </div>
   <button class="btn btn-primary" style="background-color: {{ page.color | default: project_color }}"><i class="fa fa-play"></i></button>
 </header>
 
