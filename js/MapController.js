@@ -33,7 +33,7 @@ angular.module('LutterApp')
             iconSize: [24, 24],
             iconAnchor: [12, 12],
             className: 'marker',
-            html: '<div class="badge badge-primary" style="background-color: ' + marker.color + '"><span>' + toLetterFilter(marker.position) +'</span></div>'
+            html: '<div class="badge badge-primary ' + AppState.selectedProjectId + '" style="background-color: ' + marker.color + '"><span>' + toLetterFilter(marker.position) +'</span></div>'
           }
         }
       });
@@ -41,9 +41,17 @@ angular.module('LutterApp')
 
     $scope.$watch('state.selectedProjectId', function(newProjectId, oldProjectId) {
       if(newProjectId !== oldProjectId) {
-        var markersData =  newProjectId ? Data[newProjectId] : [];
+        var markersData = [];
+        if(newProjectId === "all") {
+          angular.forEach(Data, function(projectMarkers) {
+            markersData = markersData.concat(projectMarkers);
+          });
+        } else {
+          markersData =  newProjectId ? Data[newProjectId] : [];
+        }
         replaceMarkers(markersData);
       }
+
     });
 
     $scope.$on('leafletDirectiveMarker.click', function(event, args){

@@ -66,6 +66,16 @@ h1 {
   &.badge-primary {
     background-color: #DF4C48;
   }
+
+  &.all {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.4rem;
+
+    span {
+      display: none;
+    }
+  }
 }
 
 .header {
