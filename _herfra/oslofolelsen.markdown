@@ -13,7 +13,7 @@ location:
 - title: Oslofølelsen 2
   audio_file: "/uploads/Oslof%C3%B8lelsen2.mp3"
   coords: 59.922551, 10.716048
-color:
+colors:
   background_hex: "#BF5054"
   text_hex: "#FFFFFF"
 ---
