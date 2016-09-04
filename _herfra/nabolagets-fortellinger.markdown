@@ -7,7 +7,14 @@ author: Brita Brekke, Hannah Eline Ander og Sigurd Olan Nedrelid
 teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser knyttet
   til bygninger, mennesker, lukter og lyder. Men hva er et nabolag? Og hvor går egentlig
   grensene?
-coords: '0,0'
+locations:
+- title: 
+  audio_file: 
+  coords: 
+  image:
+    file: 
+    credits: 
+Field name: 
 ---
 
 Vi mener mye om nabolaget vårt. Vi er så godt kjent, vi vet hva og hvem som finnes der og hvordan vi skal forholde oss til hverandre når vi møtes. Vi liker naboene og føler oss som del av et fellesskap – eller vi elsker den distanserte storbyfølelsen, der vi nettopp slipper naboer som følger med på hva vi driver med.
