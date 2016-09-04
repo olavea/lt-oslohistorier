@@ -13,7 +13,9 @@ location:
 - title: Oslofølelsen 2
   audio_file: "/uploads/Oslof%C3%B8lelsen2.mp3"
   coords: 59.922551, 10.716048
-Field name: 
+color:
+  background_hex: "#BF5054"
+  text_hex: "#FFFFFF"
 ---
 
 ![herfra_oslofølelsenIMG_2828.jpg](/uploads/herfra_oslof%C3%B8lelsenIMG_2828.jpg)**Foto:Sebastian Diaz Linnerud**
