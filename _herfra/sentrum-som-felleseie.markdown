@@ -2,14 +2,14 @@
 title: Sentrum som felleseie?
 date: 2016-09-02 12:46:00 Z
 position: 1
+colors:
+  background_hex: "#7D9583"
+  text_hex: "#FFFFFF"
 author: Alv Skogstad Aamo
 teaser: Pregløs boligbygging og gentrifisering truer tilhørigheten til hovedstadens
   nabolag. Kan et aktivt byliv og fysisk aktivitet revitalisere Oslo sentrum og gi
   oss en ny felles Osloidentitet?
 coords: 59.901518,10.750591
-colors:
-  background_hex: "#7D9583"
-  text_hex: "#FFFFFF"
 ---
 
 Vi lærte engang at Oslo var en by av innflyttere. Håndverkere som strømmet ned fra innlandsdalene. Sjøfolk som gikk i land. Ingen var oppvokst i Oslo. Dialekter og stedstilhørighet var noe man hadde millom bakkar og berg, ikke i Oslo. «Genius Loci» - stedets ånd – passet best på de dype skoger i Telemark hvor Vesaas skrev om «Skogfolkets drøm». Vi var egentlig et naturfolk, og som den melankolske *Norwegian Blue Parrot* lengtet vi alltid ut og vekk fra byen og til de dype blå fjorder og over de syv blåner. Oslodialekten var engang kun ansett som egnet på revyscenene, hovedstadens miljøer ble best beskrevet i dystre skillingsviser eller de utgjorde den grå scenografien til Hamsuns sultende kunstner.
