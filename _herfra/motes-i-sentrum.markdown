@@ -1,7 +1,7 @@
 ---
 title: Møtes i sentrum?
 date: 2016-08-30 10:58:00 Z
-position: 3
+position: 5
 author: Johan Lie Hammerstrøm
 teaser: 'Er Oslo virkelig «den delte byen» eller finnes det en altoppslukende «Oslo-ånd»
   som holder byen samlet? En statisk vestkant møter en bevegelig og søkende østkant. '

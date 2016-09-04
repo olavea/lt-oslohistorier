@@ -1,6 +1,7 @@
 ---
 title: Oslofølelsen
 date: 2016-09-02 12:16:00 Z
+position: 1
 teaser: |-
   Oslofølelsen. Trillende, rullende, rutsjende, rallende.
 
