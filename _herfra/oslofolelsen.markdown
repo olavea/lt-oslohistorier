@@ -16,4 +16,4 @@ locations:
   coords: 59.922551, 10.716048
 ---
 
-![herfra_oslofølelsenIMG_2828.jpg](/uploads/herfra_oslof%C3%B8lelsenIMG_2828.jpg)**Foto:Sebastian Diaz Linnerud**
+![herfra_Oslofolelsen.jpg](/uploads/herfra_Oslofolelsen.jpg)**Foto:Sebastian Diaz Linnerud**

@@ -43,11 +43,11 @@ locations:
   image:
     file: "/uploads/Herfra_Aker-mekaniske-verksted.jpeg"
     credit: 'Foto: Widerøes Flyveselskap / Vilhelm Skappel, Oslo Byarkiv'
-- audio_file: "/uploads/herfra_K%C3%B8benhavngata.mp3"
+- audio_file: "/uploads/herfra_Kobenhavngata.mp3"
   coords: 59.928057, 10.768415
   title: placeholder
   image:
-    file: "/uploads/Herfra_K%C3%B8benhavngata.jpeg"
+    file: "/uploads/herfra_Kobenhavngata.jpeg"
     credit: 'Foto: Karl Harstad, Oslo Museum'
 ---
 
