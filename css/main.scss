@@ -12,8 +12,21 @@ body, h1, h2, h3, h4, h5, h6, .leaflet-container {
   font-family: 'Titillium Web', sans-serif !important;
 }
 
+p {
+  position: relative;
+}
+
 img {
   max-width: 100%;
+}
+
+figcaption, img+strong {
+  color: #d0d0d0;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-weight: normal;
 }
 
 h1 {
@@ -132,14 +145,6 @@ h1 {
         border-bottom-right-radius: .25rem;
         border-bottom-left-radius: .25rem;
       }
-    }
-
-    figcaption {
-      color: #d0d0d0;
-      font-size: 0.7rem;
-      position: absolute;
-      bottom: 5px;
-      right: 5px;
     }
   }
 }
