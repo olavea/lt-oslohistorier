@@ -8,12 +8,24 @@ teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser k
   til bygninger, mennesker, lukter og lyder. Men hva er et nabolag? Og hvor går egentlig
   grensene?
 locations:
-- title: 
+- title: Lilleaker
   audio_file: 
-  coords: 
+  coords: 59.920087, 10.636415
   image:
     file: 
-    credits: 
+    credit: 
+- title: Grorud
+  audio_file: 
+  coords: 59.960680, 10.881304
+  image:
+    file: 
+    credit: 
+- title: Botanisk hage
+  audio_file: 
+  coords: 59.916369, 10.769551
+  image:
+    file: 
+    credit: 
 Field name: 
 ---
 
