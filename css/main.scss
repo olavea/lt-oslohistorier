@@ -3,6 +3,48 @@
 
 @charset "utf-8";
 
+
+// Project colors
+
+{% for project in site.projects %}
+.{{ project.slug }} {
+  a, i {
+    color: {{ project.color }}
+  }
+
+  .btn-primary {
+    background-color: {{ project.color }};
+  }
+
+  .badge-primary {
+    background-color: {{ project.color }};
+  }
+}
+
+  {% for collection in site.collections %}
+  {% if collection.label == project.slug %}
+    {% assign articles = collection.docs | sort:"position" %}
+    {% for article in articles %}
+      .{{ article.slug }} {
+        a, i {
+          color: {{ article.color | default: project.color }};
+        }
+
+        .btn-primary {
+          background-color: {{ article.color | default: project.color }};
+        }
+
+        .badge-primary {
+          background-color: {{ article.color | default: project.color }};
+        }
+      }
+    {% endfor %}
+  {% endif %}
+  {% endfor %}
+
+
+{% endfor %}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -10,10 +52,6 @@ html, body {
 
 body, h1, h2, h3, h4, h5, h6, .leaflet-container {
   font-family: 'Titillium Web', sans-serif !important;
-}
-
-p {
-  position: relative;
 }
 
 img {
@@ -24,8 +62,8 @@ figcaption, img+strong {
   color: #d0d0d0;
   font-size: 0.7rem;
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 0.4rem;
+  right: 0.4rem;
   font-weight: normal;
 }
 
@@ -33,10 +71,37 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  position: relative;
+  +h1, +h2, +h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  >img {
+    margin-bottom: 0.5rem;
+    +strong {
+      bottom: 0.9rem;
+    }
+  }
+}
+
 .btn {
   color: white;
   background-color: #cdcdcd;
   border: none;
+
+  i {
+    color: white;
+  }
 }
 
 .badge {
@@ -213,7 +278,8 @@ nav {
 main {
   padding: 2rem;
 
-  >aside, >section, >header {
+  >aside, >section, >header,
+  article>aside, article>section, article>header {
     margin: 2rem 0;
   }
 
@@ -256,8 +322,8 @@ main {
 
   .main-container {
     order: 1;
-    flex: 0 0 40%;
-    max-width: 30rem;
+    flex: 0 0 45%;
+    max-width: 41rem;
     min-width: 25rem;
     overflow-y: auto;
   }
