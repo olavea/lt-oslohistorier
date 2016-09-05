@@ -12,10 +12,6 @@ body, h1, h2, h3, h4, h5, h6, .leaflet-container {
   font-family: 'Titillium Web', sans-serif !important;
 }
 
-p {
-  position: relative;
-}
-
 img {
   max-width: 100%;
 }
@@ -24,13 +20,36 @@ figcaption, img+strong {
   color: #d0d0d0;
   font-size: 0.7rem;
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 0.4rem;
+  right: 0.4rem;
   font-weight: normal;
 }
 
 h1 {
   margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  position: relative;
+  +h1, +h2, +h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  >img {
+    margin-bottom: 0.5rem;
+    +strong {
+      bottom: 0.9rem;
+    }
+  }
 }
 
 .btn {
@@ -213,7 +232,8 @@ nav {
 main {
   padding: 2rem;
 
-  >aside, >section, >header {
+  >aside, >section, >header,
+  article>aside, article>section, article>header {
     margin: 2rem 0;
   }
 
