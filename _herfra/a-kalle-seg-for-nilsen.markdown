@@ -85,7 +85,7 @@ Holmlia og villastrøkene vest for Majorstua er på mange måter naturlige motpo
 
 Pumba rapper om diskriminering og omverdens fordomsfulle blikk på folk som kommer fra det innvandrertette nabolaget i Oslo sør: «De snur og går når de hører jeg er fra Holmlia», rapper han. «Og ikke tro vi kommer inn på noen utesteder».
 
-For Karpe Diems del er det mindre snakk om direkte sosiale problemer enn opplevelser av å være annerledes og fremstillinger av fordommer i et overveiende hvitt strøk, som når Magdi skriver om hverdagen som praktiserende muslim: «Ingen der har hørt no 'om no' rama-ramadan før/Og alle syns det var nørd å ikke ville ha øl»
+For Karpe Diems del er det mindre snakk om direkte sosiale problemer enn opplevelser av å være annerledes og fremstillinger av fordommer i et overveiende hvitt strøk, som når Magdi skriver om hverdagen som praktiserende muslim: «Ingen der har hørt no ‘om no’ rama-ramadan før/Og alle syns det var nørd å ikke ville ha øl»
 
 ## Filmer byens anti-steder
 
