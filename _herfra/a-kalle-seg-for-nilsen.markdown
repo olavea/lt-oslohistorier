@@ -35,7 +35,7 @@ locations:
 
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
 
-[https://www.youtube.com/watch?v=GPeOkzadr5g](https://www.youtube.com/watch?v=GPeOkzadr5g)
+[Musikkvideo: Jay Z - Empre State Of Mind](https://www.youtube.com/watch?v=GPeOkzadr5g)
 
 –Videoen er en maktdemonstrasjon. Den viser hvordan Jay-Z har gått fra lokal konge på haugen til å overta en hel by, og hvordan han har byen i sin hule hånd, sier Birgitte Sandve.
 
@@ -72,9 +72,8 @@ Og duoen kan faktisk sies å rappe om Oslo og oppveksten vest for Majorstuen i e
 –De spiller på at de står i et geografisk motsetningsforhold til familiens kulturbakgrunn. Dette gjør dem også frie med tanke på hvordan de kan operere, sier Sandve.
 
 I refrenget på låten «Byduer i dur», fra albumet Aldri solgt en løgn (2010), synger duoen: «Våkna opp av at byen min sang (Syng, Oslo)». Og i likhet med Jay-Zs «Empire state of mind», som er blitt tolket som en eneste lang [shout out](http://nb.urbandictionary.com/define.php?term=shout-out) til New York, fremhever Karpe Diem sin egen popularitet ved å peke at de har opprettholdt posisjonen som Oslos beste over lang tid: «Jeg har vært her i ti, vært her i ti, vært her i ti år/Med hjerte for byen vår, du har vært der siden i går», rapper Magdi.
-[
-https://www.youtube.com/watch?v=pLmchzUtaP8](
-https://www.youtube.com/watch?v=pLmchzUtaP8)
+
+[Musikkvideo: Karpe Diem - Byduer i dur](https://www.youtube.com/watch?v=pLmchzUtaP8)
 
 I doktorgraden skriver Sandve at Karpe Diem i «Byduer i dur»- videoen erobrer byen og vender opp ned på tradisjonelle forestillinger om Oslo som en hvit og vestlig by. Et av grepene duoen gjør er å utplassere en fargerik pakistansk desi-buss med passasjerer fra mange ulike land i bybildet.
 
@@ -82,7 +81,7 @@ I doktorgraden skriver Sandve at Karpe Diem i «Byduer i dur»- videoen erobrer 
 
 Holmlia og villastrøkene vest for Majorstua er på mange måter naturlige motpoler hvis man ønsker å tegne opp Oslo som en delt by, og i låten «Vestkantsvartinga» fra albumet Fire Vegger (2008) spiller Karpe Diem på forskjellene mellom å vokse opp med innvandrerbakgrunn på øst- og vestkanten. Samtidig kan Karpe Diem enes med Homlia-gjesten Pumba om et outsiderperspektiv.
 
-[https://www.youtube.com/watch?v=O4X6JMJQU3g](https://www.youtube.com/watch?v=O4X6JMJQU3g)
+[Musikkvideo: Karpe Diem - Vestkantsvartinga](https://www.youtube.com/watch?v=O4X6JMJQU3g)
 
 Pumba rapper om diskriminering og omverdens fordomsfulle blikk på folk som kommer fra det innvandrertette nabolaget i Oslo sør: «De snur og går når de hører jeg er fra Holmlia», rapper han. «Og ikke tro vi kommer inn på noen utesteder».
 
@@ -104,7 +103,7 @@ Og spennet er tilsynelatende stort fra Karpe Diems outrerte visuelle uttrykk til
 
 Don Martin-låta «Nilsen» (2013) henter mye av sin kraft fra referansene til etablerte norske sangere og poeter med tilknytning til arbeiderklassen. I refrenget hevder Don Martin et slektskap med arbeiderpoeten Rudolf og de selvproletariserte trubadurene Lillebjørn og Joachim («Jeg er så Oslo du kan kalle meg for Nilsen»), og dermed også til Oslo-skildringene som foregangspersonene har blitt kanonisert og feiret for.
 
-[https://www.youtube.com/watch?v=7jdkVCWWrfI](https://www.youtube.com/watch?v=7jdkVCWWrfI)
+[Musikkvideo: Don Martin — Nilsen feat. Tommy Tee](https://www.youtube.com/watch?v=7jdkVCWWrfI)
 
 Låten er også et eksplisitt forsøk på å snakke mot makten. I musikkvideoen avlegger Don Martin en byhistorisk visitt til «Nummer 13» på Tøyen, bygården Oslopoeten Rudolf Nilsen bodde i. I diktet med samme navn skildrer Rudolf Nilsen levekårene til beboerne, som hører til blant Oslos fattige.
 
@@ -132,7 +131,7 @@ Mye har endret seg i norsk rap på 20 år, men i en periode der norsk rap har g�
 
 –Rap har blitt mainstream, samtidig har en større del av forstadsungdommen og minoritetsungdommen rappere de identifiserer seg med og de bruker selv rap til å uttrykke seg, sier Espen Hofsvang.
 
-[https://www.youtube.com/watch?v=jPHOi6EyRgU](https://www.youtube.com/watch?v=jPHOi6EyRgU)
+[Musikkvideo: Karpe Diem - Au Pair](https://www.youtube.com/watch?v=jPHOi6EyRgU)
 
 Rap-ens hunger etter tilhørighet deles også av mange av dem som lytter til den. For et par år siden fulgte Birgitte Sandve med Don Martin på [to skolekonserter på Haugenstua og Oppsal](http://www.ballade.no/sak/a-vaere-oslo/). Da en av elevene kauket «Haugenstua represent!» idet låten «Represent» strømmet ut fra høyttalerne – til tross for at det er Romsås som blir nevnt i refrenget - understreket dette for Sandve hvordan låten var gyldig i mange av byens skolegårder.
 
