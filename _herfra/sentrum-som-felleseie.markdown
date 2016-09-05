@@ -10,7 +10,7 @@ teaser: Pregløs boligbygging og gentrifisering truer tilhørigheten til hovedst
 coords: 59.901518,10.750591
 ---
 
-![herfra_sørenga 1.jpg](/uploads/herfra_s%C3%B8renga%201.jpg)*Foto: Herman Egenberg*
+![herfra_sørenga 1.jpg](/uploads/herfra_s%C3%B8renga%201.jpg)**Foto: Herman Egenberg**
 
 Vi lærte engang at Oslo var en by av innflyttere. Håndverkere som strømmet ned fra innlandsdalene. Sjøfolk som gikk i land. Ingen var oppvokst i Oslo. Dialekter og stedstilhørighet var noe man hadde millom bakkar og berg, ikke i Oslo. «Genius Loci» - stedets ånd – passet best på de dype skoger i Telemark hvor Vesaas skrev om «Skogfolkets drøm». Vi var egentlig et naturfolk, og som den melankolske *Norwegian Blue Parrot* lengtet vi alltid ut og vekk fra byen og til de dype blå fjorder og over de syv blåner. Oslodialekten var engang kun ansett som egnet på revyscenene, hovedstadens miljøer ble best beskrevet i dystre skillingsviser eller de utgjorde den grå scenografien til Hamsuns sultende kunstner.
 
