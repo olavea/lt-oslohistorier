@@ -25,6 +25,7 @@ Det er hverdags-Oslo som gir romanenes hovedpersoner røtter og tilhørighet. De
 I disse nabolagene skildrer forfatterne hvordan både innflyttere og Oslofolk får røtter og tilhørighet. Arild Nyquist kaster på stikka på Røa, Lars Saaby Christensen ser byen fra *Urraparken*, Tove Nilsens *Skyskraperengler*, Jan Kjærstad og Roy Jacobsen sine hovedpersoner viser at også de utskjelte nye bydelene i Groruddalen former oppveksten. Sist av Maria Navarro Skarangers med dialekt og miljø fra innvandrerens Romsås.
 
 ## Livet er et annet sted
+![herfra_sørenga3.jpg](/uploads/herfra_s%C3%B8renga3.jpg)**Foto: Herman Egenberg**
 
 Ved siden av nabolagene, boligbydelen, er det naturen og aktivitetene som skildres som Oslos særpreg. Sommerdagene på Langøyene, hoppe i fjorden fra *Pantern* eller ta skiene fatt i *Hemingland*. Rekreasjon og fritid dreier seg om å komme vekk fra byen. Ta sykkelen fatt til Ingierstrand. Pappabåtene ut til øyene.
 
