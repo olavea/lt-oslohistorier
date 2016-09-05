@@ -288,3 +288,11 @@ main {
   }
 
 }
+
+{% for project in site.projects %}
+.{{ project.slug }} {
+  a, i {
+    color: {{ project.color }}
+  }
+}
+{% endfor %}

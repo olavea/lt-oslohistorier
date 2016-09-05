@@ -1,6 +1,6 @@
-<nav>
-  <a ui-sref="home" style="color: {{ page.color }} ">
-    <i class="fa fa-back" style="color: {{ page.color }}"></i>
+<nav class="{{ page.slug }}">
+  <a ui-sref="home">
+    <i class="fa fa-back"></i>
     {{ site.title }}
   </a>
 </nav>
@@ -35,6 +35,6 @@
 {% endif %}
 {% endfor %}
 
-<section>
+<section class="{{ page.slug }}">
   {{ page.content | markdownify }}
 </section>
