@@ -145,8 +145,6 @@ Som Jay-Z har påpekt ved hjelp av et kjent sample er det ikke så mye kjærligh
 
 –Oslo-rapen er kanskje alene, ved siden av noen skjønnlitterære forfattere som Dag Solstad, om å bruke blokkene på Ammerud og Tveita som en del av det det sentrale temaet i tekstene, sier Hofsvang.
 
-[https://www.youtube.com/watch?v=jPHOi6EyRgU](https://www.youtube.com/watch?v=jPHOi6EyRgU)
-
 Det finnes et slags hat/elsk-forhold til den svært kritiserte, men storstilte utbyggingen av blokker på sekstitallet i Oslos drabantbyer.
 
 –Man kan ha forskjellige tilnærminger, men det skal godt gjøres å unngå helt å forholde seg til den sterke urbane tradisjonen i rap. Man må ha litt betong for at det skal være ekte, sier Hofsvang.
