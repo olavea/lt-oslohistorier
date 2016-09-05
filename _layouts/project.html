@@ -5,9 +5,9 @@
   </a>
 </nav>
 
-<header class="header">
+<header class="header {{ page.slug }}">
   <h1>{{ page.title | escape }}</h1>
-  <button class="btn btn-primary" style="background-color: {{ page.color }}"><i class="fa fa-play"></i></button>
+  <button class="btn btn-primary"><i class="fa fa-play"></i></button>
 </header>
 
 <section>{{ page.teaser | markdownify }}</section>
@@ -17,9 +17,9 @@
 <section class="list">
   {% assign articles = collection.docs | sort:"position" %}
   {% for article in articles %}
-    <article class="item">
+    <article class="item {{ article.slug }}">
       <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
-        <div class="badge badge-primary" style="background-color: {{ article.color | default: page.color }}">
+        <div class="badge badge-primary">
           <span ng-bind="{{ article.position }} | toLetter "></span>
         </div>
         <h1 class="title">{{ article.title | escape }}</h1>

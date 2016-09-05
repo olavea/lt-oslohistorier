@@ -3,6 +3,48 @@
 
 @charset "utf-8";
 
+
+// Project colors
+
+{% for project in site.projects %}
+.{{ project.slug }} {
+  a, i {
+    color: {{ project.color }}
+  }
+
+  .btn-primary {
+    background-color: {{ project.color }};
+  }
+
+  .badge-primary {
+    background-color: {{ project.color }};
+  }
+}
+
+  {% for collection in site.collections %}
+  {% if collection.label == project.slug %}
+    {% assign articles = collection.docs | sort:"position" %}
+    {% for article in articles %}
+      .{{ article.slug }} {
+        a, i {
+          color: {{ article.color | default: project.color }};
+        }
+
+        .btn-primary {
+          background-color: {{ article.color | default: project.color }};
+        }
+
+        .badge-primary {
+          background-color: {{ article.color | default: project.color }};
+        }
+      }
+    {% endfor %}
+  {% endif %}
+  {% endfor %}
+
+
+{% endfor %}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -56,6 +98,10 @@ p {
   color: white;
   background-color: #cdcdcd;
   border: none;
+
+  i {
+    color: white;
+  }
 }
 
 .badge {
@@ -288,11 +334,3 @@ main {
   }
 
 }
-
-{% for project in site.projects %}
-.{{ project.slug }} {
-  a, i {
-    color: {{ project.color }}
-  }
-}
-{% endfor %}
