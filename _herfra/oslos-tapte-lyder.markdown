@@ -45,7 +45,7 @@ locations:
     credit: 'Foto: Widerøes Flyveselskap / Vilhelm Skappel, Oslo Byarkiv'
 - audio_file: "/uploads/herfra_Kobenhavngata.mp3"
   coords: 59.928057, 10.768415
-  title: placeholder
+  title: Pistolskudd
   image:
     file: "/uploads/herfra_Kobenhavngata.jpeg"
     credit: 'Foto: Karl Harstad, Oslo Museum'
