@@ -1,57 +1,61 @@
-{% for project in site.projects %}
-{% if project.slug == page.collection %}
-{% assign project_slug = project.slug %}
-<nav class="{{ project.slug }}">
-  <a ui-sref="project({ projectId: '{{ page.collection }}' })">
-    <i class="fa fa-back"></i>
-    {{ project.title }}
-  </a>
-</nav>
-{% endif %}
-{% endfor %}
+<div class="main-content">
 
-<article>
+  {% for project in site.projects %}
+  {% if project.slug == page.collection %}
+  {% assign project_slug = project.slug %}
+  <nav class="{{ project.slug }}">
+    <a ui-sref="project({ projectId: '{{ page.collection }}' })">
+      <i class="fa fa-back"></i>
+      {{ project.title }}
+    </a>
+  </nav>
+  {% endif %}
+  {% endfor %}
 
-  <header class="header {{ page.slug }}">
-    <h1>{{ page.title | escape }}</h1>
-    <div class="badge badge-primary">
-      <span ng-bind="{{ page.position }} | toLetter"></span>
-    </div>
-    <button class="btn btn-primary"><i class="fa fa-play"></i></button>
-  </header>
+  <article>
 
-  {% if page.teaser %}
-    <section>
-      {{ page.teaser | markdownify }}
-    </section>
-    {% if page.coords %}
-      <hr>
+    <header class="header {{ page.slug }}">
+      <h1>{{ page.title | escape }}</h1>
+      <div class="badge badge-primary">
+        <span ng-bind="{{ page.position }} | toLetter"></span>
+      </div>
+      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+    </header>
+
+    {% if page.teaser %}
+      <section>
+        {{ page.teaser | markdownify }}
+      </section>
+      {% if page.coords %}
+        <hr>
+      {% endif %}
+
     {% endif %}
 
-  {% endif %}
+    <aside class="{{ page.slug }}">
+      {% for location in page.locations %}
 
-  <aside class="{{ page.slug }}">
-    {% for location in page.locations %}
-
-    <div class="card">
-      <div class="header">
-        <h1 class="title"><span>{{ location.title }}</span></h1>
-        <button class="btn btn-primary"><i class="fa fa-play"></i></button>
-      </div>
-      {% if location.image %}
-        {% if location.image.file %}
-        <div class="image">
-          <img src="{{ location.image.file }}" />
-          <figcaption>{{ location.image.credit }}</figcaption>
+      <div class="card">
+        <div class="header">
+          <h1 class="title"><span>{{ location.title }}</span></h1>
+          <button class="btn btn-primary"><i class="fa fa-play"></i></button>
         </div>
+        {% if location.image %}
+          {% if location.image.file %}
+          <div class="image">
+            <img src="{{ location.image.file }}" />
+            <figcaption>{{ location.image.credit }}</figcaption>
+          </div>
+          {% endif %}
         {% endif %}
-      {% endif %}
-    </div>
+      </div>
 
-    {% endfor %}
-  </aside>
+      {% endfor %}
+    </aside>
 
-  <section class="{{ project_slug }}">
-    {{ page.content | markdownify }}
-  </section>
-</article>
+    <section class="{{ project_slug }}">
+      {{ page.content | markdownify }}
+    </section>
+  </article>
+  
+</div>

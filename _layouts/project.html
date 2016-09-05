@@ -1,40 +1,42 @@
-<nav class="{{ page.slug }}">
-  <a ui-sref="home">
-    <i class="fa fa-back"></i>
-    {{ site.title }}
-  </a>
-</nav>
+<div class="main-content">
+  <nav class="{{ page.slug }}">
+    <a ui-sref="home">
+      <i class="fa fa-back"></i>
+      {{ site.title }}
+    </a>
+  </nav>
 
-<header class="header {{ page.slug }}">
-  <h1>{{ page.title | escape }}</h1>
-  <button class="btn btn-primary"><i class="fa fa-play"></i></button>
-</header>
+  <header class="header {{ page.slug }}">
+    <h1>{{ page.title | escape }}</h1>
+    <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+  </header>
 
-<section>{{ page.teaser | markdownify }}</section>
+  <section>{{ page.teaser | markdownify }}</section>
 
-{% for collection in site.collections %}
-{% if collection.label == page.slug %}
-<section class="list">
-  {% assign articles = collection.docs | sort:"position" %}
-  {% for article in articles %}
-    <article class="item {{ article.slug }}">
-      <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
-        <div class="badge badge-primary">
-          <span ng-bind="{{ article.position }} | toLetter "></span>
-        </div>
-        <h1 class="title">{{ article.title | escape }}</h1>
-        <button class="btn"><i class="fa fa-play"></i></button>
-        <i class="fa fa-right"></i>
-      </a>
-      {% if article.teaser %}
-        <div class="body">{{ article.teaser | markdownify }}</div>
-      {% endif %}
-    </article>
+  {% for collection in site.collections %}
+  {% if collection.label == page.slug %}
+  <section class="list">
+    {% assign articles = collection.docs | sort:"position" %}
+    {% for article in articles %}
+      <article class="item {{ article.slug }}">
+        <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
+          <div class="badge badge-primary">
+            <span ng-bind="{{ article.position }} | toLetter "></span>
+          </div>
+          <h1 class="title">{{ article.title | escape }}</h1>
+          <button class="btn"><i class="fa fa-play"></i></button>
+          <i class="fa fa-right"></i>
+        </a>
+        {% if article.teaser %}
+          <div class="body">{{ article.teaser | markdownify }}</div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+  {% endif %}
   {% endfor %}
-</section>
-{% endif %}
-{% endfor %}
 
-<section class="{{ page.slug }}">
-  {{ page.content | markdownify }}
-</section>
+  <section class="{{ page.slug }}">
+    {{ page.content | markdownify }}
+  </section>
+</div>

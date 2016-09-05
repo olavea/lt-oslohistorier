@@ -278,38 +278,65 @@ nav {
 // LAYOUT
 
 main {
-  padding: 2rem;
 
-  >aside, >section, >header,
-  article>aside, article>section, article>header {
-    margin: 2rem 0;
-  }
+  .main-content {
+    padding: 2rem;
+    background-color: white;
 
-  nav {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-  }
+    >aside, >section, >header,
+    article>aside, article>section, article>header {
+      margin: 2rem 0;
+    }
 
-  .list {
-    margin: 2rem -2rem;
+    nav {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+    }
 
-    .header, .body {
-      padding: 1rem 2rem;
+    .list {
+      margin: 2rem -2rem;
+
+      .header, .body {
+        padding: 1rem 2rem;
+      }
+    }
+
+    .card {
+      margin: 1rem -0.5rem;
     }
   }
+}
 
-  .card {
-    margin: 1rem -0.5rem;
+
+// Main layout
+
+.main-container {
+
+  main {
+    padding-top: 200px;
+    pointer-events: none;
+    .main-content {
+      pointer-events: auto;
+      position: relative;
+    }
   }
 }
 
 .map-container {
-  height: 30%;
+  height: 220px;
   width: 100%;
+  position: fixed;
 
   .angular-leaflet-map {
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .leaflet-control-container {
+      display: none;
+    }
   }
 }
 
@@ -328,11 +355,22 @@ main {
     max-width: 41rem;
     min-width: 25rem;
     overflow-y: auto;
+    main {
+      padding-top: 0;
+    }
   }
 
   .map-container {
     order: 2;
     height: 100%;
-  }
+    position: relative;
 
+    .angular-leaflet-map {
+
+      .leaflet-control-container {
+        display: block;
+      }
+    }
+
+  }
 }
