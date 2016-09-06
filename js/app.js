@@ -3,11 +3,13 @@ angular.module("LutterApp", [
   'ui-leaflet'
 ]);
 
-angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "DataProvider", function ($stateProvider, $urlRouterProvider, DataProvider) {
+angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$locationProvider", "DataProvider", function ($stateProvider, $urlRouterProvider, $locationProvider, DataProvider) {
 
   DataProvider.setData(lutterAppData);
 
   $urlRouterProvider.otherwise('/');
+
+  $locationProvider.html5Mode(true);
 
   $stateProvider
     .state('home', {
