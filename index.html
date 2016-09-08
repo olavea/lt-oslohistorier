@@ -12,11 +12,11 @@ layout: app
     {% for project in projects %}
 
     <article class="item {{ project.slug }}">
-      <a class="header" ui-sref="project({ projectId: '{{ project.slug }}' })">
+      <div class="header" ng-click="goTo('{{ project.slug }}')">
         <h1 class="title">{{ project.title | escape }}</h1>
-        <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+        <play-button project-id="{{ project.slug }}"></play-button>
         <i class="fa fa-right"></i>
-      </a>
+      </div>
       <div class="body">{{ project.teaser | markdownify }}</div>
     </article>
 
