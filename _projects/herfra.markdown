@@ -6,6 +6,8 @@ teaser: |-
 
   > Hvor hører du til?
 color: "#BF5054"
+logo_images:
+- "/uploads/logo258_avatar.png"
 ---
 
 HERFRA utforsker temaet tilhørighet gjennom undersøkelser av forskjellige Oslo-spesifikke situasjoner. Hvert punkt på kartet er knyttet til lyd eller tekst og gir en fortelling, betraktning eller bilde på opplevelsen av stedet du befinner deg.
