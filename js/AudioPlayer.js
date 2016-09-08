@@ -106,6 +106,19 @@ angular.module('LutterApp')
       return isCurrentTrack(projectId, articleId, trackNum) && !audio.paused;
     };
 
+    var hasAudio = function(projectId, articleId, trackNum) {
+      var tracks = [];
+      if (trackNum) {
+        tracks.push(Data.articleLocations(projectId, articleId)[trackNum]);
+      } else if (articleId) {
+        tracks = Data.articleLocations(projectId, articleId);
+      } else if (projectId) {
+        tracks = Data.projectLocations(projectId);
+      }
+
+      return findFirstTrackWithAudio(tracks);
+    };
+
     // listen for audio-element events, and broadcast stuff
     audio.addEventListener('play', function() {
       console.log("[Audio] Played:", currentTrack);
@@ -122,6 +135,7 @@ angular.module('LutterApp')
 
     return {
       isPlaying: isPlaying,
-      playPause: playPause
+      playPause: playPause,
+      hasAudio: hasAudio
     };
   }]);
