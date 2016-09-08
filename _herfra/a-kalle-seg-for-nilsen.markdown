@@ -28,9 +28,6 @@ locations:
 - title: 'Kaveh: Løkka'
   audio_file: 
   coords: 59.923378,10.755265
-- title: 'Oral Bee: Nesodden'
-  audio_file: 
-  coords: 59.870895,10.657113
 ---
 
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
