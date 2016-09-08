@@ -28,3 +28,5 @@ defaults:
   values:
     layout: project
 permalink: pretty
+include: [_redirects]
+exclude: [Gemfile, Gemfile.lock, package.json]
