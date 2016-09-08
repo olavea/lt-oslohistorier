@@ -11,13 +11,11 @@ angular.module('LutterApp')
     };
 
     var findFirstTrackWithAudio = function(tracks) {
-      var trackWithAudio = null;
-      angular.forEach(tracks, function(track) {
-        if (track.audioFile) {
-          trackWithAudio = track;
+      for (var i = 0; i < tracks.length; i++) {
+        if (tracks[i].audioFile && tracks[i].audioFile !== "") {
+          return tracks[i];
         }
-      });
-      return trackWithAudio;
+      }
     };
 
     var setCurrentTrack = function(projectId, articleId, trackNum) {
