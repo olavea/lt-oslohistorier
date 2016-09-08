@@ -23,10 +23,12 @@ var lutterAppData = {};
               projectId: "{{ collection.label }}",
               articleId: "{{ article.slug }}",
               position: "{{ article.position }}",
+              trackNum: 0,
               color: "{{ article.color | default: project.color }}",
             }
           )
         {% elsif article.locations %}
+          {% assign i = 0 %}
           {% for location in article.locations %}
             {% assign coords = location.coords | split:"," %}
             lutterAppData['{{ collection.label }}'].push(
@@ -38,9 +40,11 @@ var lutterAppData = {};
                 projectId: "{{ collection.label }}",
                 articleId: "{{ article.slug }}",
                 position: "{{ article.position }}",
+                trackNum: {{ i }},
                 color: "{{ article.color | default: project.color }}"
               }
             )
+            {% assign i = i | plus: 1 %}
           {% endfor %}
         {% endif %}
       {% endfor %}

@@ -8,7 +8,9 @@
 
   <header class="header {{ page.slug }}">
     <h1>{{ page.title | escape }}</h1>
-    <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+    <button class="btn btn-primary" ng-click="playPause('{{ page.slug }}')">
+      <i class="fa" ng-class="{'fa-play':!isPlaying('{{ page.slug }}'), 'fa-pause':isPlaying('{{ page.slug }}')}"></i>
+    </button>
   </header>
 
   <section>{{ page.teaser | markdownify }}</section>
@@ -24,7 +26,9 @@
             <span ng-bind="{{ article.position }} | toLetter "></span>
           </div>
           <h1 class="title">{{ article.title | escape }}</h1>
-          <button class="btn"><i class="fa fa-play"></i></button>
+          <button class="btn" ng-click="playPause('{{ page.slug }}', '{{ article.slug }}')">
+            <i class="fa" ng-class="{'fa-play':!isPlaying('{{ page.slug }}', '{{ article.slug }}'), 'fa-pause':isPlaying('{{ page.slug }}', '{{ article.slug }}')}"></i>
+          </button>
           <i class="fa fa-right"></i>
         </a>
         {% if article.teaser %}

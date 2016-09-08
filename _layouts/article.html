@@ -19,7 +19,9 @@
       <div class="badge badge-primary">
         <span ng-bind="{{ page.position }} | toLetter"></span>
       </div>
-      <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+      <button class="btn btn-primary" ng-click="playPause('{{ project_slug }}', '{{ page.slug }}')">
+        <i class="fa" ng-class="{'fa-play':!isPlaying('{{ project_slug }}', '{{ page.slug }}'), 'fa-pause':isPlaying('{{ project_slug }}', '{{ page.slug }}')}"></i>
+      </button>
     </header>
 
     {% if page.teaser %}
@@ -33,12 +35,15 @@
     {% endif %}
 
     <aside class="{{ page.slug }}">
+      {% assign i = 0 %}
       {% for location in page.locations %}
 
       <div class="card">
         <div class="header">
           <h1 class="title"><span>{{ location.title }}</span></h1>
-          <button class="btn btn-primary"><i class="fa fa-play"></i></button>
+          <button class="btn btn-primary" ng-click="playPause('{{ project_slug }}', '{{ page.slug }}', {{ i }})">
+            <i class="fa" ng-class="{'fa-play':!isPlaying('{{ project_slug }}', '{{ page.slug }}', {{ i }}), 'fa-pause':isPlaying('{{ project_slug }}', '{{ page.slug }}', {{ i }})}"></i>
+          </button>
         </div>
         {% if location.image %}
           {% if location.image.file %}
@@ -49,7 +54,7 @@
           {% endif %}
         {% endif %}
       </div>
-
+      {% assign i = i | plus: 1 %}
       {% endfor %}
     </aside>
 
