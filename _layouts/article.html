@@ -19,9 +19,7 @@
       <div class="badge badge-primary">
         <span ng-bind="{{ page.position }} | toLetter"></span>
       </div>
-      <button class="btn btn-primary" ng-click="playPause('{{ project_slug }}', '{{ page.slug }}')">
-        <i class="fa" ng-class="{'fa-play':!isPlaying('{{ project_slug }}', '{{ page.slug }}'), 'fa-pause':isPlaying('{{ project_slug }}', '{{ page.slug }}')}"></i>
-      </button>
+      <play-button project-id="{{ project_slug }}" article-id="{{ page.slug }}"></play-button>
     </header>
 
     {% if page.teaser %}
@@ -41,9 +39,7 @@
       <div class="card">
         <div class="header">
           <h1 class="title"><span>{{ location.title }}</span></h1>
-          <button class="btn btn-primary" ng-click="playPause('{{ project_slug }}', '{{ page.slug }}', {{ i }})">
-            <i class="fa" ng-class="{'fa-play':!isPlaying('{{ project_slug }}', '{{ page.slug }}', {{ i }}), 'fa-pause':isPlaying('{{ project_slug }}', '{{ page.slug }}', {{ i }})}"></i>
-          </button>
+          <play-button project-id="{{ project_slug }}" article-id="{{ page.slug }}" track-num="{{ i }}"></play-button>
         </div>
         {% if location.image %}
           {% if location.image.file %}

@@ -6,7 +6,7 @@ angular.module('LutterApp')
     var isCurrentTrack = function(projectId, articleId, trackNum) {
       var isSameProject = currentTrack.projectId === projectId || projectId === undefined;
       var isSameArticle = currentTrack.articleId === articleId || articleId === undefined;
-      var isSameTrack = currentTrack.trackNum === trackNum || trackNum === undefined;
+      var isSameTrack = parseInt(currentTrack.trackNum, 10) === parseInt(trackNum, 10) || trackNum === undefined;
       return isSameProject && isSameArticle && isSameTrack;
     };
 

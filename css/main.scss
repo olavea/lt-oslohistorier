@@ -166,12 +166,14 @@ nav {
     margin-right: 0.5rem;
 
     + button,
+    + play-button,
     + .badge {
       margin-left: auto;
     }
   }
 
-  button {
+  button,
+  play-button {
     margin-right: 0.5rem;
   }
 

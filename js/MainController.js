@@ -7,17 +7,4 @@ angular.module('LutterApp')
         $state.go('project', {projectId: projectId});
       }
     };
-
-    $scope.playPause = function(projectId, articleId, trackNumber) {
-      return AudioPlayer.playPause(projectId, articleId, trackNumber);
-    };
-
-    $scope.isPlaying = function(projectId, articleId, trackNumber) {
-      return AudioPlayer.isPlaying(projectId, articleId, trackNumber);
-    };
-
-    $scope.$on('audio.stateChanged', function(r, date) {
-      console.log("[MainController] State changed");
-      $scope.$apply();
-    });
   }]);
