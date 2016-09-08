@@ -1,5 +1,13 @@
 angular.module('LutterApp')
-  .controller('MainController', ['$scope', 'AudioPlayer', function($scope, AudioPlayer) {
+  .controller('MainController', ['$scope', '$state', 'AudioPlayer', function($scope, $state, AudioPlayer) {
+    $scope.goTo = function(projectId, articleId) {
+      if (articleId) {
+        $state.go('project.article', {projectId: projectId, articleId: articleId});
+      } else if (projectId) {
+        $state.go('project', {projectId: projectId});
+      }
+    };
+
     $scope.playPause = function(projectId, articleId, trackNumber) {
       return AudioPlayer.playPause(projectId, articleId, trackNumber);
     };

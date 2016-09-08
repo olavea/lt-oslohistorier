@@ -21,16 +21,16 @@
     {% assign articles = collection.docs | sort:"position" %}
     {% for article in articles %}
       <article class="item {{ article.slug }}">
-        <a class="header" ui-sref="project.article({articleId: '{{ article.slug }}'})">
+        <div class="header" ng-click="goTo('{{ page.slug }}', '{{ article.slug }}')">
           <div class="badge badge-primary">
             <span ng-bind="{{ article.position }} | toLetter "></span>
           </div>
           <h1 class="title">{{ article.title | escape }}</h1>
-          <button class="btn" ng-click="playPause('{{ page.slug }}', '{{ article.slug }}')">
+          <button class="btn" ng-click="playPause('{{ page.slug }}', '{{ article.slug }}');  $event.stopPropagation();">
             <i class="fa" ng-class="{'fa-play':!isPlaying('{{ page.slug }}', '{{ article.slug }}'), 'fa-pause':isPlaying('{{ page.slug }}', '{{ article.slug }}')}"></i>
           </button>
           <i class="fa fa-right"></i>
-        </a>
+        </div>
         {% if article.teaser %}
           <div class="body">{{ article.teaser | markdownify }}</div>
         {% endif %}

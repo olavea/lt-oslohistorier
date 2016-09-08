@@ -12,13 +12,13 @@ layout: app
     {% for project in projects %}
 
     <article class="item {{ project.slug }}">
-      <a class="header" ui-sref="project({ projectId: '{{ project.slug }}' })">
+      <div class="header" ng-click="goTo('{{ project.slug }}')">
         <h1 class="title">{{ project.title | escape }}</h1>
-        <button class="btn btn-primary" ng-click="playPause('{{ project.slug }}')">
+        <button class="btn btn-primary" ng-click="playPause('{{ project.slug }}'); $event.stopPropagation();">
           <i class="fa" ng-class="{'fa-play':!isPlaying('{{ project.slug }}'), 'fa-pause':isPlaying('{{ project.slug }}')}"></i>
         </button>
         <i class="fa fa-right"></i>
-      </a>
+      </div>
       <div class="body">{{ project.teaser | markdownify }}</div>
     </article>
 
