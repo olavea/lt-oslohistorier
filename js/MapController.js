@@ -50,11 +50,9 @@ angular.module('LutterApp')
       if (newProjectId !== oldProjectId) {
         var markersData = [];
         if (newProjectId === "all") {
-          angular.forEach(Data, function(projectMarkers) {
-            markersData = markersData.concat(projectMarkers);
-          });
+          markersData = Data.allLocations();
         } else {
-          markersData = newProjectId ? Data[newProjectId] : [];
+          markersData = Data.projectLocations(newProjectId);
         }
         replaceMarkers(markersData);
       }
