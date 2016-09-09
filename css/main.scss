@@ -299,6 +299,12 @@ nav {
     max-width: 150px;
     min-height: 75px;
     max-height: 150px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    &:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
   }
 }
 
