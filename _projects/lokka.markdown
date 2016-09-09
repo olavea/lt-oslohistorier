@@ -5,6 +5,7 @@ teaser: Lydklippene følger trikkesporet fra _Brugata_ til _Thorsov_.
 color: "#BF5054"
 partner_logo_images:
 - "/uploads/logo258_avatar.png"
+- "/uploads/logo258_avatar.png"
 ---
 
 Denne turen ble laget av [Lutter øre](https://lutterore.com/) i forbindelse med [Digital Fortalt](http://digitaltmuseum.no/info/owners/H-DF).
