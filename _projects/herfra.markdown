@@ -11,11 +11,11 @@ partners:
 - logo-image: "/uploads/logo_lillylabs.png"
   url: http://lillylabs.no
   name: Lilly Labs
-  max-width: 150px
+  max-width: 130px
 - logo-image: "/uploads/logo_lutterore.jpg"
   url: https://lutterore.com/
   name: Lutter Øre
-  max-width: 160px
+  max-width: 135px
 - logo-image: "/uploads/logo_kote.png"
   url: http://www.magasinetkote.no/
   name: Magasinet KOTE

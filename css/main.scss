@@ -295,10 +295,10 @@ nav {
 .partners {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   a {
-    max-width: 200px;
+    max-width: 130px;
   }
 
   img {

@@ -13,3 +13,4 @@ partners:
 ---
 
 Denne turen ble laget av [Lutter øre](https://lutterore.com/) i forbindelse med [Digital Fortalt](http://digitaltmuseum.no/info/owners/H-DF).
+Turen ble også utgangspunktet for Lutter Øre's sammarbeid med [Lilly Labs](http://lillylabs.no) om teknologi for stedsspesifikk lyd.
