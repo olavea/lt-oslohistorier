@@ -9,7 +9,7 @@ teaser: 'Er Oslo virkelig «den delte byen» eller finnes det en altoppslukende 
 locations:
 - title: Intervju med Øyvind Holen
   coords: 59.932944, 10.882063
-  audio_file: "/uploads/%C3%98yvind%20Holen.mp3"
+  audio_file: "/uploads/herfra_Oyvind-Holen.mp3"
 ---
 
 Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føle at man er fra to forskjellige byer? Når Delillos synger om å gå brisen hjem via Bygdøy Allé rister de på hodet på Tveita? Og stirrer de forlegent på skotuppene oppe på Vinderen når Kenneth Engebretsen rapper om at junkiene på Haugenstua spiser rå kjøttdeig?
