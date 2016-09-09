@@ -9,7 +9,7 @@ partners:
 - logo-image: "/uploads/logo_lillylabs.png"
   name: Lilly Labs
   url: http://lillylabs.no
-- logo-image: "/uploads/logo_lutterore.jpg"
+- logo-image: "/uploads/logo_lutterore.png"
   name: Lutter Øre
   url: https://lutterore.com/
 ---
