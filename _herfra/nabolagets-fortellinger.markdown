@@ -15,7 +15,7 @@ locations:
     file: 
     credit: 
 - title: Grorud
-  audio_file: "/uploads/Skomaker%20pa%CC%8A%20Grorud.mp3"
+  audio_file: "/uploads/herfra_Skomaker-Grorud.mp3"
   coords: 59.960680, 10.881304
   image:
     file: 
