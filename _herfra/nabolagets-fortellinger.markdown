@@ -21,7 +21,7 @@ locations:
     file: 
     credit: 
 - title: Botanisk hage
-  audio_file: "/uploads/Botanisk.mp3"
+  audio_file: "/uploads/herfra_Botanisk.mp3"
   coords: 59.916369, 10.769551
   image:
     file: 
