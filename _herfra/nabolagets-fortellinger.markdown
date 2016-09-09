@@ -9,19 +9,19 @@ teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser k
   grensene?
 locations:
 - title: Lilleaker
-  audio_file: 
+  audio_file: "/uploads/Lilleaker.mp3"
   coords: 59.920087, 10.636415
   image:
     file: 
     credit: 
 - title: Grorud
-  audio_file: 
+  audio_file: "/uploads/Skomaker%20pa%CC%8A%20Grorud.mp3"
   coords: 59.960680, 10.881304
   image:
     file: 
     credit: 
 - title: Botanisk hage
-  audio_file: 
+  audio_file: "/uploads/Botanisk.mp3"
   coords: 59.916369, 10.769551
   image:
     file: 
