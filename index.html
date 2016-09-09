@@ -13,6 +13,9 @@ layout: app
 
     <article class="item {{ project.slug }}">
       <div class="header" ng-click="goTo('{{ project.slug }}')">
+        {% if project.logo-image %}
+        <img src="{{ project.logo-image }}"></img>
+        {% endif %}
         <h1 class="title">{{ project.title | escape }}</h1>
         <play-button project-id="{{ project.slug }}"></play-button>
         <i class="fa fa-right"></i>

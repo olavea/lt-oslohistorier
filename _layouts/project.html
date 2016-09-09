@@ -8,6 +8,9 @@
   </nav>
 
   <header class="header {{ project.slug }}">
+    {% if project.logo-image %}
+    <img src="{{ project.logo-image }}"></img>
+    {% endif %}
     <h1>{{ project.title | escape }}</h1>
     <play-button project-id="{{ project.slug }}"></play-button>
   </header>

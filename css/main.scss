@@ -154,6 +154,11 @@ nav {
   justify-content: flex-start;
   position: relative;
 
+  img {
+    max-height: 3.5rem;
+    margin: -1.75rem 0.5rem -1.75rem 0;
+  }
+
   .badge {
     margin-left: -0.5rem;
     margin-right: 0.75rem;
