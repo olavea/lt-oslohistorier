@@ -6,7 +6,7 @@ color: "#DCCAB4"
 author: Johan Lie Hammerstrøm
 teaser: 'Er Oslo virkelig «den delte byen» eller finnes det en altoppslukende «Oslo-ånd»
   som holder byen samlet? En statisk vestkant møter en bevegelig og søkende østkant. '
-location:
+locations:
 - title: Intervju med Øyvind Holen
   coords: 59.932944, 10.882063
   audio_file: "/uploads/%C3%98yvind%20Holen.mp3"
