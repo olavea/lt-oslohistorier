@@ -43,4 +43,9 @@
   <section class="{{ project.slug }}">
     {{ project.content | markdownify }}
   </section>
+  <section class="{{ project.slug }} partners">
+    {% for partner in project.partners %}
+      <a alt="{{ partner.name }}" href="{{ partner.url }}"><img alt="{{ partner.name }}" src="{{ partner.logo-image }}"></a>
+    {% endfor %}
+  </section>
 </div>

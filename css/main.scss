@@ -288,6 +288,20 @@ nav {
   }
 }
 
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  img {
+    min-width: 75px;
+    max-width: 150px;
+    min-height: 75px;
+    max-height: 150px;
+  }
+}
+
 // LAYOUT
 
 main {
