@@ -11,19 +11,19 @@ partners:
 - logo-image: "/uploads/logo_lillylabs.png"
   url: http://lillylabs.no
   name: Lilly Labs
-  max-width: 150px;
+  max-width: 150px
 - logo-image: "/uploads/logo_lutterore.jpg"
-  url: http://lutterore.no
+  url: https://lutterore.com/
   name: Lutter Øre
-  max-width: 160px;
+  max-width: 160px
 - logo-image: "/uploads/logo_kote.png"
   url: http://www.magasinetkote.no/
   name: Magasinet KOTE
-  max-width: 200px;
+  max-width: 200px
 - logo-image: "/uploads/logo_Triennalen.jpg"
   url: http://oslotriennale.no/
   name: Oslo arkitekturtriennale 2016
-  max-width: 200px;
+  max-width: 200px
 ---
 
 HERFRA utforsker temaet tilhørighet gjennom undersøkelser av forskjellige Oslo-spesifikke situasjoner. Hvert punkt på kartet er knyttet til lyd eller tekst og gir en fortelling, betraktning eller bilde på opplevelsen av stedet du befinner deg.
