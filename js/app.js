@@ -24,7 +24,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
       views: {
         "main@": {
           templateUrl: function($stateParams) {
-            return "/projects/" + $stateParams.projectId + "/index.html";
+            return "/projects/" + $stateParams.projectId + ".html";
           }
         }
       },
@@ -42,7 +42,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
       views: {
         "main@": {
           templateUrl: function($stateParams) {
-            return "/" + $stateParams.projectId + "/" + $stateParams.articleId + "/index.html";
+            return "/" + $stateParams.projectId + "/" + $stateParams.articleId + ".html";
           }
         }
       },

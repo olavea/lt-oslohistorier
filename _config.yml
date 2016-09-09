@@ -27,7 +27,6 @@ defaults:
     type: projects
   values:
     layout: project
-permalink: pretty
 include:
 - _redirects
 exclude:
