@@ -191,6 +191,10 @@ nav {
     transform: translateY(-50%);
     right: 1rem;
   }
+
+  +.author {
+    margin-top: -1.5rem;
+  }
 }
 
 .card {

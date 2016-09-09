@@ -23,6 +23,10 @@
       <play-button project-id="{{ project_slug }}" article-id="{{ article.slug }}"></play-button>
     </header>
 
+    {% if article.author %}
+    <div class="author">{{ article.author }}</div>
+    {% endif %}
+
     {% if article.teaser %}
       <section>
         {{ article.teaser | markdownify }}
