@@ -1,5 +1,5 @@
 angular.module('LutterApp')
-  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', 'toLetterFilter', function($scope, $state, Data, AppState, toLetterFilter) {
+  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', 'toLetterFilter', 'AudioPlayer', function($scope, $state, Data, AppState, toLetterFilter, AudioPlayer) {
     $scope.state = AppState;
 
     angular.extend($scope, {
@@ -25,39 +25,79 @@ angular.module('LutterApp')
       $state.go('project.article', {projectId: marker.projectId, articleId: marker.articleId});
     }
 
-    function replaceMarkers(markersData) {
-      $scope.markers = {};
+    function createMarkerKey(marker) {
+      return String(marker.projectId) + String(marker.position) + String(marker.trackNum);
+    }
 
-      angular.forEach(markersData, function(marker, key) {
-        var markerKey = String(marker.projectId) + key;
-        $scope.markers[markerKey] = {
-          lat: marker.lat,
-          lng: marker.lng,
-          projectId: marker.projectId,
-          articleId: marker.articleId,
-          icon: {
-            type: 'div',
-            iconSize: [24, 24],
-            iconAnchor: [12, 12],
-            className: 'marker',
-            html: '<div class="badge badge-primary ' + AppState.selectedProjectId + '" style="background-color: ' + marker.color + '"><span>' + toLetterFilter(marker.position) + '</span></div>'
-          }
-        };
+    function zIndexOffset(marker) {
+      if (AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum)) {
+        return 1500;
+      } else if (AppState.selectedArticleId === marker.articleId) {
+        console.log("IS selected article");
+        return 1000;
+      }
+      return 0;
+    }
+
+    function createIcon(marker) {
+      var isPlaying = AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum);
+      var iconClasses = String(AppState.selectedProjectId) + (isPlaying ? " playing" : "");
+      iconClasses += " " + marker.projectId;
+      iconClasses += " " + marker.articleId;
+      var icon = {
+        type: 'div',
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
+        className: 'marker',
+        html: '<div class="badge badge-primary ' + iconClasses + '"><span>' + toLetterFilter(marker.position) + '</span></div>'
+      };
+      return icon;
+    }
+
+    function updateMarkers() {
+      angular.forEach($scope.markers, function(marker) {
+        marker.icon = createIcon(marker);
+        marker.zIndexOffset = zIndexOffset(marker);
       });
     }
 
+    function replaceMarkers(markersData) {
+      $scope.markers = {};
+
+      for (var i = 0; i < markersData.length; i++) {
+        var marker = markersData[i];
+        var markerKey = createMarkerKey(marker);
+        $scope.markers[markerKey] = {
+          lat: marker.lat,
+          lng: marker.lng,
+          trackNum: marker.trackNum,
+          projectId: marker.projectId,
+          articleId: marker.articleId,
+          position: marker.position,
+          zIndexOffset: zIndexOffset(marker),
+          icon: createIcon(marker)
+        };
+      }
+    }
+
     $scope.$watch('state.selectedProjectId', function(newProjectId, oldProjectId) {
-      console.log("selectedProjectId");
       if (newProjectId !== oldProjectId) {
         var markersData = [];
         if (newProjectId === "all") {
           markersData = Data.allLocations();
-          console.log("all");
-        } else {
+          console.log("[Map Controller] display all markers");
+        } else if (newProjectId) {
           markersData = Data.projectLocations(newProjectId);
-          console.log("else");
+          console.log("[Map Controller] display project markers", newProjectId);
         }
         replaceMarkers(markersData);
+      }
+    });
+
+    $scope.$watch('state.selectedArticleId', function(newArticleId, oldArticleId) {
+      console.log("[MapController] selectedArticleId changed", newArticleId, oldArticleId);
+      if (newArticleId !== oldArticleId) {
+        updateMarkers();
       }
     });
 
@@ -67,6 +107,12 @@ angular.module('LutterApp')
       } else {
         goToMarkerArticle(args.model);
       }
+    });
+
+    $scope.$on('audio.stateChanged', function(r, data) {
+      $scope.$apply(function() {
+        updateMarkers();
+      });
     });
 
     $scope.$on('leafletDirectiveMap.click', function(event, args) {
