@@ -47,12 +47,15 @@ angular.module('LutterApp')
     }
 
     $scope.$watch('state.selectedProjectId', function(newProjectId, oldProjectId) {
+      console.log("selectedProjectId");
       if (newProjectId !== oldProjectId) {
         var markersData = [];
         if (newProjectId === "all") {
           markersData = Data.allLocations();
+          console.log("all");
         } else {
           markersData = Data.projectLocations(newProjectId);
+          console.log("else");
         }
         replaceMarkers(markersData);
       }

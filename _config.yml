@@ -27,6 +27,11 @@ defaults:
     type: projects
   values:
     layout: project
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: app
 include:
 - _redirects
 exclude:

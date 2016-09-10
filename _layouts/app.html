@@ -11,9 +11,50 @@
 
   <div class="main-container" ng-controller="MainController">
     <main ui-view="main" autoscroll="true">
-      {{ content }}
     </main>
   </div>
+
+  <!-- Templates -->
+
+  <script type="text/ng-template" id="home.html">
+    <div class="main-content">
+      <header>
+        <h1>{{page.title | escape }}</h1>
+      </header>
+
+      <section>{{ page.teaser | markdownify }}</section>
+
+      <section class="list">
+        {% assign projects = site.projects | sort:"position" %}
+        {% for project in projects %}
+
+        <article class="item {{ project.slug }}">
+          <div class="header" ng-click="goTo('{{ project.slug }}')">
+            {% if project.logo-image %}
+            <img src="{{ project.logo-image }}"></img>
+            {% endif %}
+            <h1 class="title">{{ project.title | escape }}</h1>
+            <play-button project-id="{{ project.slug }}"></play-button>
+            <i class="fa fa-right"></i>
+          </div>
+          <div class="body">{{ project.teaser | markdownify }}</div>
+        </article>
+
+        {% endfor %}
+      </section>
+
+      <section class="herfra">
+        {{ page.content | markdownify }}    
+      </section>
+
+      <section class="{{ page.slug }} partners">
+      {% for partner in page.partners %}
+        <a alt="{{ partner.name }}" href="{{ partner.url }}" style="max-width: {{ partner.max-width }}"><img alt="{{ partner.name }}" src="{{ partner.logo-image }}"></a>
+      {% endfor %}
+      </section>
+
+    </div>
+  </script>
 
   {% include scripts.html %}
 
