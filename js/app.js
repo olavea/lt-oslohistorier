@@ -41,7 +41,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
         AppState.selectedProjectId = $stateParams.projectId;
       },
       onExit: function(AppState) {
-        console.log("Exit project");
+        console.log("[APP] Exit project state");
         AppState.selectedProjectId = 'all';
       }
     })
@@ -59,7 +59,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
         AppState.selectedArticleId = $stateParams.articleId;
       },
       onExit: function(AppState) {
-        console.log("[APP] Exit article state", $stateParams.articleId);
+        console.log("[APP] Exit article state");
         AppState.selectedArticleId = null;
       }
     });
