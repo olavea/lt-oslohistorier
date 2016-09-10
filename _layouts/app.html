@@ -16,6 +16,11 @@
 
   <!-- Templates -->
 
+  {% assign projects = site.projects | sort:"position" %}
+  {% for project in projects %}
+    {% include project.html project=project %}
+  {% endfor %}
+
   <script type="text/ng-template" id="home.html">
     <div class="main-content">
       <header>

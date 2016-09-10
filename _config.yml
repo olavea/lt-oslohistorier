@@ -13,7 +13,7 @@ collections:
     output: true
   projects:
     title: Projects
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -22,11 +22,6 @@ defaults:
     path: ''
   values:
     layout: article
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: project
 - scope:
     path: ''
     type: pages
