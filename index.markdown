@@ -1,6 +1,6 @@
 ---
 title: Oslohistorier
-teaser: 'Lær byen bedre å kjenne!'
+teaser: Lær byen bedre å kjenne!
 color: "#BF5054"
 partners:
 - logo-image: "/uploads/logo_lillylabs.png"

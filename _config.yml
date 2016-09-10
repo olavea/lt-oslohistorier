@@ -2,15 +2,15 @@
 title: Oslohistorier
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   herfra:
     title: Herfra
     output: false
   lokka:
     title: Løkka
     output: false
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: false
