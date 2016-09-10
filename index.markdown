@@ -15,7 +15,7 @@ Oslohistorier er vår prototype på webapp for stedspesifikk lydformidling.
 Teknologien kaller vi Lutter Tech og er et samarbeid mellom [Lutter øre](https://lutterore.com/) 
 og [Lilly Labs](http://lillylabs.no).
 
-Kunne du trenge noe lignende ta kontakt på luttertech@lillylabs.no.
+Kunne du trenge noe lignende ta kontakt på [luttertech@lillylabs.no](mailto:luttertech@lillylabs.no).
 
 
 
