@@ -15,7 +15,15 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
   $stateProvider
     .state('home', {
       url: "/",
+      views: {
+        "main@": {
+          templateUrl: function() {
+            return "home.html";
+          }
+        }
+      },
       onEnter: function($stateParams, AppState) {
+        console.log("Setting AppState to all");
         AppState.selectedProjectId = 'all';
       }
     })
@@ -24,7 +32,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
       views: {
         "main@": {
           templateUrl: function($stateParams) {
-            return "/projects/" + $stateParams.projectId + ".html";
+            return "projects/" + $stateParams.projectId + ".html";
           }
         }
       },
@@ -42,7 +50,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
       views: {
         "main@": {
           templateUrl: function($stateParams) {
-            return "/" + $stateParams.projectId + "/" + $stateParams.articleId + ".html";
+            return $stateParams.projectId + "/" + $stateParams.articleId + ".html";
           }
         }
       },

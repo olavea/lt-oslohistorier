@@ -11,9 +11,65 @@
 
   <div class="main-container" ng-controller="MainController">
     <main ui-view="main" autoscroll="true">
-      {{ content }}
     </main>
   </div>
+
+  <!-- Templates -->
+
+  {% assign projects = site.projects | sort:"position" %}
+  {% for project in projects %}
+    {% include project.html project=project %}
+    {% for collection in site.collections %}
+    {% if collection.label == project.slug %}
+      {% assign articles = collection.docs | sort:"position" %}
+      {% for article in articles %}
+        {% include article.html project=project article=article %}
+      {% endfor %}
+    {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  <script type="text/ng-template" id="home.html">
+    <div class="main-content">
+      <header>
+        <h1>{{page.title }}</h1>
+      </header>
+
+      {% if page.teaser %}
+      <section>{{ page.teaser | markdownify }}</section>
+      {% endif %}
+
+      <section class="list">
+        {% assign projects = site.projects | sort:"position" %}
+        {% for project in projects %}
+
+        <article class="item {{ project.slug }}">
+          <div class="header" ng-click="goTo('{{ project.slug }}')">
+            {% if project.logo-image %}
+            <img src="{{ project.logo-image }}"></img>
+            {% endif %}
+            <h1 class="title">{{ project.title }}</h1>
+            <play-button project-id="{{ project.slug }}"></play-button>
+            <i class="fa fa-right"></i>
+          </div>
+          <div class="body">{{ project.teaser | markdownify }}</div>
+        </article>
+
+        {% endfor %}
+      </section>
+
+      <section class="herfra">
+        {{ page.content }}    
+      </section>
+
+      <section class="{{ page.slug }} partners">
+      {% for partner in page.partners %}
+        <a alt="{{ partner.name }}" href="{{ partner.url }}" style="max-width: {{ partner.max-width }}"><img alt="{{ partner.name }}" src="{{ partner.logo-image }}"></a>
+      {% endfor %}
+      </section>
+
+    </div>
+  </script>
 
   {% include scripts.html %}
 

@@ -2,31 +2,27 @@
 title: Oslohistorier
 timezone: UTC
 collections:
-  herfra:
-    title: Herfra
-    output: true
-  lokka:
-    title: Løkka
-    output: true
   posts:
     title: Posts
     output: true
+  herfra:
+    title: Herfra
+    output: false
+  lokka:
+    title: Løkka
+    output: false
   projects:
     title: Projects
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
+    type: pages
   values:
-    layout: article
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: project
+    layout: app
 include:
 - _redirects
 exclude:
