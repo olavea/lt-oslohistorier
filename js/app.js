@@ -50,7 +50,7 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
       views: {
         "main@": {
           templateUrl: function($stateParams) {
-            return "/" + $stateParams.projectId + "/" + $stateParams.articleId + ".html";
+            return $stateParams.projectId + "/" + $stateParams.articleId + ".html";
           }
         }
       },

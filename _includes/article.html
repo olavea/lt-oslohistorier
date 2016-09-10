@@ -1,0 +1,64 @@
+
+
+<script type="text/ng-template" id="{{ project.slug }}/{{ article.slug }}.html">
+  <div class="main-content">
+
+    <nav class="{{ project.slug }}">
+      <a ui-sref="project({ projectId: '{{ article.collection }}' })">
+        <i class="fa fa-back"></i>
+        {{ project.title }}
+      </a>
+    </nav>
+
+    <article>
+
+      <header class="header {{ article.slug }}">
+        <h1>{{ article.title | escape }}</h1>
+        <div class="badge badge-primary">
+          <span ng-bind="{{ article.position }} | toLetter"></span>
+        </div>
+        <play-button project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
+      </header>
+
+      {% if article.author %}
+      <div class="author">{{ article.author }}</div>
+      {% endif %}
+
+      {% if article.teaser %}
+        <section>
+          {{ article.teaser | markdownify }}
+        </section>
+        {% if article.coords %}
+          <hr>
+        {% endif %}
+      {% endif %}
+
+      <aside class="{{ article.slug }}">
+        {% assign i = 0 %}
+        {% for location in article.locations %}
+
+        <div class="card">
+          <div class="header">
+            <h1 class="title"><span>{{ location.title }}</span></h1>
+            <play-button project-id="{{ project.slug }}" article-id="{{ article.slug }}" track-num="{{ i }}"></play-button>
+          </div>
+          {% if location.image %}
+            {% if location.image.file %}
+            <div class="image">
+              <img src="{{ location.image.file }}" />
+              <figcaption>{{ location.image.credit }}</figcaption>
+            </div>
+            {% endif %}
+          {% endif %}
+        </div>
+        {% assign i = i | plus: 1 %}
+        {% endfor %}
+      </aside>
+
+      <section class="{{ project.slug }}">
+        {{ article.content | markdownify }}
+      </section>
+    </article>
+    
+  </div>
+</script>

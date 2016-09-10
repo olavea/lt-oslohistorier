@@ -19,6 +19,14 @@
   {% assign projects = site.projects | sort:"position" %}
   {% for project in projects %}
     {% include project.html project=project %}
+    {% for collection in site.collections %}
+    {% if collection.label == project.slug %}
+      {% assign articles = collection.docs | sort:"position" %}
+      {% for article in articles %}
+        {% include article.html project=project article=article %}
+      {% endfor %}
+    {% endif %}
+    {% endfor %}
   {% endfor %}
 
   <script type="text/ng-template" id="home.html">
@@ -27,7 +35,9 @@
         <h1>{{page.title | escape }}</h1>
       </header>
 
+      {% if page.teaser %}
       <section>{{ page.teaser | markdownify }}</section>
+      {% endif %}
 
       <section class="list">
         {% assign projects = site.projects | sort:"position" %}
@@ -49,7 +59,7 @@
       </section>
 
       <section class="herfra">
-        {{ page.content | markdownify }}    
+        {{ page.content }}    
       </section>
 
       <section class="{{ page.slug }} partners">

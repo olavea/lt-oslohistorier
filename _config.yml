@@ -20,10 +20,6 @@ collections:
 defaults:
 - scope:
     path: ''
-  values:
-    layout: article
-- scope:
-    path: ''
     type: pages
   values:
     layout: app
