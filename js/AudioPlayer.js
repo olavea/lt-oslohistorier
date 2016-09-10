@@ -18,12 +18,8 @@ angular.module('LutterApp')
       }
     };
 
-    var setCurrentTrack = function(projectId, articleId, trackNum) {
-      currentTrack = {
-        projectId: projectId,
-        articleId: articleId,
-        trackNum: trackNum
-      };
+    var setCurrentTrack = function(track) {
+      currentTrack = track;
       console.log("[AudioPlayer] Setting current track: ", currentTrack);
     };
 
@@ -34,7 +30,7 @@ angular.module('LutterApp')
         if (tracks[trackNum].audioFile) {
           audio.src = tracks[trackNum].audioFile;
           audio.play();
-          setCurrentTrack(projectId, articleId, trackNum);
+          setCurrentTrack(tracks[trackNum]);
           return true;
         } else {
           console.log("[AudioPlayer] No audio", projectId, articleId, trackNum);
@@ -50,7 +46,7 @@ angular.module('LutterApp')
       if (tracks[0].audioFile) {
         audio.src = tracks[0].audioFile;
         audio.play();
-        setCurrentTrack(projectId, articleId, 0);
+        setCurrentTrack(tracks[0]);
         return true;
       } else {
         console.log("[AudioPlayer] No audio", projectId, articleId);
@@ -64,7 +60,7 @@ angular.module('LutterApp')
       if (track) {
         audio.src = track.audioFile;
         audio.play();
-        setCurrentTrack(projectId, track.articleId, track.trackNum);
+        setCurrentTrack(track);
         return true;
       } else {
         console.log("[AudioPlayer] No audio", projectId);
@@ -122,15 +118,15 @@ angular.module('LutterApp')
     // listen for audio-element events, and broadcast stuff
     audio.addEventListener('play', function() {
       console.log("[Audio] Played:", currentTrack);
-      $rootScope.$broadcast('audio.stateChanged', this);
+      $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('pause', function() {
       console.log("[Audio] Paused:", currentTrack);
-      $rootScope.$broadcast('audio.stateChanged', this);
+      $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('ended', function() {
       console.log("[Audio] Ended:", currentTrack);
-      $rootScope.$broadcast('audio.stateChanged', this);
+      $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
 
     return {
