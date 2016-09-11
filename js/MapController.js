@@ -33,7 +33,6 @@ angular.module('LutterApp')
       if (AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum)) {
         return 1500;
       } else if (AppState.selectedArticleId === marker.articleId) {
-        console.log("IS selected article");
         return 1000;
       }
       return 0;
@@ -41,7 +40,9 @@ angular.module('LutterApp')
 
     function createIcon(marker) {
       var isPlaying = AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum);
+      var isInactive = AppState.selectedArticleId && (AppState.selectedArticleId !== marker.articleId);
       var iconClasses = String(AppState.selectedProjectId) + (isPlaying ? " playing" : "");
+      iconClasses += (isInactive ? " inactive" : "");
       iconClasses += " " + marker.projectId;
       iconClasses += " " + marker.articleId;
       var icon = {
