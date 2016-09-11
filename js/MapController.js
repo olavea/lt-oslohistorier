@@ -1,5 +1,5 @@
 angular.module('LutterApp')
-  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', 'toLetterFilter', 'AudioPlayer', function($scope, $state, Data, AppState, toLetterFilter, AudioPlayer) {
+  .controller('MapController', ['$scope', '$state', 'leafletBoundsHelpers', 'Data', 'AppState', 'toLetterFilter', 'AudioPlayer', function($scope, $state, leafletBoundsHelpers, Data, AppState, toLetterFilter, AudioPlayer) {
     $scope.state = AppState;
 
     angular.extend($scope, {
@@ -54,6 +54,18 @@ angular.module('LutterApp')
       return icon;
     }
 
+    function updateBounds() {
+      var latLongArray = [];
+      angular.forEach($scope.markers, function(marker) {
+        if (marker.lat && marker.lng) {
+          latLongArray.push(L.latLng(marker.lat, marker.lng));
+        }
+      });
+      var bounds = L.latLngBounds(latLongArray);
+      $scope.bounds = {southWest: bounds.getSouthWest(), northEast: bounds.getNorthEast()};
+      $scope.center = {};
+    }
+
     function updateMarkers() {
       angular.forEach($scope.markers, function(marker) {
         marker.icon = createIcon(marker);
@@ -91,6 +103,7 @@ angular.module('LutterApp')
           console.log("[Map Controller] display project markers", newProjectId);
         }
         replaceMarkers(markersData);
+        updateBounds();
       }
     });
 
