@@ -1,5 +1,5 @@
 angular.module('LutterApp')
-  .controller('MapController', ['$scope', '$state', 'Data', 'AppState', 'toLetterFilter', 'AudioPlayer', function($scope, $state, Data, AppState, toLetterFilter, AudioPlayer) {
+  .controller('MapController', ['$scope', '$state', 'leafletBoundsHelpers', 'Data', 'AppState', 'toLetterFilter', 'AudioPlayer', function($scope, $state, leafletBoundsHelpers, Data, AppState, toLetterFilter, AudioPlayer) {
     $scope.state = AppState;
 
     angular.extend($scope, {
@@ -33,7 +33,6 @@ angular.module('LutterApp')
       if (AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum)) {
         return 1500;
       } else if (AppState.selectedArticleId === marker.articleId) {
-        console.log("IS selected article");
         return 1000;
       }
       return 0;
@@ -41,7 +40,9 @@ angular.module('LutterApp')
 
     function createIcon(marker) {
       var isPlaying = AudioPlayer.isPlaying(marker.projectId, marker.articleId, marker.trackNum);
+      var isInactive = AppState.selectedArticleId && (AppState.selectedArticleId !== marker.articleId);
       var iconClasses = String(AppState.selectedProjectId) + (isPlaying ? " playing" : "");
+      iconClasses += (isInactive ? " inactive" : "");
       iconClasses += " " + marker.projectId;
       iconClasses += " " + marker.articleId;
       var icon = {
@@ -52,6 +53,18 @@ angular.module('LutterApp')
         html: '<div class="badge badge-primary ' + iconClasses + '"><span>' + toLetterFilter(marker.position) + '</span></div>'
       };
       return icon;
+    }
+
+    function updateBounds() {
+      var latLongArray = [];
+      angular.forEach($scope.markers, function(marker) {
+        if (marker.lat && marker.lng) {
+          latLongArray.push(L.latLng(marker.lat, marker.lng));
+        }
+      });
+      var bounds = L.latLngBounds(latLongArray);
+      $scope.bounds = {southWest: bounds.getSouthWest(), northEast: bounds.getNorthEast()};
+      $scope.center = {};
     }
 
     function updateMarkers() {
@@ -91,6 +104,7 @@ angular.module('LutterApp')
           console.log("[Map Controller] display project markers", newProjectId);
         }
         replaceMarkers(markersData);
+        updateBounds();
       }
     });
 

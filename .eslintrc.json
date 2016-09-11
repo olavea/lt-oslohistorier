@@ -8,6 +8,7 @@
     },
     "globals": {
       "angular": true,
-      "Audio": true
+      "Audio": true,
+      "L": true
     }
 }
