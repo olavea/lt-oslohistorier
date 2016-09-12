@@ -1,6 +1,8 @@
 ---
 title: Oslohistorier
-teaser: Lær byen bedre å kjenne!
+teaser: 'Oslo er full av historier. Hvert gatehjørne, hver park og hver bygning er
+  knyttet til opplevelser, debatter, minner og hendelser, både personlige og offentlige.
+  Her deler vi noen av dem. Gå ut i byen og lytt til fortellingene. '
 color: "#BF5054"
 partners:
 - logo-image: "/uploads/logo_lillylabs.png"
