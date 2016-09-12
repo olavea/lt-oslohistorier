@@ -14,7 +14,7 @@ locations:
 
 Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føle at man er fra to forskjellige byer? Når Delillos synger om å gå brisen hjem via Bygdøy Allé rister de på hodet på Tveita? Og stirrer de forlegent på skotuppene oppe på Vinderen når Kenneth Engebretsen rapper om at junkiene på Haugenstua spiser rå kjøttdeig?
 
-[herfra_Terrasser-med-utvidet-stue-på-Tveita.JPG](/uploads/herfra_Terrasser-med-utvidet-stue-pa%CC%8A-Tveita.JPG)**Terrasser med utvidet stue på Tveita. Foto: Sindre Bodvar**
+![herfra_Terrasser-med-utvidet-stue-på-Tveita.JPG](/uploads/herfra_Terrasser-med-utvidet-stue-pa%CC%8A-Tveita.JPG)**Terrasser med utvidet stue på Tveita. Foto: Sindre Bodvar**
 
 –   Noen har et veldig sterkt forhold til om de er fra Oslo Øst eller Oslo Vest, men like mange har et problematisk forhold til det samme. Jeg tror tilhørigheten til Oslo trumfer det meste, man lærer seg så raskt å bruke hele byen, sier Øyvind Holen. Han er journalist og forfatter, blant annet av boken «Groruddalen», som handler om oppvekst og tilhørighet til Oslos mest folkerike bydel. I Holens barndom handlet Groruddalen om et mikrokosmos diktert av drabantbyplanlegging og sporveiens sans for passende lengde mellom stoppesteder.
 
