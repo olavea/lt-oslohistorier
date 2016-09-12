@@ -30,6 +30,8 @@ locations:
   coords: 59.923378,10.755265
 ---
 
+![herfra_nilsen2.png](/uploads/herfra_nilsen2.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
+
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
 
 [Musikkvideo: Jay Z - Empre State Of Mind](https://www.youtube.com/watch?v=GPeOkzadr5g)
@@ -45,6 +47,8 @@ Den hiphopkyndige amerikanske professoren Tricia Rose har hevdet at rapmusikkens
 En av konklusjonene til Sandve var at estetiseringen av urbane rom utgjør en viktig del av hvordan artistene iscenesetter seg selv. Doktorgraden fikk tittelen Staging the real, og den viser blant annet at det dreier seg om mye av det samme for norske rappere som for Jay-Z.
 
 -Selv om det ikke finnes direkte paralleller, gir det å befeste en posisjon artistene tilhørighet, sier Sandve.
+
+![herfra_nilsen3.png](/uploads/herfra_nilsen3.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
 
 ## Heimstadsdiktning
 
@@ -97,6 +101,8 @@ Og spennet er tilsynelatende stort fra Karpe Diems outrerte visuelle uttrykk til
 -Det er en ganske tradisjonell greie i hiphop å filme nabolaget man kommer fra, gjerne krydra med et utvalg av typiske anti-steder som bak gitre og gjerder, bakgater, slitne bygninger, under broer og andre ikke-steder, somofte er etterlatenskaper fra etterkrigstidas planleggingsideal – modernismen, sier arkitekten Espen Hofsvang, som også rapper under navnet Espen Skauen.
 
 ## Rudolf, Lillebjørn, Joachim, Don Martin
+
+![herfra_nilsen1.png](/uploads/herfra_nilsen1.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
 
 Don Martin-låta «Nilsen» (2013) henter mye av sin kraft fra referansene til etablerte norske sangere og poeter med tilknytning til arbeiderklassen. I refrenget hevder Don Martin et slektskap med arbeiderpoeten Rudolf og de selvproletariserte trubadurene Lillebjørn og Joachim («Jeg er så Oslo du kan kalle meg for Nilsen»), og dermed også til Oslo-skildringene som foregangspersonene har blitt kanonisert og feiret for.
 
