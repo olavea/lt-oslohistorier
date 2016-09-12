@@ -4,11 +4,13 @@
     "rules": {
         "require-jsdoc": 0,
         "no-else-return": 0,
-        "max-len": 0
+        "max-len": 0,
+        "no-alert": 0
     },
     "globals": {
       "angular": true,
       "Audio": true,
-      "L": true
+      "L": true,
+      "confirm": true
     }
 }
