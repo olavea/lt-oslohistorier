@@ -14,8 +14,9 @@ locations:
 
 Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føle at man er fra to forskjellige byer? Når Delillos synger om å gå brisen hjem via Bygdøy Allé rister de på hodet på Tveita? Og stirrer de forlegent på skotuppene oppe på Vinderen når Kenneth Engebretsen rapper om at junkiene på Haugenstua spiser rå kjøttdeig?
 
-–   Noen har et veldig sterkt forhold til om de er fra Oslo Øst eller Oslo Vest, men like mange har et problematisk forhold til det samme. Jeg tror tilhørigheten til Oslo trumfer det meste, man lærer seg så raskt å bruke hele byen, sier Øyvind Holen.
-Han er journalist og forfatter, blant annet av boken «Groruddalen», som handler om oppvekst og tilhørighet til Oslos mest folkerike bydel. I Holens barndom handlet Groruddalen om et mikrokosmos diktert av drabantbyplanlegging og sporveiens sans for passende lengde mellom stoppesteder.
+[herfra_Terrasser-med-utvidet-stue-på-Tveita.JPG](/uploads/herfra_Terrasser-med-utvidet-stue-pa%CC%8A-Tveita.JPG)**Terrasser med utvidet stue på Tveita. Foto: Sindre Bodvar**
+
+–   Noen har et veldig sterkt forhold til om de er fra Oslo Øst eller Oslo Vest, men like mange har et problematisk forhold til det samme. Jeg tror tilhørigheten til Oslo trumfer det meste, man lærer seg så raskt å bruke hele byen, sier Øyvind Holen. Han er journalist og forfatter, blant annet av boken «Groruddalen», som handler om oppvekst og tilhørighet til Oslos mest folkerike bydel. I Holens barndom handlet Groruddalen om et mikrokosmos diktert av drabantbyplanlegging og sporveiens sans for passende lengde mellom stoppesteder.
 
 –   Min verden bestod av fem borettslag. Asken, Bjørka, Furua, Ospa eller Pilen. Også kjente vi litt vagt til Furuset og Trosterud som var nabostasjonene på t-banen, sier Holen.
 
@@ -30,10 +31,14 @@ Det var uansett ikke så mange kjente igjen på Lindeberg. Groruddalen var et st
 –   Det var et veldig stort gjennomtrekk av klassekamerater og familievenner, man var vant til at de forsvant og flyttet videre, sier Holen som mener den transitoriske følelsen holder seg den dag i dag.\
 –   Det er nesten blitt litt skrytete å komme fra Groruddalen, men du skal helst ikke fortsatt bo der hvis du har lykkes da, sier Holen tørt.
 
+[herfra_Smale-mellomrom-i-gateplan-på-Skoyen.JPG](/uploads/herfra_Smale-mellomrom-i-gateplan-pa%CC%8A-Skoyen.JPG)**Smale mellomrom i gateplan på Skøyen. Foto: Sindre Bodvar**
+
 Helt siden hovedstadens kondisjonerte bygget hjemmene sine på vestsiden av byen for å slippe røyken fra fabrikkene langs Akerselva har Oslo operert med klare sosiale skiller. På sitt aller grelleste er forskjellen i forventet levealder nesten 12 år avhengig av hvilke bydeler man sammenlikner med. Og fasiten lå klar allerede i 1994 da FAFO publiserte rapporten «Den delte byen». Det er vanskelig å ikke se for meg at noen av disse sosioøkonomiske faktorene som ligger bak spiller inn i hvilken tilhørighet man bygger til det felles fenomenet Oslo.
 
 Hvis tilhørigheten til Groruddalen og østkanten er preget av å skulle videre, enten med T-banen til sentrum eller til neste steg på klassestigen, så kan kanskje det motsatte sies for vestkanten?\
 Kirsten Danielsen er forsker ved velferdsforskningsinstituttet NOVA og studerte på 80-tallet såkalte «kondisjonerte» Frogner-fruer.
+
+[herfra_Bevaringsverdig-funkis-med-sma-balkonger-på-Briskeby-Professor-Dahls-gate.JPG](/uploads/herfra_Bevaringsverdig-funkis-med-sma-balkonger-pa%CC%8A-Briskeby-Professor-Dahls-gate.JPG)**Bevaringsverdig Funkis med små balkonger på Briskeby. Foto: Sindre Bodvar**
 
 –   Frogner-tilhørigheten? Den var jo veldig sterk og knyttet til forferdelig mange minner om det «store livet» som riktignok nok var blitt en del mindre etter hvert som alderen tok på, sier Danielsen.
 Hun intervjuet kvinner som fortsatt omtalte seg som «fru advokat» og som bodde i leiligheter hvor kun mannens navn stod på dørskiltet.
@@ -44,10 +49,11 @@ I motsetning til Holen mener hun det geografiske skillet mellom øst og vest er 
 
 –   Vi er aldri på Grønland. Vi trenger ikke å dra dit, for vi har alt vi trenger her, sa Frogner-representant Nora Andreassen til avisens utsendte.
 
+[herfra_Frodig-vegetasjon-på-Skoyen-terrasse.JPG](/uploads/herfra_Frodig-vegetasjon-pa%CC%8A-Skoyen-terrasse.JPG)**Frodig vegetasjon på Skøyen Terrasse. Foto: Sindre Bodvar**
+
 Det sies naturlig nok ingenting om hvor mange ungdommer journalisten intervjuet for å få tak i dette overskriftspoenget, men Tveita-ungdommen svarte med samme mynt: De ville ikke «ha noe å gjøre med de blærete vestkantfolka». Danielsen tror mangelen på integrasjon gjør at man bygger seg et mentalt kart over hvor man er fra.
 
-–   Du er føler deg fremmed, du er kledd på en annen måte, kroppsspråket ditt er annerledes, dialekten er annerledes. Det er så mange ting som peker ut at du er annerledes, sier Danielsen om hva hun tror skillet består i.\
-Likevel mener hun dette skillet er både flytende og i oppløsning. Delvis på grunn av måten man har begynt å bygge tilhørighet på østkanten. Oslo kommunes storstilte prosjekt Groruddalssatsningen går igjen.
+–   Du er føler deg fremmed, du er kledd på en annen måte, kroppsspråket ditt er annerledes, dialekten er annerledes. Det er så mange ting som peker ut at du er annerledes, sier Danielsen om hva hun tror skillet består i.Likevel mener hun dette skillet er både flytende og i oppløsning. Delvis på grunn av måten man har begynt å bygge tilhørighet på østkanten. Oslo kommunes storstilte prosjekt Groruddalssatsningen går igjen.
 
 –   Aktivitet rettet mot det stedet du bor skaper tilhørighet. I dag har jeg nettopp vært på et nytt bibliotek på Furuset. Det er så lett tilgjengelig, og det er sted kan oppsøke uten å ha noe spesifikt ærend. Slike åpne steder skaper tilhørighet, sier Danielsen.
 
@@ -65,6 +71,8 @@ Underdog-syndrom og satsing på lokalmiljøet. Men hva gjør det med tilhørighe
 
 Holen tror Groruddalens mikrokosmos hjelper mange som ikke nødvendigvis føler seg helt som nordmenn å ha noe «de er fra».
 –   På steder der det er stor variasjon i bakgrunnen så tror jeg selve stedet blir en identitetsmarkør. Jeg tror når du har jugoslavere, somaliere og pakistanere, så føler i alle fall jeg at alle ser på seg selv som de er fra Rommen, Furuset eller Holmlia. Jeg er usikker på om identiteten til Briskeby er så viktig når miljøet er veldig homogent. Jeg vet at det er lettere for folk å si at «jeg er fra Furuset» enn å si «jeg er norsk» for da møter du så mye motstand fordi mange ser på deg som «ikke norsk».
+
+[herfra_Klesvask-i-innglasset-terrasse-på-Trosterud.JPG](/uploads/herfra_Klesvask-i-innglasset-terrasse-pa%CC%8A-Trosterud.JPG)**Klesvask i innglasset terrasse på Trosterud. Foto: Sindre Bodvar**
 
 Vi kommer imidlertid ikke noe særlig nærmere hva den felles Oslo-kjærligheten består i. Sentrum blir av mange avskrevet som en handlegate med Storting og slott, et nasjonalt symbol mer enn en bymarkør. Oslo har til og med to fotballag som ikke kan utstå hverandre – et rivaleri som brenner med de eksakt samme sosioøkonomiske skillelinjene som i resten av debatten.
 
