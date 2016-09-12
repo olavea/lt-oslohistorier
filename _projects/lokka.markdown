@@ -14,5 +14,5 @@ partners:
   url: https://lutterore.com/
 ---
 
-Denne turen ble laget av [Lutter øre](https://lutterore.com/)til prosjektet [Kultur- og naturreise](http://knreise.org/).
+Denne turen ble laget av [Lutter øre](https://lutterore.com/) til prosjektet [Kultur- og naturreise](http://knreise.org/).
 Turen ble også utgangspunktet for Lutter øre's sammarbeid med [Lilly Labs](http://lillylabs.no) om teknologi for stedsspesifikk lyd. 
