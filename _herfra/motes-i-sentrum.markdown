@@ -20,22 +20,22 @@ Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føl
 
 –   Min verden bestod av fem borettslag. Asken, Bjørka, Furua, Ospa eller Pilen. Også kjente vi litt vagt til Furuset og Trosterud som var nabostasjonene på t-banen, sier Holen.
 
-For t-banen er selve livslinjen i en oppvekst i Groruddalen. Den starter som viktig identitetsmarkør i barndommen («Hvilket stopp er du fra?»), til å bli en effektiv integreringsmaskin mellom øst og vest i tenårene.\
+For t-banen er selve livslinjen i en oppvekst i Groruddalen. Den starter som viktig identitetsmarkør i barndommen («Hvilket stopp er du fra?»), til å bli en effektiv integreringsmaskin mellom øst og vest i tenårene.
 –   Det er jo fordelen med å bo i Oslo, det er så små distanser at i det man er gammel nok til å ta t-banen alene så trekker man inn mot sentrum for å utforske resten av byen, sier Holen.
 
 Det gjorde han selv, i likhet med mange andre Oslo-beboere. Men plutselig er man blitt så gammel at det blir for smått å være fra Lindeberg. For ingen som ikke kommer fra Groruddalen vet hvor det er. Da Holen dro i militæret var han plutselig «fra Oslo» og identiteten til T-banestoppet ble sakte visket ut. Det årlige identitetspåfyllet som de fleste i Norge gjennomgår ved juletider ble han mer eller mindre berøvet.
 
-–   Det typiske er jo at folk drar hjem til jul for frivillig og ufrivillig møte gamle venner på andre juledag. Men Lindeberg er jo en liten drabantby, så den festen var jo i Oslo sentrum, sier Holen.\
+–   Det typiske er jo at folk drar hjem til jul for frivillig og ufrivillig møte gamle venner på andre juledag. Men Lindeberg er jo en liten drabantby, så den festen var jo i Oslo sentrum, sier Holen.
 Det var uansett ikke så mange kjente igjen på Lindeberg. Groruddalen var et sted man kjøpte sin første leilighet, men man skulle videre derfra.
 
-–   Det var et veldig stort gjennomtrekk av klassekamerater og familievenner, man var vant til at de forsvant og flyttet videre, sier Holen som mener den transitoriske følelsen holder seg den dag i dag.\
+–   Det var et veldig stort gjennomtrekk av klassekamerater og familievenner, man var vant til at de forsvant og flyttet videre, sier Holen som mener den transitoriske følelsen holder seg den dag i dag.
 –   Det er nesten blitt litt skrytete å komme fra Groruddalen, men du skal helst ikke fortsatt bo der hvis du har lykkes da, sier Holen tørt.
 
 ![herfra_Smale-mellomrom-i-gateplan-på-Skoyen.JPG](/uploads/herfra_Smale-mellomrom-i-gateplan-pa%CC%8A-Skoyen.JPG)**Smale mellomrom i gateplan på Skøyen. Foto: Sindre Bodvar**
 
 Helt siden hovedstadens kondisjonerte bygget hjemmene sine på vestsiden av byen for å slippe røyken fra fabrikkene langs Akerselva har Oslo operert med klare sosiale skiller. På sitt aller grelleste er forskjellen i forventet levealder nesten 12 år avhengig av hvilke bydeler man sammenlikner med. Og fasiten lå klar allerede i 1994 da FAFO publiserte rapporten «Den delte byen». Det er vanskelig å ikke se for meg at noen av disse sosioøkonomiske faktorene som ligger bak spiller inn i hvilken tilhørighet man bygger til det felles fenomenet Oslo.
 
-Hvis tilhørigheten til Groruddalen og østkanten er preget av å skulle videre, enten med T-banen til sentrum eller til neste steg på klassestigen, så kan kanskje det motsatte sies for vestkanten?\
+Hvis tilhørigheten til Groruddalen og østkanten er preget av å skulle videre, enten med T-banen til sentrum eller til neste steg på klassestigen, så kan kanskje det motsatte sies for vestkanten?
 Kirsten Danielsen er forsker ved velferdsforskningsinstituttet NOVA og studerte på 80-tallet såkalte «kondisjonerte» Frogner-fruer.
 
 ![herfra_Bevaringsverdig-funkis-med-sma-balkonger-på-Briskeby-Professor-Dahls-gate.JPG](/uploads/herfra_Bevaringsverdig-funkis-med-sma-balkonger-pa%CC%8A-Briskeby-Professor-Dahls-gate.JPG)**Bevaringsverdig Funkis med små balkonger på Briskeby. Foto: Sindre Bodvar**
@@ -61,8 +61,8 @@ Tilhørigheten skapes også gjennom narrativet om stedet man er fra. Å skulle m
 
 –   Det å si «det er ikke slik de sier at det er» gjør at et sted forandrer seg mentalt. Det blir et helt annet sted for deg bare ved at du forteller det, sier Danielsen.
 
-Det er Øyvind Holen helt enig i.\
-–   Den beste historien er om Holmlia. Da jeg vokste opp var det stedet alle vitsene dreide seg om: «Hva lukter banen til Holmlia?». Det var gjenger, trøbbel og ghetto.\
+Det er Øyvind Holen helt enig i.
+–   Den beste historien er om Holmlia. Da jeg vokste opp var det stedet alle vitsene dreide seg om: «Hva lukter banen til Holmlia?». Det var gjenger, trøbbel og ghetto.
 –   De som bor der har tatt grep om tilhørigheten og laget t-skjorter og festivaler og rett og slett skryt opp Holmlia til å bli et sted i verden, sier Holen.
 
 Underdog-syndrom og satsing på lokalmiljøet. Men hva gjør det med tilhørigheten at Oslo Øst har Norges har mest sammensatte befolkning?
