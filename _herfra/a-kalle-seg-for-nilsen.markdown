@@ -30,7 +30,8 @@ locations:
   coords: 59.923378,10.755265
 ---
 
-![herfra_nilsen2.png](/uploads/herfra_nilsen2.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
+![herfra_nilsen2.png](/uploads/herfra_nilsen2.png)
+**Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.**
 
 I musikkvideoen til «Empire state of mind» - låten der Jay-Z forteller om å streve seg ut av den harde oppveksten i Brooklyn – beveger han seg gjennom gater og avenyer mellom nabolaget han vokste opp i og Manhattan. Og mens han rapper om å klare det i New York, florerer bildene av metropolens mektige skyline.
 
@@ -48,7 +49,8 @@ En av konklusjonene til Sandve var at estetiseringen av urbane rom utgjør en vi
 
 -Selv om det ikke finnes direkte paralleller, gir det å befeste en posisjon artistene tilhørighet, sier Sandve.
 
-![herfra_nilsen3.png](/uploads/herfra_nilsen3.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
+![herfra_nilsen3.png](/uploads/herfra_nilsen3.png)
+**Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.**
 
 ## Heimstadsdiktning
 
@@ -102,7 +104,8 @@ Og spennet er tilsynelatende stort fra Karpe Diems outrerte visuelle uttrykk til
 
 ## Rudolf, Lillebjørn, Joachim, Don Martin
 
-![herfra_nilsen1.png](/uploads/herfra_nilsen1.png)\*\*Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.\*\*
+![herfra_nilsen1.png](/uploads/herfra_nilsen1.png)
+**Don Martin - Nilsen feat. Tommy Tee, stills fra musikkvideo.**
 
 Don Martin-låta «Nilsen» (2013) henter mye av sin kraft fra referansene til etablerte norske sangere og poeter med tilknytning til arbeiderklassen. I refrenget hevder Don Martin et slektskap med arbeiderpoeten Rudolf og de selvproletariserte trubadurene Lillebjørn og Joachim («Jeg er så Oslo du kan kalle meg for Nilsen»), og dermed også til Oslo-skildringene som foregangspersonene har blitt kanonisert og feiret for.
 
