@@ -114,7 +114,7 @@ Samtidig knytter Don Martin sin egen identitet uløselig til østkanten: ”Jeg 
 
 ## Pedagogisk parodi
 
-Hvorfor spøker mange vestkant-rappere med bakgrunnen sin, mens østkantkollegene skryter av den?  Kanskje kan rappernes fremstillinger av Oslo plasseres på en tenkt skala fra det parodiske til det pedagogiske, selv om disse to holdningene ikke utelukker hverandre.
+Hvorfor spøker mange vestkant-rappere med bakgrunnen sin, mens østkantkollegene skryter av den?\*  Kanskje kan rappernes fremstillinger av Oslo plasseres på en tenkt skala fra det parodiske til det pedagogiske, selv om disse to holdningene ikke utelukker hverandre.
 
 Don Martin peker på at han vil heve østkantens status, og Kenneth Engebretsen, som antagelig er den tydeligste representanten for en norsk forstadsrap i 2016, har [en uttalt pedagogisk ambisjon med musikken](http://www.nattogdag.no/2015/03/kenneth-engebretsen-drabanten-i-rommet/).
 
@@ -145,3 +145,5 @@ Som Jay-Z har påpekt ved hjelp av et kjent sample er det ikke så mye kjærligh
 Det finnes et slags hat/elsk-forhold til den svært kritiserte, men storstilte utbyggingen av blokker på sekstitallet i Oslos drabantbyer.
 
 –Man kan ha forskjellige tilnærminger, men det skal godt gjøres å unngå helt å forholde seg til den sterke urbane tradisjonen i rap. Man må ha litt betong for at det skal være ekte, sier Hofsvang.
+
+*\*Øyvind Holen uttalte for et par år siden at Karpe Diem skilte seg ut da de etablerte seg i norsk rap på starten av 2000-tallet ved at de var fra vestkanten og hadde en høy grad av seriøsitet. Antagelig siktet Holen mer til profesjonaliteten deres enn at de hadde et alvorlig uttrykk. Mange av de norskspråklige rapperne på 1990-tallet kom fra nettopp vestkanten og de spøkte gjerne med sin egen bakgrunn: URO fra Skillebekk sa at de kom fra «ambassadeghettoen», Klovner i Kamp fra Tåsen kalte seg schwin og rappet om «kjelleren med årgangsvin/før privatsjåfør og limousin».*
