@@ -1,8 +1,9 @@
 angular.module('LutterApp')
-  .service('AudioPlayer', ['$http', '$rootScope', 'Data', 'Popeye', function($http, $rootScope, Data, Popeye) {
+  .service('AudioPlayer', ['$http', '$rootScope', '$sce', 'Data', 'ngToast', function($http, $rootScope, $sce, Data, ngToast) {
     var audio = new Audio();
     var currentTrack = {};
     var playNextScope = "article";
+    var playNextTrack = {};
 
     var isCurrentSelection = function(projectId, articleId, trackNum) {
       var isSameProject = currentTrack.projectId === projectId || projectId === undefined;
@@ -47,6 +48,17 @@ angular.module('LutterApp')
       }
     };
 
+    var setNextTrack = function() {
+      var tracks = [];
+      if (playNextScope === "project") {
+        tracks = Data.projectLocations(currentTrack.projectId);
+      } else {
+        tracks = Data.articleLocations(currentTrack.projectId, currentTrack.articleId);
+      }
+      playNextTrack = findNextTrackWithAudio(tracks);
+      console.log("[AudioPlayer] Setting next track:", playNextTrack);
+    };
+
     var setCurrentTrack = function(track) {
       currentTrack = track;
       console.log("[AudioPlayer] Setting current track:", currentTrack);
@@ -60,10 +72,16 @@ angular.module('LutterApp')
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
         audio.src = track.audioFile;
+        audio.playbackRate = 100.0;
         audio.play();
       }
       setCurrentTrack(track);
+      setNextTrack();
     };
+
+    var playNextTrack = function() {
+      playTrack(playNextTrack);
+    }
 
     var playSelectedTrack = function(playNextScope, projectId, articleId, trackNum) {
       console.log("[AudioPlayer] Play track:", projectId, articleId, trackNum);
@@ -117,32 +135,6 @@ angular.module('LutterApp')
       }
     };
 
-    var playNext = function() {
-      var tracks = (playNextScope === "project") ? Data.projectLocations(currentTrack.projectId) : Data.articleLocations(currentTrack.projectId, currentTrack.articleId);
-      var track = findNextTrackWithAudio(tracks);
-
-      if (track) {
-        var message = track.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
-        message += ' "' + track.articleTitle + '"?';
-
-        Popeye.openModal({
-          templateUrl: "modal.html",
-          controller: function($scope) {
-            $scope.message = message;
-          },
-          containerClass: track.projectId
-        }).closed.then(function(playNext) {
-          if (playNext) {
-            playTrack(track);
-          } else {
-            setCurrentTrack({});
-          }
-        });
-      } else {
-        setCurrentTrack({});
-      }
-    };
-
     var toggle = function(playNextScope) {
       console.log("[AudioPlayer] Toggle:", currentTrack);
       if (audio.paused) {
@@ -193,12 +185,18 @@ angular.module('LutterApp')
     audio.addEventListener('ended', function() {
       console.log("[Audio] Ended:", currentTrack);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
-      playNext();
+      if (playNextTrack) {
+        var message = playNextTrack.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
+        message += ' "' + playNextTrack.articleTitle + '"?';
+        $rootScope.$broadcast('audio.playNextAvailable', playNextTrack.projectId, message);
+      }
+      setCurrentTrack({});
     });
 
     return {
       isPlaying: isPlaying,
       playPause: playPause,
-      hasAudio: hasAudio
+      hasAudio: hasAudio,
+      playNext: playNextTrack
     };
   }]);

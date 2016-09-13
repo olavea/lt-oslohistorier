@@ -3,8 +3,6 @@ angular.module('LutterApp')
   return {
     restrict: 'E',
     link: function(scope, element, attr) {
-      console.log(attr);
-
       function setIconClass() {
         scope.iconClass = AudioPlayer.isPlaying(attr.projectId, attr.articleId, attr.trackNum) ? 'fa-pause' : 'fa-play';
       }
@@ -22,7 +20,7 @@ angular.module('LutterApp')
       });
 
       scope.$on('audio.stateChanged', function(r, date) {
-        console.log("[playButton] State changed");
+        console.log("[PlayButton] State changed");
         scope.$apply(function() {
           setIconClass();
         });

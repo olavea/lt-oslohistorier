@@ -3,10 +3,16 @@
 angular.module("LutterApp", [
   'ui.router',
   'ui-leaflet',
-  'pathgather.popeye'
+  'ngToast'
 ]);
 
-angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$locationProvider", "DataProvider", function($stateProvider, $urlRouterProvider, $locationProvider, DataProvider) {
+angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$locationProvider", "ngToastProvider", "DataProvider", function($stateProvider, $urlRouterProvider, $locationProvider, ngToastProvider, DataProvider) {
+  ngToastProvider.configure({
+    verticalPosition: 'bottom',
+    horizontalPosition: 'center',
+    maxNumber: 1
+  });
+
   DataProvider.setData(lutterAppData);
 
   $urlRouterProvider.otherwise('/');
