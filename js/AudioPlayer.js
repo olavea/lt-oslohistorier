@@ -155,9 +155,11 @@ angular.module('LutterApp')
     };
 
     var isPlaying = function(projectId, articleId, trackNum) {
-      if (isCurrentSelection(projectId, articleId, trackNum) && !audio.paused) {
-      }
       return isCurrentSelection(projectId, articleId, trackNum) && !audio.paused;
+    };
+
+    var isLoading = function(projectId, articleId, trackNum) {
+      return isPlaying(projectId, articleId, trackNum) && audio.readyState !== 4;
     };
 
     var hasAudio = function(projectId, articleId, trackNum) {
@@ -175,11 +177,18 @@ angular.module('LutterApp')
 
     // listen for audio-element events, and broadcast stuff
     audio.addEventListener('play', function() {
-      console.log("[Audio] Played:", currentTrack);
+      console.log("[Audio] Play:", currentTrack);
+      console.log("READY STATE", audio.readyState);
+      $rootScope.$broadcast('audio.stateChanged', currentTrack);
+    });
+    audio.addEventListener('canplay', function() {
+      console.log("[Audio] Can play:", currentTrack);
+      console.log("PAUSED", audio.paused);
+      console.log("READY STATE", audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('pause', function() {
-      console.log("[Audio] Paused:", currentTrack);
+      console.log("[Audio] Pause:", currentTrack);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('ended', function() {
@@ -195,6 +204,7 @@ angular.module('LutterApp')
 
     return {
       isPlaying: isPlaying,
+      isLoading: isLoading,
       playPause: playPause,
       hasAudio: hasAudio,
       playNext: playNext
