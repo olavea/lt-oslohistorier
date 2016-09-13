@@ -178,13 +178,10 @@ angular.module('LutterApp')
     // listen for audio-element events, and broadcast stuff
     audio.addEventListener('play', function() {
       console.log("[Audio] Play:", currentTrack);
-      console.log("READY STATE", audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('canplay', function() {
       console.log("[Audio] Can play:", currentTrack);
-      console.log("PAUSED", audio.paused);
-      console.log("READY STATE", audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('pause', function() {

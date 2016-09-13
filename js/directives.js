@@ -6,7 +6,6 @@ angular.module('LutterApp')
       function setIconClass() {
         scope.iconClass = 'fa-play';
         if(AudioPlayer.isLoading(attr.projectId, attr.articleId, attr.trackNum)) {
-          console.log("SPINNER");
           scope.iconClass = 'fa-spinner fa-spin';
         } else if (AudioPlayer.isPlaying(attr.projectId, attr.articleId, attr.trackNum)) {
           scope.iconClass = 'fa-pause';
