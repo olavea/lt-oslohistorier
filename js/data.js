@@ -16,13 +16,13 @@ var lutterAppData = {};
           {% assign coords = article.coords | split:"," %}
           lutterAppData['{{ collection.label }}'].push(
             {
-              title: "{{ article.title | strip }}",
+              title: "{{ article.title | strip_newlines | strip }}",
               audioFile: "{{ article.audio_file }}",
               lat: {{ coords[0] | default: 0 }},
               lng: {{ coords[1] | default: 0 }},
               projectId: "{{ collection.label }}",
               articleId: "{{ article.slug }}",
-              articleTitle: "{{ article.title }}",
+              articleTitle: "{{ article.title | strip_newlines | strip }}",
               position: "{{ article.position }}",
               trackNum: 0,
               color: "{{ article.color | default: project.color }}",
@@ -34,13 +34,13 @@ var lutterAppData = {};
             {% assign coords = location.coords | split:"," %}
             lutterAppData['{{ collection.label }}'].push(
               {
-                title: "{{ location.title | strip }}",
+                title: "{{ location.title | strip_newlines | strip }}",
                 audioFile: "{{ location.audio_file }}",
                 lat: {{ coords[0] | default: 0 }},
                 lng: {{ coords[1] | default: 0 }},
                 projectId: "{{ collection.label }}",
                 articleId: "{{ article.slug }}",
-                articleTitle: "{{ article.title }}",
+                articleTitle: "{{ article.title | strip_newlines | strip }}",
                 position: "{{ article.position }}",
                 trackNum: {{ i }},
                 color: "{{ article.color | default: project.color }}"

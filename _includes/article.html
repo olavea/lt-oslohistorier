@@ -6,14 +6,14 @@
     <nav class="{{ project.slug }}">
       <a ui-sref="project({ projectId: '{{ article.collection }}' })">
         <i class="fa fa-back"></i>
-        {{ project.title }}
+        {{ project.title | newline_to_br }}
       </a>
     </nav>
 
     <article>
 
       <header class="header {{ article.slug }}">
-        <h1>{{ article.title }}</h1>
+        <h1>{{ article.title | newline_to_br }}</h1>
         <div class="badge badge-primary">
           <span ng-bind="{{ article.position }} | toLetter"></span>
         </div>
@@ -39,7 +39,7 @@
 
         <div class="card">
           <div class="header">
-            <h1 class="title"><span>{{ location.title }}</span></h1>
+            <h1 class="title"><span>{{ location.title | newline_to_br }}</span></h1>
             <play-button play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}" track-num="{{ i }}"></play-button>
           </div>
           {% if location.image %}
