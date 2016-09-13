@@ -5,11 +5,13 @@
   "dependencies": {
     "angular": "^1.5.8",
     "angular-animate": "^1.5.8",
-    "angular-popeye": "^1.0.5",
+    "angular-sanitize": "^1.5.8",
     "angular-simple-logger": "^0.1.7",
     "angular-ui-router": "^0.3.1",
+    "angularjs-toaster": "^2.0.0",
     "bootstrap": "^4.0.0-alpha.4",
     "leaflet": "^0.7.7",
+    "ng-toast": "^2.0.0",
     "ui-leaflet": "^1.0.1"
   },
   "devDependencies": {
