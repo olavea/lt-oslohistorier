@@ -25,7 +25,6 @@ angular.module('LutterApp')
       });
 
       scope.$on('audio.stateChanged', function(r, date) {
-        console.log("[PlayButton] State changed");
         scope.$apply(function() {
           setIconClass();
         });
