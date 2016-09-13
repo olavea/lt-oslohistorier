@@ -34,6 +34,8 @@ Vi har spurt hva folk tenker om nabolagene sine i tre tilsynelatende forskjellig
 
 ## Den lille landsbyen
 
+![herfra_Grorud-bazar.jpg](/uploads/herfra_Grorud-bazar.jpg)
+
 Grorud er kjent for høye blokker som symboler på  modernistiske, ingeniørmessige ideer om drabantbyen. For mennesker utenfra er Gorud kanskje et bilde på ”den mislykkede drabantbyen” der gjenger dominerer, etnisk norske flykter og erstattes med innvandrere som ikke møter opp på dugnad. For andre igjen er Grorud et norsk eksempel på et stolt arbeiderklassesamfunn med små avstander mellom folk, idretts- og dugnadsånd, Trygve Lie, Arbeiderpartiet og et seint minnesmerke over urban industriproduksjon.
 
 Vi går av t-banen og ser de høye blokkene og Lillomarkas grønne skoger bak. Voksne med barn på slep, folk med handleposer og ryggsekker på vei hjem fra jobb en ettermiddag i juni. Opp trappa fra perrongen til et betonglandskap med en Narvesen-kiosk, en butikk med bugnende grønnsaker på utsiden, en skomaker og låsesmed og ei kebabsjappe. Hadde det ikke vært for skogen kunne vi like gjerne vært på Tøyen eller Helsfyr.
@@ -41,6 +43,8 @@ Vi går av t-banen og ser de høye blokkene og Lillomarkas grønne skoger bak. V
 Men vi er på Grorud. Hva gjør Grorud unikt? Hadde vi skrevet denne teksten for noen tiår siden var det her vi ville skrevet om ”stedets ånd – Genius loci”. Blant andre Norberg-Schultz’ tanke om at et sted kan forstås objektivt, og at essensen ved dette stedet kan avdekkes ved å studere de topografiske, demografiske og bebyggelsesmessige elementene som særpreger stedet.
 
 Men det er så mange fortellinger om Grorud at det blir vanskelig å se for seg at en utelukkende materiell analyse ville hjelpe oss noe nærmere en forståelse av nabolaget. Fortellingen vi får om Groruds innbyggere når vi snakker med dem denne sommerdagen i 2016 er en ganske annen enn den som preget debattsidene i Aftenposten for noen få år tilbake. Ali Yimaz, skomakeren som driver sjappa på t-banestasjonen, der du kan file nye nøkler, få inngravert dørskilt og, selvfølgelig, få fikset skoene dine, forteller om et nabolag der han trives på grunn av det sosiale.
+
+![herfra_Skomakern-på-Grorud.jpg](/uploads/herfra_Skomakern-pa%CC%8A-Grorud.jpg)
 
 -Folk her er hyggeligere enn i byen. For 15 år siden hilste ikke de norske når vi møttes på gata, men nå kjenner vi hverandre og sier hei når vi møtes på tur i skogen. Det er som å bo i en liten landsby her oppe, der alle kjenner alle, sier Yimaz.
 
@@ -76,6 +80,8 @@ Når Eirik skal beskrive nabolaget til noen som ikke kjenner det er det ikke par
 Fortellingene om nabolagene og de fysiske endringene er del av den samme virkeligheten. Tøyen i indre øst har vært forbundet med noe av det samme som Grorud: Fattigdom, kommunale boliger, kriminalitet, høy andel med innvandrerbakgrunn. Men nabolaget er i endring. I takt med at gatekunst males opp, lysinstallasjoner monteres, nye leiligheter bygges og restauranter og utesteder med rare navn dukker opp, foregår en kamp der ulike aktører forsøker å lage Tøyen, med politiske tiltak og nye fortellinger om hva Tøyen skal være: IT-startuplab, Norges nye Hackney, åsted for en gentrifiseringsmassakre, det nye Løkka, en suksesshistorie på multikulturelt mangfold? Det er mange konkurrerende fortellinger på bordet.
 
 ## Nye fortellinger
+![herfra_KOSELIGE-OG-INTERNE-LILLEAKER.jpg](/uploads/herfra_KOSELIGE-OG-INTERNE-LILLEAKER.jpg)
+
 Eneboliger med velstelte hager preger Lilleaker, som i dag regnes som byens beste  vest. Men det er ikke lenge siden fabrikkarbeidernes trehus langs Lysakerelvas industridrag preget nabolaget. På kafeen Grønn, rett ved trikkestoppet tilbys kaffe med hjertemønster i, monsteraplanter og sprekt (?) interiør. Her sitter Harald Breievne som har bodd lenge på Lilleaker, og som er  opptatt av lokalhistorie og  endringene nabolaget har vært gjennom.
 -Lilleaker er et tett nabolag der husene går i arv. Min generasjon flytter ikke herfra frivillig. Da jeg var utsatt for en ulykke i fjor stilte hele nabolaget opp. Vi prater over hekken og passer på hverandre, sier Breievne.
 
