@@ -20,9 +20,7 @@ locations:
   image:
     file: 
     credit: 
-- title: |-
-    Enquet i Botanisk hage.
-    Naboer om nabolaget.
+- title: Enquet i Botanisk hage. Naboer om nabolaget.
   audio_file: "/uploads/herfra_Botanisk.mp3"
   coords: 59.916369, 10.769551
   image:
