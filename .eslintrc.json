@@ -11,6 +11,7 @@
       "angular": true,
       "Audio": true,
       "L": true,
-      "confirm": true
+      "confirm": true,
+      "ga": true
     }
 }
