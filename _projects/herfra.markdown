@@ -20,7 +20,7 @@ partners:
   url: http://www.magasinetkote.no/
   name: Magasinet KOTE
   max-width: 200px
-- logo-image: "/uploads/logo_Triennalen.jpg"
+- logo-image: "/uploads/logo_Triennalen.png"
   url: http://oslotriennale.no/
   name: Oslo arkitekturtriennale 2016
   max-width: 200px
