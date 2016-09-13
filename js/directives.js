@@ -5,10 +5,11 @@ angular.module('LutterApp')
     link: function(scope, element, attr) {
       function setIconClass() {
         scope.iconClass = 'fa-play';
-        if(AudioPlayer.isPlaying(attr.projectId, attr.articleId, attr.trackNum)) {
-          scope.iconClass = 'fa-pause';
-        } else if (AudioPlayer.isLoading(attr.projectId, attr.articleId, attr.trackNum)) {
+        if(AudioPlayer.isLoading(attr.projectId, attr.articleId, attr.trackNum)) {
+          console.log("SPINNER");
           scope.iconClass = 'fa-spinner fa-spin';
+        } else if (AudioPlayer.isPlaying(attr.projectId, attr.articleId, attr.trackNum)) {
+          scope.iconClass = 'fa-pause';
         }
       }
 

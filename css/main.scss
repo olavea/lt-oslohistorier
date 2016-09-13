@@ -223,11 +223,19 @@ nav {
     + .badge {
       margin-left: auto;
     }
+
+    + button,
+    + play-button {
+      width: 3rem;
+      flex: 0 0 auto;
+    }
   }
 
   button,
   play-button {
     margin-right: 0.5rem;
+    width: 3rem;
+    flex: 0 0 auto;
   }
 
   >i {
