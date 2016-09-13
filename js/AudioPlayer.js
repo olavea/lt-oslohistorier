@@ -72,7 +72,7 @@ angular.module('LutterApp')
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
         audio.src = track.audioFile;
-        audio.playbackRate = 100.0;
+        // audio.playbackRate = 100.0;
         audio.play();
       }
       setCurrentTrack(track);
