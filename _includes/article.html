@@ -23,16 +23,18 @@
       {% if article.author %}
       <div class="author">{{ article.author }}</div>
       {% endif %}
-
+ 
       {% if article.teaser %}
         <section>
           {{ article.teaser | markdownify }}
         </section>
-        {% if article.coords %}
-          <hr>
-        {% endif %}
       {% endif %}
 
+      {% if article.slug == "jakten-pa-tilhorigheten" or article.slug == "sentrum-som-felleseie" %}
+        <hr>
+      {% endif %}
+
+      {% unless article.slug == "jakten-pa-tilhorigheten" or article.slug == "sentrum-som-felleseie" %}
       <aside class="{{ article.slug }}">
         {% assign i = 0 %}
         {% for location in article.locations %}
@@ -51,9 +53,11 @@
             {% endif %}
           {% endif %}
         </div>
+
         {% assign i = i | plus: 1 %}
         {% endfor %}
       </aside>
+      {% endunless %}
 
       <section class="{{ project.slug }}">
         {{ article.content | markdownify }}
