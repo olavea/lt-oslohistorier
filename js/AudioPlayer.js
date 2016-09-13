@@ -1,5 +1,5 @@
 angular.module('LutterApp')
-  .service('AudioPlayer', ['$http', '$rootScope', 'Data', function($http, $rootScope, Data, AppState) {
+  .service('AudioPlayer', ['$http', '$rootScope', 'Data', 'Popeye', function($http, $rootScope, Data, Popeye) {
     var audio = new Audio();
     var currentTrack = {};
     var playNextScope = "article";
@@ -60,7 +60,7 @@ angular.module('LutterApp')
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
         audio.src = track.audioFile;
-        audio.playbackRate = 10.0;
+        audio.playbackRate = 100.0;
         audio.play();
       }
       setCurrentTrack(track);
@@ -125,14 +125,23 @@ angular.module('LutterApp')
       if (track) {
         var message = track.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
         message += ' "' + track.articleTitle + '"?';
-        var r = confirm(message);
-        if (!r) {
-          track = {};
-        }
+
+        Popeye.openModal({
+          templateUrl: "modal.html",
+          controller: function($scope) {
+            $scope.message = message;
+          },
+          containerClass: track.projectId
+        }).closed.then(function(playNext) {
+          if (playNext) {
+            playTrack(track);
+          } else {
+            setCurrentTrack({});
+          }
+        });
       } else {
-        track = {};
+        setCurrentTrack({});
       }
-      playTrack(track);
     };
 
     var toggle = function() {

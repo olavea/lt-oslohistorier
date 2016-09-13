@@ -2,7 +2,8 @@
 
 angular.module("LutterApp", [
   'ui.router',
-  'ui-leaflet'
+  'ui-leaflet',
+  'pathgather.popeye'
 ]);
 
 angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$locationProvider", "DataProvider", function($stateProvider, $urlRouterProvider, $locationProvider, DataProvider) {
