@@ -58,9 +58,11 @@ angular.module('LutterApp')
     };
 
     var playTrack = function(track) {
-      audio.src = track.audioFile;
-      // audio.playbackRate = 10.0;
-      audio.play();
+      if (trackHasAudio(track)) {
+        audio.src = track.audioFile;
+        audio.playbackRate = 10.0;
+        audio.play();
+      }
       setCurrentTrack(track);
     };
 
@@ -120,16 +122,17 @@ angular.module('LutterApp')
       var tracks = (playNextScope === "project") ? Data.projectLocations(currentTrack.projectId) : Data.articleLocations(currentTrack.projectId, currentTrack.articleId);
       var track = findNextTrackWithAudio(tracks);
 
-      if (!track) {
-        return;
+      if (track) {
+        var message = track.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
+        message += ' "' + track.articleTitle + '"?';
+        var r = confirm(message);
+        if (!r) {
+          track = {};
+        }
+      } else {
+        track = {};
       }
-
-      var message = track.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
-      message += ' "' + track.articleTitle + '"?';
-      var r = confirm(message);
-      if (r === true) {
-        playTrack(track);
-      }
+      playTrack(track);
     };
 
     var toggle = function() {
