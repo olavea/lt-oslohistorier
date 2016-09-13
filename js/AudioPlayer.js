@@ -19,6 +19,10 @@ angular.module('LutterApp')
       return isSameProject && isSameArticle && isSameTrack;
     };
 
+    var procentagePlayed = function() {
+      return Math.round(audio.currentTime/audio.duration*100);
+    }
+
     var trackHasAudio = function(track) {
       return track.audioFile && track.audioFile !== "";
     };
@@ -71,6 +75,9 @@ angular.module('LutterApp')
 
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
+        if (!audio.paused) {
+          $rootScope.$broadcast('audio.stopped', currentTrack, procentagePlayed());
+        }
         audio.src = track.audioFile;
         // audio.playbackRate = 100.0;
         audio.play();
@@ -181,27 +188,28 @@ angular.module('LutterApp')
 
     // listen for audio-element events, and broadcast stuff
     audio.addEventListener('play', function() {
-      console.log("[Audio] Play:", currentTrack);
-      console.log("[Audio] Ready state:", audio.readyState);
+      console.log("[Audio] Play:", currentTrack, audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('canplay', function() {
-      console.log("[Audio] Can play:", currentTrack);
-      console.log("[Audio] Ready state:", audio.readyState);
+      console.log("[Audio] Can play:", currentTrack, audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
     audio.addEventListener('playing', function() {
-      console.log("[Audio] Playing:", currentTrack);
-      console.log("[Audio] Ready state:", audio.readyState);
+      console.log("[Audio] Playing:", currentTrack, audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
+      $rootScope.$broadcast('audio.played', currentTrack, procentagePlayed());
     });
     audio.addEventListener('pause', function() {
-      console.log("[Audio] Pause:", currentTrack);
+      console.log("[Audio] Pause:", currentTrack, audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
+      $rootScope.$broadcast('audio.paused', currentTrack, procentagePlayed());
     });
     audio.addEventListener('ended', function() {
-      console.log("[Audio] Ended:", currentTrack);
+      console.log("[Audio] Ended:", currentTrack, audio.readyState);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
+      $rootScope.$broadcast('audio.ended', currentTrack);
+
       if (nextTrack) {
         var message = nextTrack.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
         message += ' "' + nextTrack.articleTitle + '"?';
