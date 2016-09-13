@@ -3,11 +3,29 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
   <base href="/">
+
+  {% assign meta = site.data.meta %}
+
   <title>{{ site.title }}</title>
+  <meta name="description" content="{{ meta.description | strip_newlines}}">
+  <meta name="author" content="{{ meta.author }}">
+  <meta name="keywords" content="{{ meta.keywords }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ meta.twitter.site }}" />
+  <meta name="twitter:creator" content="{{ sometame.twitter.creator }}" />
+  <meta name="twitter:title" content="{{ meta.title }}" />
+  <meta name="twitter:description" content="{{ meta.description | strip_newlines}}" />
+  <meta name="twitter:image" content="{{ meta.image }}" />
+
+  <!-- Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ meta.title }}" />
+  <meta property="og:description" content="{{ meta.description | strip_newlines}}" />
+  <meta property="og:image" content="{{ meta.image }}" />
 
   <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" type="text/css">
