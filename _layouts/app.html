@@ -49,7 +49,7 @@
             <img src="{{ project.logo-image }}"></img>
             {% endif %}
             <h1 class="title">{{ project.title }}</h1>
-            <play-button project-id="{{ project.slug }}"></play-button>
+            <play-button play-next-scope="project" project-id="{{ project.slug }}"></play-button>
             <i class="fa fa-right"></i>
           </div>
           <div class="body">{{ project.teaser | markdownify }}</div>

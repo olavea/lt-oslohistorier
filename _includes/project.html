@@ -12,7 +12,7 @@
       <img src="{{ project.logo-image }}"></img>
       {% endif %}
       <h1>{{ project.title }}</h1>
-      <play-button project-id="{{ project.slug }}"></play-button>
+      <play-button play-next-scope="project" project-id="{{ project.slug }}"></play-button>
     </header>
 
     {% if project.teaser %}
@@ -30,7 +30,7 @@
               <span ng-bind="{{ article.position }} | toLetter "></span>
             </div>
             <h1 class="title">{{ article.title }}</h1>
-            <play-button project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
+            <play-button play-next-scope="project" project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
             <i class="fa fa-right"></i>
           </div>
           {% if article.teaser %}

@@ -17,7 +17,7 @@
         <div class="badge badge-primary">
           <span ng-bind="{{ article.position }} | toLetter"></span>
         </div>
-        <play-button project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
+        <play-button play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
       </header>
 
       {% if article.author %}
@@ -40,7 +40,7 @@
         <div class="card">
           <div class="header">
             <h1 class="title"><span>{{ location.title }}</span></h1>
-            <play-button project-id="{{ project.slug }}" article-id="{{ article.slug }}" track-num="{{ i }}"></play-button>
+            <play-button play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}" track-num="{{ i }}"></play-button>
           </div>
           {% if location.image %}
             {% if location.image.file %}
