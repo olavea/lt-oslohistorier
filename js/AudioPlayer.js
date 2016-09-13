@@ -184,6 +184,10 @@ angular.module('LutterApp')
       console.log("[Audio] Can play:", currentTrack);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
     });
+    audio.addEventListener('playing', function() {
+      console.log("[Audio] Playing:", currentTrack);
+      $rootScope.$broadcast('audio.stateChanged', currentTrack);
+    });
     audio.addEventListener('pause', function() {
       console.log("[Audio] Pause:", currentTrack);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
