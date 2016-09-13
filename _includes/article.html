@@ -39,7 +39,7 @@
 
         <div class="card">
           <div class="header">
-            <h1 class="title"><span>{{ location.title }}</span></h1>
+            <h1 class="title"><span>{{ location.title | newline_to_br }}</span></h1>
             <play-button play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}" track-num="{{ i }}"></play-button>
           </div>
           {% if location.image %}

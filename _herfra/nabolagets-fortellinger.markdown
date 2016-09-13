@@ -8,19 +8,25 @@ teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser k
   til bygninger, mennesker, lukter og lyder. Men hva er et nabolag? Og hvor går egentlig
   grensene?
 locations:
-- title: 'På café med Harald Breievne. Lilleaker før og nå. '
+- title: |-
+    På café med Harald Breievne.
+    Lilleaker før og nå.
   audio_file: "/uploads/Lilleaker.mp3"
   coords: 59.920087, 10.636415
   image:
     file: 
     credit: 
-- title: I skobutikken til Ali Yimaz. En samtale om Grorud.
+- title: |-
+    I skobutikken til Ali Yimaz.
+    En samtale om Grorud.
   audio_file: "/uploads/herfra_Skomaker-Grorud.mp3"
   coords: 59.960680, 10.881304
   image:
     file: 
     credit: 
-- title: Enquet i Botanisk hage. Naboer om nabolaget.
+- title: |-
+    Enquet i Botanisk hage.
+    Naboer om nabolaget.
   audio_file: "/uploads/herfra_Botanisk.mp3"
   coords: 59.916369, 10.769551
   image:
