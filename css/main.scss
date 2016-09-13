@@ -223,11 +223,19 @@ nav {
     + .badge {
       margin-left: auto;
     }
+
+    + button,
+    + play-button {
+      width: 3rem;
+      flex: 0 0 auto;
+    }
   }
 
   button,
   play-button {
     margin-right: 0.5rem;
+    width: 3rem;
+    flex: 0 0 auto;
   }
 
   >i {
@@ -461,5 +469,35 @@ main {
       }
     }
 
+  }
+}
+
+// Spinning Icons
+// --------------------------
+
+.fa-spin {
+  -webkit-animation: fa-spin 3s infinite linear;
+          animation: fa-spin 3s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
   }
 }
