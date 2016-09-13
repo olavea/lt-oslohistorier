@@ -70,7 +70,7 @@ angular.module('LutterApp')
       console.log("[AudioPlayer] Play track:", projectId, articleId, trackNum);
       var tracks = Data.articleLocations(projectId, articleId);
       if (tracks.length > trackNum) {
-        if (tracks[trackNum].audioFile) {
+        if (trackHasAudio(tracks[trackNum])) {
           playTrack(tracks[trackNum]);
           setPlayNextScope("article");
           return true;
