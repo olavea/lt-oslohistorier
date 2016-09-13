@@ -60,19 +60,18 @@ angular.module('LutterApp')
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
         audio.src = track.audioFile;
-        audio.playbackRate = 100.0;
         audio.play();
       }
       setCurrentTrack(track);
     };
 
-    var playSelectedTrack = function(projectId, articleId, trackNum) {
+    var playSelectedTrack = function(playNextScope, projectId, articleId, trackNum) {
       console.log("[AudioPlayer] Play track:", projectId, articleId, trackNum);
       var tracks = Data.articleLocations(projectId, articleId);
       if (tracks.length > trackNum) {
         if (trackHasAudio(tracks[trackNum])) {
           playTrack(tracks[trackNum]);
-          setPlayNextScope("article");
+          setPlayNextScope(playNextScope);
           return true;
         } else {
           console.log("[AudioPlayer] No audio:", projectId, articleId, trackNum);
@@ -82,39 +81,39 @@ angular.module('LutterApp')
       }
     };
 
-    var playSelectedArticle = function(projectId, articleId) {
+    var playSelectedArticle = function(playNextScope, projectId, articleId) {
       console.log("[AudioPlayer] Play article:", projectId, articleId);
       var tracks = Data.articleLocations(projectId, articleId);
       if (tracks[0].audioFile) {
         playTrack(tracks[0]);
-        setPlayNextScope("article");
+        setPlayNextScope(playNextScope);
         return true;
       } else {
         console.log("[AudioPlayer] No audio:", projectId, articleId);
       }
     };
 
-    var playSelectedProject = function(projectId) {
+    var playSelectedProject = function(playNextScope, projectId) {
       console.log("[AudioPlayer] Play project:", projectId);
       var tracks = Data.projectLocations(projectId);
       var track = findFirstTrackWithAudio(tracks);
       if (track) {
         playTrack(track);
-        setPlayNextScope("project");
+        setPlayNextScope(playNextScope);
         return true;
       } else {
         console.log("[AudioPlayer] No audio:", projectId);
       }
     };
 
-    var playSelection = function(projectId, articleId, trackNum) {
+    var playSelection = function(playNextScope, projectId, articleId, trackNum) {
       console.log("[AudioPlayer] Play:", projectId, articleId, trackNum);
       if (trackNum) {
-        playSelectedTrack(projectId, articleId, trackNum);
+        playSelectedTrack(playNextScope, projectId, articleId, trackNum);
       } else if (articleId) {
-        playSelectedArticle(projectId, articleId);
+        playSelectedArticle(playNextScope, projectId, articleId);
       } else if (projectId) {
-        playSelectedProject(projectId);
+        playSelectedProject(playNextScope, projectId);
       }
     };
 
@@ -144,21 +143,22 @@ angular.module('LutterApp')
       }
     };
 
-    var toggle = function() {
+    var toggle = function(playNextScope) {
       console.log("[AudioPlayer] Toggle:", currentTrack);
       if (audio.paused) {
         audio.play();
+        setPlayNextScope(playNextScope);
       } else {
         audio.pause();
       }
     };
 
-    var playPause = function(projectId, articleId, trackNum) {
-      console.log("[AudioPlayer] Play/Pause:", projectId, articleId, trackNum);
+    var playPause = function(playNextScope, projectId, articleId, trackNum) {
+      console.log("[AudioPlayer] Play/Pause:", playNextScope, projectId, articleId, trackNum);
       if (isCurrentSelection(projectId, articleId, trackNum)) {
-        toggle();
+        toggle(playNextScope);
       } else {
-        playSelection(projectId, articleId, trackNum);
+        playSelection(playNextScope, projectId, articleId, trackNum);
       }
     };
 

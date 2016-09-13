@@ -3,6 +3,8 @@ angular.module('LutterApp')
   return {
     restrict: 'E',
     link: function(scope, element, attr) {
+      console.log(attr);
+
       function setIconClass() {
         scope.iconClass = AudioPlayer.isPlaying(attr.projectId, attr.articleId, attr.trackNum) ? 'fa-pause' : 'fa-play';
       }
@@ -15,7 +17,7 @@ angular.module('LutterApp')
       }
 
       element.on('click', function(event) {
-        AudioPlayer.playPause(attr.projectId, attr.articleId, attr.trackNum);
+        AudioPlayer.playPause(attr.playNextScope, attr.projectId, attr.articleId, attr.trackNum);
         event.stopPropagation();
       });
 
@@ -32,7 +34,8 @@ angular.module('LutterApp')
     scope: {
       projectId: '=',
       articleId: '=',
-      trackNum: '='
+      trackNum: '=',
+      playNextScope: '='
     },
     template: '<button class="btn btn-primary"><i class="fa {{ iconClass }}")}"></i></button>'
   };
