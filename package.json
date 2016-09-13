@@ -4,8 +4,11 @@
   "description": "",
   "dependencies": {
     "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-modal-service": "^0.10.1",
     "angular-simple-logger": "^0.1.7",
     "angular-ui-router": "^0.3.1",
+    "bootstrap": "^4.0.0-alpha.4",
     "leaflet": "^0.7.7",
     "ui-leaflet": "^1.0.1"
   },
