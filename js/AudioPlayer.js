@@ -2,8 +2,8 @@ angular.module('LutterApp')
   .service('AudioPlayer', ['$http', '$rootScope', '$sce', 'Data', 'ngToast', function($http, $rootScope, $sce, Data, ngToast) {
     var audio = new Audio();
     var currentTrack = {};
-    var playNextScope = "article";
-    var playNextTrack = {};
+    var nextScope = "article";
+    var nextTrack = {};
 
     var isCurrentSelection = function(projectId, articleId, trackNum) {
       var isSameProject = currentTrack.projectId === projectId || projectId === undefined;
@@ -50,13 +50,13 @@ angular.module('LutterApp')
 
     var setNextTrack = function() {
       var tracks = [];
-      if (playNextScope === "project") {
+      if (nextScope === "project") {
         tracks = Data.projectLocations(currentTrack.projectId);
       } else {
         tracks = Data.articleLocations(currentTrack.projectId, currentTrack.articleId);
       }
-      playNextTrack = findNextTrackWithAudio(tracks);
-      console.log("[AudioPlayer] Setting next track:", playNextTrack);
+      nextTrack = findNextTrackWithAudio(tracks);
+      console.log("[AudioPlayer] Setting next track:", nextTrack);
     };
 
     var setCurrentTrack = function(track) {
@@ -65,22 +65,22 @@ angular.module('LutterApp')
     };
 
     var setPlayNextScope = function(scope) {
-      playNextScope = scope;
-      console.log("[AudioPlayer] Setting play next scope:", playNextScope);
+      nextScope = scope;
+      console.log("[AudioPlayer] Setting play next scope:", nextScope);
     };
 
     var playTrack = function(track) {
       if (trackHasAudio(track)) {
         audio.src = track.audioFile;
-        // audio.playbackRate = 100.0;
+        audio.playbackRate = 100.0;
         audio.play();
       }
       setCurrentTrack(track);
       setNextTrack();
     };
 
-    var playNextTrack = function() {
-      playTrack(playNextTrack);
+    var playNext = function() {
+      playTrack(nextTrack);
     }
 
     var playSelectedTrack = function(playNextScope, projectId, articleId, trackNum) {
@@ -185,10 +185,10 @@ angular.module('LutterApp')
     audio.addEventListener('ended', function() {
       console.log("[Audio] Ended:", currentTrack);
       $rootScope.$broadcast('audio.stateChanged', currentTrack);
-      if (playNextTrack) {
-        var message = playNextTrack.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
-        message += ' "' + playNextTrack.articleTitle + '"?';
-        $rootScope.$broadcast('audio.playNextAvailable', playNextTrack.projectId, message);
+      if (nextTrack) {
+        var message = nextTrack.articleId === currentTrack.articleId ? "Ønsker du å høre neste lydklipp fra" : "Ønsker du å lytte til";
+        message += ' "' + nextTrack.articleTitle + '"?';
+        $rootScope.$broadcast('audio.playNextAvailable', nextTrack.projectId, message);
       }
       setCurrentTrack({});
     });
@@ -197,6 +197,6 @@ angular.module('LutterApp')
       isPlaying: isPlaying,
       playPause: playPause,
       hasAudio: hasAudio,
-      playNext: playNextTrack
+      playNext: playNext
     };
   }]);
