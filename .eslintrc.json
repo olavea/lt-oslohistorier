@@ -12,6 +12,7 @@
       "Audio": true,
       "L": true,
       "confirm": true,
-      "ga": true
+      "ga": true,
+      "document": true
     }
 }

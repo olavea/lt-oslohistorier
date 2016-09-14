@@ -73,6 +73,17 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
 }]);
 
 angular.module("LutterApp").run(['$rootScope', '$location', function($rootScope, $location) {
+  $rootScope.$on('$viewContentLoaded', function(event) {
+    var links = angular.element(document).find('a');
+    for (var i = 0; i < links.length; i++) {
+      var link = angular.element(links[i]);
+      if ($location.host() !== link[0].hostname) {
+        console.log("External", link[0].href);
+        link.attr("target", "_blank");
+      }
+    }
+  });
+
   if (typeof ga === "function") {
     $rootScope.$on('$stateChangeSuccess', function(event) {
       ga('send', 'screenview', {screenName: $location.path()});
