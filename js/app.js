@@ -73,28 +73,26 @@ angular.module("LutterApp").config(["$stateProvider", "$urlRouterProvider", "$lo
 }]);
 
 angular.module("LutterApp").run(['$rootScope', '$location', function($rootScope, $location) {
-
   if (typeof ga === "function") {
-    $rootScope.$on('$stateChangeSuccess', function (event) {
+    $rootScope.$on('$stateChangeSuccess', function(event) {
       ga('send', 'screenview', {screenName: $location.path()});
       ga('send', 'pageview', {screenName: $location.path()});
     });
 
-    $rootScope.$on('audio.played', function (event, track, procentagePlayed) {
+    $rootScope.$on('audio.played', function(event, track, procentagePlayed) {
       ga('send', 'event', track.projectId, 'play', track.articleId);
     });
 
-    $rootScope.$on('audio.paused', function (event, track, procentagePlayed) {
+    $rootScope.$on('audio.paused', function(event, track, procentagePlayed) {
       ga('send', 'event', track.projectId, 'pause', track.articleId, procentagePlayed);
     });
 
-    $rootScope.$on('audio.stopped', function (event, track, procentagePlayed) {
+    $rootScope.$on('audio.stopped', function(event, track, procentagePlayed) {
       ga('send', 'event', track.projectId, 'stop', track.articleId, procentagePlayed);
     });
 
-    $rootScope.$on('audio.ended', function (event, track, procentagePlayed) {
+    $rootScope.$on('audio.ended', function(event, track, procentagePlayed) {
       ga('send', 'event', track.projectId, 'finished', track.articleId, 100);
     });
   }
-
 }]);
