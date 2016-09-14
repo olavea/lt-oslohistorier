@@ -19,7 +19,9 @@ og [Lilly Labs](http://lillylabs.no).
 
 Lutter øre kan formidling og lyd, Lilly Labs kan teknologi, og sammen utvikler vi gode løsninger for stedsspesifikk lydformidling. 
 
-Kunne du trenge noe lignende ta kontakt på [luttertech@lillylabs.no](mailto:luttertech@lillylabs.no).
+Kunne du trenge noe lignende ta kontakt på [hallo@lillylabs.no](hallo@lillylabs.no).
+
+
 
 
 
