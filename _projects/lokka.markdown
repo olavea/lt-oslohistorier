@@ -11,8 +11,8 @@ partners:
   url: http://lillylabs.no
 - logo-image: "/uploads/logo_lutterore.png"
   name: Lutter Øre
-  url: https://lutterore.com/
+  url: http://lutterøre.no/
 ---
 
-Denne turen ble laget av [Lutter øre](https://lutterore.com/) til prosjektet [Kultur- og naturreise](http://knreise.org/).
+Denne turen ble laget av [Lutter øre](http://lutterøre.no/) til prosjektet [Kultur- og naturreise](http://knreise.org/).
 Turen ble også utgangspunktet for Lutter øre's sammarbeid med [Lilly Labs](http://lillylabs.no) om teknologi for stedsspesifikk lyd. 
