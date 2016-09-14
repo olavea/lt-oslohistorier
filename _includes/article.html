@@ -8,16 +8,18 @@
         <i class="fa fa-back"></i>
         {{ project.title | newline_to_br }}
       </a>
+
+      
+      <div class="badge badge-primary {{ article.slug }}">
+        <span ng-bind="{{ article.position }} | toLetter"></span>
+      </div>
+      <play-button class="{{ article.slug }}" play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
     </nav>
 
     <article>
 
       <header class="header {{ article.slug }}">
         <h1>{{ article.title | newline_to_br }}</h1>
-        <div class="badge badge-primary">
-          <span ng-bind="{{ article.position }} | toLetter"></span>
-        </div>
-        <play-button play-next-scope="article" project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
       </header>
 
       {% if article.author %}
