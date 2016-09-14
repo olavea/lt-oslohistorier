@@ -5,6 +5,7 @@
         <i class="fa fa-back"></i>
         {{ site.title | newline_to_br }}
       </a>
+      <play-button play-next-scope="project" project-id="{{ project.slug }}"></play-button>
     </nav>
 
     <header class="header {{ project.slug }}">
@@ -12,7 +13,6 @@
       <img src="{{ project.logo-image }}"></img>
       {% endif %}
       <h1>{{ project.title | newline_to_br }}</h1>
-      <play-button play-next-scope="project" project-id="{{ project.slug }}"></play-button>
     </header>
 
     {% if project.teaser %}

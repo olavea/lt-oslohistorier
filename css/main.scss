@@ -190,13 +190,8 @@ p {
   }
 }
 
+.header,
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -207,6 +202,10 @@ nav {
     margin: -1.25rem 0.75rem -1.25rem 0;
   }
 
+  a {
+    padding-right: 1rem;
+  }
+
   .badge {
     margin-left: -0.5rem;
     margin-right: 0.75rem;
@@ -214,24 +213,18 @@ nav {
     flex: 0 0 auto;
   }
 
-  h1, h2, h3 {
-    margin: 0;
-    margin-right: 0.5rem;
-
-    + button,
+  a, h1, h2, h3 {
     + play-button,
     + .badge {
       margin-left: auto;
     }
-
-    + button,
-    + play-button {
-      width: 3rem;
-      flex: 0 0 auto;
-    }
   }
 
-  button,
+  h1, h2, h3 {
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+
   play-button {
     margin-right: 0.5rem;
     width: 3rem;
@@ -388,6 +381,11 @@ main {
     nav {
       margin-left: -0.5rem;
       margin-right: -0.5rem;
+
+      + header,
+      + article > header {
+        margin-top: 3rem;
+      }
     }
 
     .list {
