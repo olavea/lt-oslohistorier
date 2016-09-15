@@ -3,7 +3,7 @@ title: Nabolagets fortellinger
 date: 2016-09-02 11:07:00 Z
 position: 1
 color: "#464952"
-author: Brita Brekke, Hannah Eline Ander og Sigurd Olan Nedrelid
+author: Brita Brekke, Hannah Eline Ander og Sigurd Oland Nedrelid
 teaser: Nabolagene danner byens lappeteppe av ulike sanseinntrykk og følelser knyttet
   til bygninger, mennesker, lukter og lyder. Men hva er et nabolag? Og hvor går egentlig
   grensene?
@@ -55,6 +55,7 @@ Det er ingen grunn til å betvile sannhetsgehalten i fortellingene til de vi mø
 Det store spørsmålet for å nærme seg en sannhet om et nabolag er kanskje derfor snarere hvilke fortellinger som får dominere, hvem sine stemmer høres - hvilket narrativ som konstrueres. Og det er kanskje i møte med fortellinger fra for eksempel Aftenposten at tre 15-åringer får behov for å beskrive nabolaget sitt som multikulturelt og inkluderende.
 
 ## Grensene for nabolaget
+
 Før noe mer sies om nabolagets fortellinger bør en kanskje stille fundamentale spørsmål om hva nabolaget er og hva det består av. Helt grunnleggende er nabolaget et område der folk lever og bor, og som på en eller annen måte henger sammen geografisk. Men definisjonen av dette geografiske området kan by på problemer. Ville du snakket om administrative grenser som en skolekrets eller bydelsgrenser? Om en radius på antall minutter gange fra huset ditt?
 
 Vi har flyttet oss til Botanisk hage, midt i hjertet av indre øst. Hvor går grensene mellom nabolagene i det tettbygde området nært sentrum? Da det pågående områdeløftet på Tøyen skulle settes i gang måtte det lages noen grenser for hvem som skulle inkluderes i de politiske tiltakene. Tøyenløftet ble fra kommunens side avgrenset til 13 444 innbyggere i elleve  grunnkretser. Deler av Grønland, med til dels helt sammenliknbare trekk som Tøyen havnet opprinnelig utenfor satsingen.
@@ -80,6 +81,7 @@ Når Eirik skal beskrive nabolaget til noen som ikke kjenner det er det ikke par
 Fortellingene om nabolagene og de fysiske endringene er del av den samme virkeligheten. Tøyen i indre øst har vært forbundet med noe av det samme som Grorud: Fattigdom, kommunale boliger, kriminalitet, høy andel med innvandrerbakgrunn. Men nabolaget er i endring. I takt med at gatekunst males opp, lysinstallasjoner monteres, nye leiligheter bygges og restauranter og utesteder med rare navn dukker opp, foregår en kamp der ulike aktører forsøker å lage Tøyen, med politiske tiltak og nye fortellinger om hva Tøyen skal være: IT-startuplab, Norges nye Hackney, åsted for en gentrifiseringsmassakre, det nye Løkka, en suksesshistorie på multikulturelt mangfold? Det er mange konkurrerende fortellinger på bordet.
 
 ## Nye fortellinger
+
 ![herfra_KOSELIGE-OG-INTERNE-LILLEAKER.jpg](/uploads/herfra_KOSELIGE-OG-INTERNE-LILLEAKER.jpg)
 
 Eneboliger med velstelte hager preger Lilleaker, som i dag regnes som byens beste  vest. Men det er ikke lenge siden fabrikkarbeidernes trehus langs Lysakerelvas industridrag preget nabolaget. På kafeen Grønn, rett ved trikkestoppet tilbys kaffe med hjertemønster i, monsteraplanter og sprekt (?) interiør. Her sitter Harald Breievne som har bodd lenge på Lilleaker, og som er  opptatt av lokalhistorie og  endringene nabolaget har vært gjennom.
@@ -91,3 +93,5 @@ Men nå er kanskje nye endringer på vei til Lilleaker. Det snakkes om boligutby
 Både på Grorud og Lilleaker er tette industrimiljøer erstattet med et mer uoversiktlig postindustrielt landskap. Kjøpesenteret CC vest ligger i den gamle fabrikkhallen som huset spikerproduksjon og andre lokale hjørnesteinsbedrifter. Og som et ekko av stemmene fra Grorud prates det på kafeen Grønn om en slags landsby der alle kjenner alle.
 
 Kanskje er veien fra Grorud i øst til Lille Aker i vest ikke så lang likevel, hvis man kan se narrativene og fortellingene som ligger bak eplehager og betongmastodonter. Fortellingene fremstår som likere når man er tett på, når man hører på andre historier enn de som dominerer de tabloide versjonene av hvert enkelt av stedene. Og kanskje er det her definisjonen av nabolaget ligger - i en forståelse av at det er alle versjonene som til sammen utgjør nabolaget. Kanskje et nabolag rett og slett er et mylder av fortellinger.
+
+*Foto: Brita Brekke, Hannah Eline Ander og Sigurd Oland Nedrelid.*

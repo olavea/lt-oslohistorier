@@ -16,7 +16,7 @@ Hvor delt er egentlig Oslo? Delt nok til at man kan vokse opp i samme by og føl
 
 ![herfra_Terrasser-med-utvidet-stue-på-Tveita.JPG](/uploads/herfra_Terrasser-med-utvidet-stue-pa%CC%8A-Tveita.JPG)**Terrasser med utvidet stue på Tveita. Foto: Sindre Bodvar**
 
-–   Noen har et veldig sterkt forhold til om de er fra Oslo Øst eller Oslo Vest, men like mange har et problematisk forhold til det samme. Jeg tror tilhørigheten til Oslo trumfer det meste, man lærer seg så raskt å bruke hele byen, sier Øyvind Holen. Han er journalist og forfatter, blant annet av boken «Groruddalen», som handler om oppvekst og tilhørighet til Oslos mest folkerike bydel. I Holens barndom handlet Groruddalen om et mikrokosmos diktert av drabantbyplanlegging og sporveiens sans for passende lengde mellom stoppesteder.
+–   Noen har et veldig sterkt forhold til om de er fra Oslo Øst eller Oslo Vest, men like mange har et problematisk forhold til det samme. Jeg tror tilhørigheten til Oslo trumfer det meste, man lærer seg så raskt å bruke hele byen, sier Øyvind Holen. Han er journalist og forfatter, blant annet av boken «Groruddalen - en reiseskildring», som handler om oppvekst og tilhørighet til Oslos mest folkerike bydel. I Holens barndom handlet Groruddalen om et mikrokosmos diktert av drabantbyplanlegging og sporveiens sans for passende lengde mellom stoppesteder.
 
 –   Min verden bestod av fem borettslag. Asken, Bjørka, Furua, Ospa eller Pilen. Også kjente vi litt vagt til Furuset og Trosterud som var nabostasjonene på t-banen, sier Holen.
 

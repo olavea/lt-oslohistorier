@@ -1,24 +1,32 @@
 ---
-title: "Å kalle seg for Nilsen"
+title: Å kalle seg for Nilsen
 date: 2016-09-02 09:34:00 Z
 position: 2
 color: "#B5D9DC"
 author: Embret Rognerød
 teaser: Hva forteller de fremste Oslo-raplåtene om våre oppfatninger av byen?
 locations:
-- title: 'Karpe Diem: Byduer i dur'
+- title: |-
+    Karpe Diem: Byduer i dur
+    Utdrag lest av Julie Moe Sandø
   audio_file: "/uploads/herfra_Karpe-Diem-Byduer.mp3"
   coords: 59.912662,10.746390
-- title: 'Karpe Diem: Vestkantsvartinga'
+- title: "Karpe Diem: Vestkantsvartinga \nUtdrag lest av Julie Moe Sandø"
   audio_file: "/uploads/herfra_Vestkantsvartinga.mp3"
   coords: 59.834951,10.796732
-- title: 'Karpe Diem: Au Pair'
+- title: |-
+    Karpe Diem: Au Pair
+    Utdrag lest av Julie Moe Sandø
   audio_file: "/uploads/herfra_Karpe-Diem-Au-Pair.mp3"
   coords: 59.934393,10.665541
-- title: 'Don Martin: Nilsen'
+- title: |-
+    Don Martin: Nilsen
+    Utdrag lest av Julie Moe Sandø
   audio_file: "/uploads/herfra_Don-Martin-Nilsen.mp3"
   coords: 59.912871,10.761774
-- title: 'Kaveh: Løkka'
+- title: |-
+    Kaveh: Løkka
+    Utdrag lest av Julie Moe Sandø
   audio_file: "/uploads/herfra_Kaveh-Lokka.mp3"
   coords: 59.923378,10.755265
 ---
