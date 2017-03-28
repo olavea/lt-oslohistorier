@@ -12,7 +12,7 @@ partners:
   url: http://lillylabs.no
   name: Lilly Labs
   max-width: 130px
-- logo-image: "/uploads/logo_lutterore.png"
+- logo-image: "/uploads/LutterOre_Logo_Facebook_Rosa.png"
   url: http://lutterøre.no/
   name: Lutter Øre
   max-width: 135px
