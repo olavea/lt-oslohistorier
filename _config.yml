@@ -2,6 +2,9 @@
 title: Oslohistorier
 timezone: UTC
 collections:
+  ferge:
+    title: Ferge
+    output: true
   herfra:
     title: Herfra
     output: false
@@ -16,9 +19,6 @@ collections:
     output: false
   uploads:
     title: Uploads
-    output: true
-  ferge:
-    title: ferge
     output: true
 defaults:
 - scope:
