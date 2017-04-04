@@ -17,6 +17,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  ferge:
+    title: ferge
+    output: true
 defaults:
 - scope:
     path: ''
