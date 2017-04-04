@@ -1,6 +1,6 @@
 ---
 title: En historisk tur fra sentrum til Torshov
-position: 0
+position: 1
 teaser: 'En lydvandring gjennom Oslo, fra Jernbanetorget til Torshov. De 13 stoppene
   gir deg små glimt fra Oslos historie gjennom intervjuer med fagfolk, lokalhistorikere
   og folk som var der da det skjedde. '
