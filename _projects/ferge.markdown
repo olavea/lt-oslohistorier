@@ -6,4 +6,13 @@ color: "#519096"
 teaser: Teaser tekst
 ---
 
-En flott tur i Oslofjorden.
+
+
+Medvirkende: 
+Trygve Panhoff 
+Per Jørgensen 
+Knut - skal finne ut
+
+Takk til
+Oslo-Fergene AS
+Therese Pettersen 
