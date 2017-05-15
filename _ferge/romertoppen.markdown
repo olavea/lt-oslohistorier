@@ -6,4 +6,4 @@ coords: 59.891369, 10.711006
 audio_file: "/uploads/ferge_Kloster-romertoppen-lindøya.mp3"
 ---
 
-![ferge_Hovedoya-kloster.jpg](/uploads/ferge_Hovedoya-kloster.jpg)*Klosterruinene på Hovedøya*
+![ferge_Hovedoya-kloster.jpg](/uploads/ferge_Hovedoya-kloster.jpg)
