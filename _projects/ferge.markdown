@@ -10,7 +10,6 @@ teaser: 'Hva ville Oslo vært uten øyene? '
 
 Medvirkende 
 Trygve Panhoff 
-Per Jørgensen 
 Knut - skal finne ut
 
 Takk til
