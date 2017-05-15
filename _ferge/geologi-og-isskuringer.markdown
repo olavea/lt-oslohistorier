@@ -6,3 +6,4 @@ coords: 59.897041, 10.724015
 audio_file: "/uploads/ferge_Hovedøya-isskuringer-og-geologi.mp3"
 ---
 
+![ferge_Hovedoya.jpg](/uploads/ferge_Hovedoya.jpg)*Isskuringer i fjellsiden på Hovedøya. Foto: Mark Healy*
