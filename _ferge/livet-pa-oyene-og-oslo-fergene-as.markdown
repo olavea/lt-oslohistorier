@@ -6,4 +6,4 @@ coords: 59.889995, 10.715313
 audio_file: "/uploads/ferge_Om-oslofergene-lindøya.mp3"
 ---
 
-![Ferge_Lindoya_harbour.jpg](/uploads/Ferge_Lindoya_harbour.jpg)*Havna på Lindøya hvor Oslo-Fergene AS holder til. Foto: 
+![Ferge_Lindoya_harbour.jpg](/uploads/Ferge_Lindoya_harbour.jpg)*Havna på Lindøya hvor Oslo-Fergene AS holder til. Foto: Marcin Szala* 
