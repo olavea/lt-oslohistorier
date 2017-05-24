@@ -6,4 +6,5 @@ coords: 59.889727, 10.695174
 audio_file: "/uploads/ferge_Nakholmen-kong-karl.mp3"
 ---
 
-![ferge_Karl_XII_på_Sjelland.jpg](/uploads/ferge_Karl_XII_pa_Sjelland.jpg)*Kong Karl XII, riktig nok ikke på Nakholmen, men på Sjelland i denne avbildningen.*
+![ferge_Karl_XII_på_Sjelland.jpg](/uploads/ferge_Karl_XII_pa_Sjelland.jpg)  
+*Kong Karl XII, riktig nok ikke på Nakholmen, men på Sjelland i denne avbildningen.*
