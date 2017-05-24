@@ -1,11 +1,11 @@
 ---
 title: Herfra
-position: 0
+position: 2
 teaser: |-
   HERFRA er et kartfestet digitalt magasin om Oslo. Tekst, lyd og bilder gir refleksjoner og fortolkninger av steder og tilhørighet til hovedstaden.
 
   > Hvor hører du til?
-color: "#BF5054"
+color: "#464952"
 logo-image: "/uploads/logo_herfra.png"
 partners:
 - logo-image: "/uploads/logo_lillylabs.png"
