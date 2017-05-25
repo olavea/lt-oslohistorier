@@ -15,5 +15,4 @@ Oslo-Fergene AS
 Therese Pettersen 
 
 **Produsert av**  
-
 Lutter øre ved Mari Paus
