@@ -6,13 +6,14 @@ color: "#519096"
 teaser: 'Hva ville Oslo vært uten øyene? '
 ---
 
-**Medvirkende** 
-Trygve Panhoff 
+**Medvirkende**  
+Trygve Panhoff  
 Knut Hjorth-Jenssen 
 
-**Takk til**
-Oslo-Fergene AS
+**Takk til**  
+Oslo-Fergene AS  
 Therese Pettersen 
 
-**Produsert av**
+**Produsert av**  
+
 Lutter øre ved Mari Paus
