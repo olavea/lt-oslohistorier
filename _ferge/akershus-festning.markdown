@@ -1,5 +1,5 @@
 ---
-title: Velkommen til Indre Oslofjord
+title: Velkommen til indre Oslofjord
 date: 2017-04-04 07:28:00 Z
 position: 0
 coords: 59.910957, 10.731385
