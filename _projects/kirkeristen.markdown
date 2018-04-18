@@ -1,7 +1,7 @@
 ---
 title: Kirkeristen
 date: 2018-04-17 10:02:00 Z
-color: "#42cd4e"
+color: red
 teaser: Stedsspesifikk podkastepisode om basaranlegget på Kirkeristen. Intervju med
   kulturhistoriker Ingrid Lamark.
 Key: 
