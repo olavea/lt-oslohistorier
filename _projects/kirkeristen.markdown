@@ -9,16 +9,16 @@ Key:
 
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
 
-**Medvirkende**\
+**Medvirkende**  
 Ingrid Lamark
 Mari Paus
 
-**Musikk**
+**Musikk**  
 Clair De Lune (Pianet, Moog, and Brushes Arr.) by Podington Bear
 Decompress by Lee Rosevere
 
-**Foto**
+**Foto**  
 Severin Worm-Petersen 1899/Oslo Museum, Byhistorisk samling
 
-**Produsert av**
+**Produsert av**  
 Lutter øre
