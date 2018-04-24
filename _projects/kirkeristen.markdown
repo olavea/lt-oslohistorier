@@ -2,11 +2,11 @@
 title: Basarene i Kirkeristen
 date: 2018-04-17 10:02:00 Z
 color: "#42cd4e"
-teaser: "I dag kan kirkeristen både oppleves som befriende oase midt i mylderet og
-  et hinder i flyten gjennom byen. Men hvorfor ble kirkeristen bygget?  Vi hører om
-  de romantiske ideene og de praktiske behovene som gjorde at basarene i Kirkeristen
-  ble som det ble i en stedsspesifikk podkast fra Kirkeristen, med kulturhistoriker
-  Ingrid Lamark. \n"
+teaser: "I dag kan Kirkeristen både oppleves som en befriende oase og et hinder i
+  bymylderet i Oslo sentrum. Men hvorfor ble basarane i Kirkeristen bygget? \n\nI
+  denne stedsspesifikke podkasten fra Kirkeristen forteller kulturhistoriker Ingrid
+  Lamark om de romantiske ideene og de praktiske behovene som gjorde at basarene i
+  Kirkeristen ble som de ble."
 Key: 
 ---
 
