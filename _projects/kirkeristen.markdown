@@ -11,7 +11,9 @@ Key:
 
 **Medvirkende**  
 Ingrid Lamark  
-Mari Paus
+Mari Paus  
+
+Innholdet er utviklet av Ingrid Lamark i samarbeid med Lutter øre.
 
 **Musikk**  
 Clair De Lune (Pianet, Moog, and Brushes Arr.) by Podington Bear
