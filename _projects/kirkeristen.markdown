@@ -2,9 +2,11 @@
 title: Basarene i Kirkeristen
 date: 2018-04-17 10:02:00 Z
 color: "#42cd4e"
-teaser: |-
-  Hvorfor ble basarene i Kirkeristen bygget?
-  En stedsspesifikk podkast fra basaranlegget i Kirkeristen. Intervju med kulturhistoriker Ingrid Lamark.
+teaser: "I dag kan kirkeristen både oppleves som befriende oase midt i mylderet og
+  et hinder i flyten gjennom byen. Men hvorfor ble kirkeristen bygget?  Vi hører om
+  de romantiske ideene og de praktiske behovene som gjorde at basarene i Kirkeristen
+  ble som det ble i en stedsspesifikk podkast fra Kirkeristen, med kulturhistoriker
+  Ingrid Lamark. \n"
 Key: 
 ---
 
