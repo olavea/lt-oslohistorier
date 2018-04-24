@@ -11,6 +11,7 @@ Key:
 
 **Medvirkende**
 Ingrid Lamark
+Mari Paus
 
 **Musikk**
 Clair De Lune (Pianet, Moog, and Brushes Arr.) by Podington Bear
