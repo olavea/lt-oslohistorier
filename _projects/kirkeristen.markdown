@@ -10,7 +10,7 @@ Key:
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
 
 **Medvirkende**  
-Ingrid Lamark
+Ingrid Lamark  
 Mari Paus
 
 **Musikk**  
