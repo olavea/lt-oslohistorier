@@ -9,7 +9,7 @@ Key:
 
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
 
-**Medvirkende**
+**Medvirkende**\
 Ingrid Lamark
 Mari Paus
 
