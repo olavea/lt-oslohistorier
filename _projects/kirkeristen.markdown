@@ -1,5 +1,5 @@
 ---
-title: Basarene på Kirkeristen
+title: Basarene i Kirkeristen
 date: 2018-04-17 10:02:00 Z
 color: "#42cd4e"
 teaser: |-
