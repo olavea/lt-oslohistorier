@@ -45,6 +45,7 @@ Tvedt, Knut Are og Reisegg, Øyvind (red.) (2000) [Oslo byleksikon.](https://urn
 
 
 
+
 Artikler fra Lokalhistoriewiki:   
 
 [Bybrannen i Oslo 1624](https://lokalhistoriewiki.no/wiki/Bybrannen_i_Oslo_1624) 
