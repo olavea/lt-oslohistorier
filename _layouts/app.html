@@ -45,7 +45,7 @@
         {% for project in projects %}
 
         <article class="item {{ project.slug }}">
-          <div class="header" ng-click="goTo('{{ project.slug }}')">
+          <div class="header hover" ng-click="goTo('{{ project.slug }}')">
             {% if project.logo-image %}
             <img src="{{ project.logo-image }}"></img>
             {% endif %}

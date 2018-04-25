@@ -25,13 +25,17 @@
       {% assign articles = collection.docs | sort:"position" %}
       {% for article in articles %}
         <article class="item {{ article.slug }}">
-          <div class="header" ng-click="goTo('{{ project.slug }}', '{{ article.slug }}')">
+          <div class="header {% if article.teaser.size > 1 or article.content.size > 1 %}hover{% endif %}"
+              ng-click="{% if article.teaser.size > 1 or article.content.size > 1 %}goTo('{{ project.slug }}', '{{ article.slug }}'){% endif %}">
             <div class="badge badge-primary">
               <span ng-bind="{{ article.position }} | toLetter "></span>
             </div>
             <h1 class="title">{{ article.title | newline_to_br }}</h1>
             <play-button play-next-scope="project" project-id="{{ project.slug }}" article-id="{{ article.slug }}"></play-button>
-            <i class="fa fa-right"></i>
+            <i ng-if="articles.length > 1" class="fa fa-right"></i>
+            {% if article.teaser.size > 1 or article.content.size > 1 %}
+              <i class="fa fa-right"></i>
+            {% endif %}
           </div>
           {% if article.teaser %}
             <div class="body">{{ article.teaser | markdownify }}</div>
