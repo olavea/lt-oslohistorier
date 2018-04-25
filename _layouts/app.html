@@ -53,14 +53,13 @@
             <play-button play-next-scope="project" project-id="{{ project.slug }}"></play-button>
             <i class="fa fa-right"></i>
           </div>
-          <div class="body">{{ project.teaser | markdownify }}</div>
         </article>
 
         {% endfor %}
       </section>
 
       <section class="herfra">
-        {{ page.content | markdownify }}    
+        {{ page.content | markdownify }}
       </section>
 
       <section class="{{ page.slug }} partners">
