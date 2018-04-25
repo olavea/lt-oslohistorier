@@ -32,7 +32,7 @@ Lutter øre
 Berg, Arno (1950). [Vår frelsers kirke. Oslo: Land og kirke](https://urn.nb.no/URN:NBN:no-nb_digibok_2011110906060)
 
 
-Fett, Harry (1937). [Karl Johans gate: et stykke bykunst.] Oslo: Gyldendal(https://urn.nb.no/URN:NBN:no-nb_digibok_2014032508090)
+Fett, Harry (1937). [Karl Johans gate: et stykke bykunst.](https://urn.nb.no/URN:NBN:no-nb_digibok_2014032508090) Oslo: Gyldendal
 
 
 Frykman, Jonas og Löfgren, Orvar (1994 [1979]). [Det kultiverte mennesket.](https://urn.nb.no/URN:NBN:no-nb_digibok_2008062404116) Oslo: Pax
