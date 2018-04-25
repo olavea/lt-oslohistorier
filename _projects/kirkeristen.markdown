@@ -16,8 +16,6 @@ Key:
 Ingrid Lamark  
 Mari Paus  
 
-Innholdet er utviklet av Ingrid Lamark i samarbeid med Lutter øre.
-
 **Musikk**  
 Clair De Lune (Pianet, Moog, and Brushes Arr.) by Podington Bear
 Decompress by Lee Rosevere
@@ -27,6 +25,8 @@ Severin Worm-Petersen 1899/Oslo Museum, Byhistorisk samling
 
 **Produsent**  
 Lutter øre
+
+Innholdet er utviklet av Ingrid Lamark i samarbeid med Lutter øre.
 
 **Litteratur og kilder**  
 Berg, Arno (1950). [Vår frelsers kirke. Oslo: Land og kirke](https://urn.nb.no/URN:NBN:no-nb_digibok_2011110906060)
