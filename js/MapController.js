@@ -11,7 +11,7 @@ angular.module('LutterApp')
       },
       tiles: {
         name: 'Positron',
-        url: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+        url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
         type: 'xyz'
       },
       markers: {}
