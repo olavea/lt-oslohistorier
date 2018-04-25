@@ -7,7 +7,7 @@ teaser: "I dag kan Kirkeristen både oppleves som en befriende oase og et hinder
   denne stedsspesifikke podkasten fra Kirkeristen forteller kulturhistoriker Ingrid
   Lamark om de romantiske ideene og de praktiske behovene som gjorde at basarene i
   Kirkeristen ble som de ble."
-Key:
+Key: 
 ---
 
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
