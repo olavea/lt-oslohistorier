@@ -23,7 +23,7 @@ var lutterAppData = {};
               projectId: "{{ collection.label }}",
               articleId: "{{ article.slug }}",
               articleTitle: "{{ article.title | strip_newlines | strip }}",
-              position: "{{ article.position }}",
+              position: "{{ article.position | default: 0 }}",
               trackNum: 0,
               color: "{{ article.color | default: project.color }}",
             }
@@ -41,7 +41,7 @@ var lutterAppData = {};
                 projectId: "{{ collection.label }}",
                 articleId: "{{ article.slug }}",
                 articleTitle: "{{ article.title | strip_newlines | strip }}",
-                position: "{{ article.position }}",
+                position: "{{ article.position | default: 0 }}",
                 trackNum: {{ i }},
                 color: "{{ article.color | default: project.color }}"
               }

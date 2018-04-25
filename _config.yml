@@ -8,6 +8,9 @@ collections:
   herfra:
     title: Herfra
     output: false
+  kirkeristen:
+    title: Kirkeristen
+    output: true
   lokka:
     title: Løkka
     output: false
