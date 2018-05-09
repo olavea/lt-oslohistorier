@@ -7,23 +7,23 @@ teaser: "I dag kan Kirkeristen både oppleves som en befriende oase og et hinder
   denne stedsspesifikke podkasten fra Kirkeristen forteller kulturhistoriker Ingrid
   Lamark om de romantiske ideene og de praktiske behovene som gjorde at basarene i
   Kirkeristen ble som de ble."
-Key: 
+Key:
 ---
 
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
 
-**Medvirkende**  
-Kulturhistoriker Ingrid Lamark  
+**Medvirkende**
+Kulturhistoriker Ingrid Lamark
 Reporter Mari Paus
 
-**Musikk**  
-"Clair De Lune" (Pianet, Moog, and Brushes Arr.) by Podington Bear  
+**Musikk**
+"Clair De Lune" (Pianet, Moog, and Brushes Arr.) by Podington Bear
 "Decompress" by Lee Rosevere
 
-**Foto**  
+**Foto**
 Severin Worm-Petersen 1899/Oslo Museum, Byhistorisk samling
 
-**Produsent**  
+**Produsent**
 Lutter øre
 
 Innholdet er utviklet av Ingrid Lamark i samarbeid med Lutter øre.
