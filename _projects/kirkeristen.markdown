@@ -13,8 +13,8 @@ Key:
 ![kirkeristen_1899.jpeg](/uploads/kirkeristen_1899.jpeg)
 
 **Medvirkende**  
-Ingrid Lamark  
-Mari Paus
+Kulturhistoriker Ingrid Lamark  
+Reporter Mari Paus
 
 **Musikk**  
 "Clair De Lune" (Pianet, Moog, and Brushes Arr.) by Podington Bear  
