@@ -2,7 +2,7 @@
 title: Oslohistorier
 timezone: UTC
 collections:
-  dronningensgate:
+  dronningens-gate:
     title: Dronningensgate
     output: true
   ferge:
