@@ -1,5 +1,5 @@
 ---
-title: Dronningensgate
+title: Dronningens gate
 date: 2018-09-06 11:12:00 Z
 color: "#dea20d"
 teaser: "[innholdsteaser]"
