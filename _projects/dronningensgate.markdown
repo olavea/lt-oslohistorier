@@ -1,7 +1,7 @@
 ---
 title: Dronningens gate
 date: 2018-09-06 11:12:00 Z
-color: "#dea20d"
+color: "#d57f64"
 teaser: "[innholdsteaser]"
 partners:
 - logo-image: "/uploads/LutterOre_Logo_Facebook_Rosa.png"
