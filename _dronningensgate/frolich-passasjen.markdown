@@ -6,4 +6,5 @@ coords: 59.911177, 10.746975
 audio-file: 
 ---
 
-[dronningens_frolich.JPG](/uploads/dronningens_frolich.JPG)*Inn porten ved Dronningens gate 23. Foto: Mari Paus*
+[dronningens_frolich.JPG](/uploads/dronningens_frolich.JPG)
+*Inn porten ved Dronningens gate 23. Foto: Mari Paus*
