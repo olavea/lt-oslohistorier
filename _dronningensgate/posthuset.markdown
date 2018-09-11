@@ -6,5 +6,7 @@ coords: 59.910080, 10.745868
 audio_file: 
 ---
 
+Lengde 01:32 min.
+
 ![dronningens_posthuset alt.2.jpeg](/uploads/dronningens_posthuset%20alt.2.jpeg)  
 *Foto: Oslo Museum, fotograf ukjent*
