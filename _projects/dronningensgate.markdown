@@ -18,7 +18,7 @@ partners:
 ---
 
 **Medvirkende**
-Reporter Mari Paus
+Reporter Mari Paus  
 Arkitekturhistoriker Lars Roede
 
 Gatelangs i Dronningens gate er produsert av Lutter øre og Kulturbyrået Mesén, for Oslo kommune og prosjektet Bilfritt byliv i Dronningens gate. 
