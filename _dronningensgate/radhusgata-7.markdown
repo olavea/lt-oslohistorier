@@ -7,4 +7,4 @@ Field name:
 ---
 
 ![dronningens_radhusgata7.jpg](/uploads/dronningens_radhusgata7.jpg)
-*Krysset Dronningens gate/Rådhusgata. Foto: Digitalt Museum, ukjent fotograf*
+*Krysset Dronningens gate/Rådhusgata. [Foto: Digitalt Museum, ukjent fotograf, (CC) BY-SA 4.0](https://digitaltmuseum.no/011085442637/dronningens-gate-den-gamle-havnefronten)*
