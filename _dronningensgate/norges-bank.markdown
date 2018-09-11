@@ -7,6 +7,6 @@ audio_file:
 ---
 
 ![dronningens_Norges bank alt.1.jpg](/uploads/dronningens_Norges%20bank%20alt.1.jpg)
-*Kvartalet mellom Rådhusgata og Revierstredet. [Foto: Rune Aakvik, Oslo Museum](https://digitaltmuseum.no/021017515172/norges-bank)*
+*Kvartalet mellom Rådhusgata og Revierstredet. [Foto: Rune Aakvik, Oslo Museum, (CC) BY-SA 4.0](https://digitaltmuseum.no/021017515172/norges-bank)*
 
 Musikk: [“Beautiful 80's sound 17-5-14” av b_o_y](https://soundcloud.com/b_o_y/beautiful-80s-sound-17-5-14) (CC BY 3.0)
