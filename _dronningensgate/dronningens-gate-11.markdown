@@ -7,4 +7,4 @@ audio_file:
 ---
 
 ![dronningens_dronningensgate 11.jpg](/uploads/dronningens_dronningensgate%2011.jpg)
-*Foto: Mahlum*
+*[Foto: Mahlum,(CC) BY-SA 4.0](https://digitaltmuseum.no/011085440997/magistratgarden-dronningensgate-11)*
