@@ -1,6 +1,7 @@
 ---
 title: Dronningens gate
 date: 2018-09-06 11:12:00 Z
+position: 0
 color: "#d57f64"
 teaser: 'Dronningens gate er én av Oslos eldste gater. Bli med arkitekturhistoriker
   Lars Roede på besøk til noen av gatas historiske hemmeligheter og arkitektoniske

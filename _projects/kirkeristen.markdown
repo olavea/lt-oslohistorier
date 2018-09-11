@@ -1,6 +1,7 @@
 ---
 title: Basarene i Kirkeristen
 date: 2018-04-17 10:02:00 Z
+position: 1
 color: "#42cd4e"
 teaser: "I dag kan Kirkeristen både oppleves som en befriende oase og et hinder i
   bymylderet i Oslo sentrum. Men hvorfor ble basarane i Kirkeristen bygget? \n\nI
