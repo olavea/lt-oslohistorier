@@ -1,9 +1,9 @@
 ---
-title: Frølich-passasjen, handlegata som forsvant, 01:38min
+title: Frølich-passasjen, handlegata som forsvant
 date: 2018-09-06 11:59:00 Z
 position: 0
 coords: 59.911177, 10.746975
-audio-file: 
+audio-file: "/uploads/dronningens_Frolich-passasjen.mp3"
 ---
 
 Lengde 01:38 min.
