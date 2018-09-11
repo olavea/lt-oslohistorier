@@ -6,5 +6,8 @@ coords: 59.908986, 10.744723
 Field name: 
 ---
 
+Lengde 01:32 min.
+
+
 ![dronningens_radhusgata7.jpg](/uploads/dronningens_radhusgata7.jpg)
 *Krysset Dronningens gate/Rådhusgata. [Foto: Digitalt Museum, ukjent fotograf, (CC) BY-SA 4.0](https://digitaltmuseum.no/011085442637/dronningens-gate-den-gamle-havnefronten)*
