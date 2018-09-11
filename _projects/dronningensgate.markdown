@@ -20,7 +20,7 @@ partners:
   url: http://www.mesen.no/
 ---
 
-**Medvirkende**
+**Medvirkende**  
 Reporter Mari Paus  
 Arkitekturhistoriker Lars Roede
 
