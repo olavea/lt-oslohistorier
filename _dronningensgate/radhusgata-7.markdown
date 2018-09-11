@@ -3,7 +3,7 @@ title: Rådhusgata 7, byens havnefront
 date: 2018-09-06 12:25:00 Z
 position: 5
 coords: 59.908986, 10.744723
-Field name: 
+audio_file: "/uploads/dronningens_Radhusgaten7.mp3"
 ---
 
 Lengde 01:32 min.
