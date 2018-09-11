@@ -1,5 +1,5 @@
 ---
-title: Dronningens gate
+title: Gatelangs i Dronningens gate
 date: 2018-09-06 11:12:00 Z
 position: 0
 color: "#d57f64"
