@@ -1,5 +1,5 @@
 ---
-title: Jobbetiden
+title: Jobbetid og byggeboom
 date: 2018-09-06 11:57:00 Z
 position: 2
 coords: 59.909903, 10.746040
