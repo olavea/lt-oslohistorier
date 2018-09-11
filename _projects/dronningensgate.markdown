@@ -22,8 +22,9 @@ partners:
 ---
 
 **Medvirkende**  
+Arkitekturhistoriker Lars Roede  
 Reporter Mari Paus  
-Arkitekturhistoriker Lars Roede
+
 
 Gatelangs i Dronningens gate er produsert av Lutter øre og Kulturbyrået Mesén, for Oslo kommune og prosjektet Bilfritt byliv i Dronningens gate.
 
@@ -31,4 +32,4 @@ Gatelangs i Dronningens gate er produsert av Lutter øre og Kulturbyrået Mesén
 Innholdet er utviklet av Lars Roede i samarbeid med Lutter øre.
 
 
-Lars Roede (f. 1944) er arkitekt og museumsmann. Han har arbeidet hos Byantikvaren og Riksantikvaren, vært leder for Fortidsminneforeningen, fagansvarlig for Folkemuseets friluftsavdeling og direktør for Oslo bymuseum. I 2001 tok han doktorgraden på en avhandling om byggeskikk i Christiania. Roede er en populær foredragsholder og omviser og har publisert mange artikler om byhistorie og kulturminnevern.
+**Lars Roede** (f. 1944) er arkitekt og museumsmann. Han har arbeidet hos Byantikvaren og Riksantikvaren, vært leder for Fortidsminneforeningen, fagansvarlig for Folkemuseets friluftsavdeling og direktør for Oslo bymuseum. I 2001 tok han doktorgraden på en avhandling om byggeskikk i Christiania. Roede er en populær foredragsholder og omviser og har publisert mange artikler om byhistorie og kulturminnevern.
