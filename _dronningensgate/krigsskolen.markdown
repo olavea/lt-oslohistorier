@@ -6,3 +6,5 @@ coords: 59.909857, 10.745762
 audio_file: 
 ---
 
+![dronningens_Krigsskolen alt.1.jpg](/uploads/dronningens_Krigsskolen%20alt.1.jpg)
+*Hjørnet Dronningens gate/Tollbugata 10. Illustrasjon: Digitalt Museum*
