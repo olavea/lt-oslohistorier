@@ -15,6 +15,9 @@ partners:
 - logo-image: "/uploads/logo_Oslo-kommune_Bilfrittbyliv.png"
   name: Bilfritt byliv
   url: https://www.oslo.kommune.no/politikk-og-administrasjon/slik-bygger-vi-oslo/bilfritt-byliv/
+- logo-image: "/uploads/logo_mesen.eps"
+  name: Kulturbyrået Mésen
+  url: http://www.mesen.no/
 ---
 
 **Medvirkende**
