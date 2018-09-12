@@ -8,5 +8,7 @@ audio_file: "/uploads/dronningens_Posthuset.mp3"
 
 Lengde 01:32 min.
 
-![dronningens_posthuset alt.2.jpeg](/uploads/dronningens_posthuset%20alt.2.jpeg)  
+![dronningens_posthuset alt.2.jpeg](/uploads/dronningens_posthuset%20alt.2.jpeg)
+
+  
 *[Foto: Oslo Museum, fotograf ukjent,(CC) BY-SA 3.0](http://www.oslobilder.no/OMU/OB.F11556c?query=%22Posthuset%22&count=49&search_context=1&pos=6)*
