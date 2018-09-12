@@ -19,7 +19,7 @@ collections:
     output: false
   posts:
     title: Posts
-    output: false
+    output: true
   projects:
     title: Projects
     output: false
