@@ -10,4 +10,6 @@ Lengde 01:38 min.
 
 
 ![dronningens_frolich.JPG](/uploads/dronningens_frolich.JPG)
+
+
 *Inn porten ved Dronningens gate 23. Foto: Mari Paus*
