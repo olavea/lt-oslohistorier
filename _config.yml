@@ -2,15 +2,18 @@
 title: Oslohistorier
 timezone: UTC
 collections:
+  dronningensgate:
+    title: Dronningens gate
+    output: false
   ferge:
     title: Ferge
-    output: true
+    output: false
   herfra:
     title: Herfra
     output: false
   kirkeristen:
     title: Kirkeristen
-    output: true
+    output: false
   lokka:
     title: Løkka
     output: false
@@ -22,7 +25,7 @@ collections:
     output: false
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''

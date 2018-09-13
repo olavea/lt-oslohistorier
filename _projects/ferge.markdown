@@ -1,7 +1,7 @@
 ---
 title: Rundtur i Indre Oslofjord
 date: 2017-04-04 07:27:00 Z
-position: 0
+position: 2
 color: "#519096"
 teaser: 'Hva ville Oslo vært uten øyene? '
 ---
