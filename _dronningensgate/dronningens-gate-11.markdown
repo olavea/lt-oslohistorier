@@ -3,7 +3,7 @@ title: Dronningens gate 11, krokrygget gjennom porten
 date: 2018-09-06 12:27:00 Z
 position: 4
 coords: 59.909162, 10.745049
-audio_file: "/uploads/dronningens_Dronningensgate11.mp3"
+audio_file: "GEFF_SIDE_01.MP3"
 ---
 
 Lengde 01:20 min
