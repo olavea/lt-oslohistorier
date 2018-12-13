@@ -1,15 +1,16 @@
 ---
-title: Rådhusgata 7, byens havnefront
-date: 2018-09-06 12:25:00 Z
-position: 5
-coords: 59.908986, 10.744723
-audio_file: "/uploads/dronningens_Radhusgaten7.mp3"
+title: 6
+date: 2018-09-06 12:27:00 Z
+position: 4
+coords: 59.909162, 10.745049
+audio_file: "/uploads/6_GEFF_SIDE_06.MP3"
 ---
 
-Lengde 01:32 min.
 
 
-![dronningens_radhusgata7.jpg](/uploads/dronningens_radhusgata7.jpg)
+
+![06_english.png](/uploads/06_english.png)
 
 
-*Krysset Dronningens gate/Rådhusgata. [Foto: Digitalt Museum, ukjent fotograf, (CC) BY-SA 4.0](https://digitaltmuseum.no/011085442637/dronningens-gate-den-gamle-havnefronten)*
+
+*[Text + Illustration = Andreas Brox-Fadum](https://www.linkedin.com/in/andreas-fadum-haugstad-213b8596/)*
