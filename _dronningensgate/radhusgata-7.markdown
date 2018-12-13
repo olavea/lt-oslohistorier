@@ -1,8 +1,11 @@
 ---
 title: 6
-date: 2018-09-06 12:27:00 Z
-position: 4
-coords: 59.909162, 10.745049
+
+date: 2018-09-06 12:25:00 Z
+position: 5
+coords: 59.908986, 10.744723
+
+
 audio_file: "/uploads/6_GEFF_SIDE_06.MP3"
 ---
 
